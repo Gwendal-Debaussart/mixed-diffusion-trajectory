@@ -14,6 +14,11 @@ def msrc():
     240 samples
     10 samples per class per view
     2 views are image features, 3 views are text features
+
+    References:
+    -----------
+    .mat file obtained from
+    https://github.com/ChuanbinZhang/Multi-view-datasets/
     """
     X_views, y = load_mat_file("MSRC-v5")
     X_preproc = []

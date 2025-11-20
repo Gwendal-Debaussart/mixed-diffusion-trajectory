@@ -3,7 +3,7 @@ import numpy as np
 
 def helix_b(num_samples=1500):
     """
-    Generate the Helix B dataset (Lindenbaum et al., 2019).
+    Generate the Helix B dataset (Lindenbaum et al., 2020).
 
     Parameters:
     -----------

@@ -65,6 +65,23 @@ def get_kernel_matrix(
 def load_mat_file(name: str):
     """
     Load a .mat file and return its contents.
+
+    Parameters
+    ----------
+    name : str
+        The name of the .mat file (without the .mat extension).
+
+    Returns
+    -------
+    X_views : list of np.array
+        A list containing the data matrices for each view.
+    y : np.array
+        The labels array.
+
+    Note
+    ----
+    The .mat files come from the source/mat_files/ directory.
+    They originally come from the github repository: https://github.com/ChuanbinZhang/Multi-view-datasets/
     """
     file_path = os.path.join(
         os.path.dirname(__file__), "source/mat_files/", f"{name}.mat"

@@ -8,8 +8,14 @@ from sklearn.neighbors import NearestNeighbors
 
 def isolet_lindenbaum():
     """
-    Load the ISOLET dataset and compute three different kernel matrices as in
-    Lindenbaum et al., 2019.
+    Load the ISOLET dataset and compute three different kernel matrices (Lindenbaum et al., 2020).
+
+    Returns:
+    --------
+    list_views : list of np.ndarray
+        List containing three kernel matrices.
+    true_labels : np.ndarray
+        Array of true labels for the samples.
     """
     base_dir = os.path.join(os.path.dirname(__file__), "source/isolet")
     X_path = os.path.join(base_dir, "isolet_features.csv")

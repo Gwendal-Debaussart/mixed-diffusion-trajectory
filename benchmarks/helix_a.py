@@ -1,9 +1,9 @@
 import numpy as np
 
 
-def helix_a(num_samples=1500):
+def helix_a(num_samples: int = 1500):
     """
-    Generate the Helix A dataset (Lindenbaum et al., 2019).
+    Generate the Helix A dataset (Lindenbaum et al., 2020).
 
     Parameters:
     -----------

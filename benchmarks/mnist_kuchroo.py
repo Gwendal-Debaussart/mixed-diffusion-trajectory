@@ -5,7 +5,7 @@ from sklearn.decomposition import PCA
 
 def mnist_kuchroo(noise_factor=0.5, random_state=3333):
     """
-    Import the MVMnist considered in Kuchroo et al.
+    Import the MVMnist considered in Kuchroo et al. (2022).
 
     Parameters:
     -----------

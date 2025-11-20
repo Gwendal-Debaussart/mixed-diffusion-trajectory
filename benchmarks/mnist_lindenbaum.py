@@ -6,7 +6,7 @@ from sklearn.decomposition import PCA
 
 def mnist_lindenbaum(noise_factor=0.5, random_state=333):
     """
-    Import the L-MVMnist(Lindenbaum et al., 2019)
+    Import the L-MVMnist(Lindenbaum et al., 2020)
 
     Parameters:
     ----------
