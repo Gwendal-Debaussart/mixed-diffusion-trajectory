@@ -1,0 +1,38 @@
+method,metric,mean,std,n_repeats
+Affinity Addition,ami,0.6953,0.0217,100
+Affinity Addition,ari,0.5616,0.0419,100
+Affinity Addition,chs,7.2264,0.0511,100
+Affinity Multiplication,ami,0.6796,0.0266,100
+Affinity Multiplication,ari,0.5243,0.0538,100
+Affinity Multiplication,chs,7.1594,0.0668,100
+Alternating Diffusion,ami,0.6799,0.0269,100
+Alternating Diffusion,ari,0.5228,0.0493,100
+Alternating Diffusion,chs,7.1741,0.0634,100
+Beam-Search MDT,ami,0.6944,0.0124,100
+Beam-Search MDT,ari,0.5525,0.0263,100
+Beam-Search MDT,chs,7.2201,0.0598,100
+Composite Diffusion Maps,ami,0.6804,0.0184,100
+Composite Diffusion Maps,ari,0.5237,0.0415,100
+Composite Diffusion Maps,chs,7.2071,0.0835,100
+Cross Diffusion Maps,ami,0.6785,0.0085,100
+Cross Diffusion Maps,ari,0.53,0.0223,100
+Cross Diffusion Maps,chs,7.1447,0.096,100
+Direct MDT,ami,0.6948,0.0202,100
+Direct MDT,ari,0.556,0.0392,100
+Direct MDT,chs,7.2439,0.0474,100
+Integrated Diffusion Maps,ami,0.6987,0.019,100
+Integrated Diffusion Maps,ari,0.5588,0.0363,100
+Integrated Diffusion Maps,chs,7.2195,0.0462,100
+Multi-view Diffusion Maps,ami,0.6932,0.0218,100
+Multi-view Diffusion Maps,ari,0.5584,0.0422,100
+Multi-view Diffusion Maps,chs,7.1989,0.0725,100
+Random Convex MDT,ami,0.6909,0.0188,100
+Random Convex MDT,ari,0.5518,0.0354,100
+Random MDT,ami,0.6919,0.02,100
+Random MDT,ari,0.5497,0.0354,100
+Single-view Diffusion Maps (view 1),ami,0.703,0.0221,100
+Single-view Diffusion Maps (view 1),ari,0.5703,0.0445,100
+Single-view Diffusion Maps (view 1),chs,7.1927,0.0706,100
+Single-view Diffusion Maps (view 2),ami,0.6819,0.0198,100
+Single-view Diffusion Maps (view 2),ari,0.5514,0.0385,100
+Single-view Diffusion Maps (view 2),chs,7.1398,0.0569,100

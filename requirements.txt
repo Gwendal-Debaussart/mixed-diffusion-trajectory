@@ -1,0 +1,8 @@
+scikit-learn
+numpy
+scipy
+pandas
+matplotlib
+scikit-image
+joblib
+gob

@@ -1,0 +1,13 @@
+{
+    "olivetti": 40,
+    "isolet_lindenbaum": 26,
+    "leaves": 100,
+    "caltech101-7": 7,
+    "isolet_lindenbaum6": 26,
+    "multiple_feat": 10,
+    "outdoorscene": 8,
+    "mnist_lindenbaum": 10,
+    "mnist_kuchroo": 10,
+    "yale": 15,
+    "msrc": 7
+}

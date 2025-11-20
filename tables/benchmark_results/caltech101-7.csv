@@ -1,0 +1,50 @@
+method,metric,mean,std,n_repeats
+Affinity Addition,ami,0.6424,0.0408,100
+Affinity Addition,ari,0.5741,0.0738,100
+Affinity Addition,chs,3.5839,0.0509,100
+Affinity Multiplication,ami,0.3443,0.0563,100
+Affinity Multiplication,ari,0.2765,0.1139,100
+Affinity Multiplication,chs,3.0668,0.0645,100
+Alternating Diffusion,ami,0.5671,0.0408,100
+Alternating Diffusion,ari,0.5041,0.0765,100
+Alternating Diffusion,chs,3.5294,0.0353,100
+Beam-Search MDT,ami,0.6405,0.0309,100
+Beam-Search MDT,ari,0.5695,0.0491,100
+Beam-Search MDT,chs,3.5784,0.0567,100
+Cross Diffusion Maps,ami,0.6592,0.0268,100
+Cross Diffusion Maps,ari,0.5846,0.0381,100
+Cross Diffusion Maps,chs,3.5506,0.0998,100
+Direct MDT,ami,0.6356,0.0342,100
+Direct MDT,ari,0.5483,0.0574,100
+Direct MDT,chs,3.6073,0.0417,100
+Integrated Diffusion Maps,ami,0.4577,0.0307,100
+Integrated Diffusion Maps,ari,0.4059,0.0433,100
+Integrated Diffusion Maps,chs,3.286,0.079,100
+Multi-view Diffusion Maps,ami,0.5605,0.0362,100
+Multi-view Diffusion Maps,ari,0.4949,0.0766,100
+Multi-view Diffusion Maps,chs,3.521,0.0466,100
+Powered Alternating Diffusion,ami,0.5818,0.0318,100
+Powered Alternating Diffusion,ari,0.5208,0.0504,100
+Powered Alternating Diffusion,chs,3.5061,0.0637,100
+Random Convex MDT,ami,0.6346,0.0364,100
+Random Convex MDT,ari,0.5509,0.0582,100
+Random MDT,ami,0.5857,0.0718,100
+Random MDT,ari,0.5108,0.0978,100
+Single-view Diffusion Maps (view 1),ami,0.0133,0.0023,100
+Single-view Diffusion Maps (view 1),ari,0.0076,0.0018,100
+Single-view Diffusion Maps (view 1),chs,1.6511,0.0292,100
+Single-view Diffusion Maps (view 2),ami,0.0318,0.0065,100
+Single-view Diffusion Maps (view 2),ari,0.018,0.0027,100
+Single-view Diffusion Maps (view 2),chs,1.7565,0.0356,100
+Single-view Diffusion Maps (view 3),ami,0.1036,0.0162,100
+Single-view Diffusion Maps (view 3),ari,0.063,0.0184,100
+Single-view Diffusion Maps (view 3),chs,1.2836,0.0569,100
+Single-view Diffusion Maps (view 4),ami,0.7609,0.0444,100
+Single-view Diffusion Maps (view 4),ari,0.8327,0.0712,100
+Single-view Diffusion Maps (view 4),chs,3.1,0.0757,100
+Single-view Diffusion Maps (view 5),ami,0.5618,0.036,100
+Single-view Diffusion Maps (view 5),ari,0.4856,0.0593,100
+Single-view Diffusion Maps (view 5),chs,3.485,0.0271,100
+Single-view Diffusion Maps (view 6),ami,0.496,0.0364,100
+Single-view Diffusion Maps (view 6),ari,0.3925,0.0454,100
+Single-view Diffusion Maps (view 6),chs,3.3102,0.0498,100

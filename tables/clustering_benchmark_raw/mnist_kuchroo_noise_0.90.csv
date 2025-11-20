@@ -1,0 +1,3601 @@
+method,repeat,metric,value
+Alternating Diffusion,0,chs,5.308992638349123
+Alternating Diffusion,0,ami,0.5758279548575533
+Alternating Diffusion,0,ari,0.39197809379853227
+Alternating Diffusion,1,chs,5.2744902547122265
+Alternating Diffusion,1,ami,0.5526092287956889
+Alternating Diffusion,1,ari,0.32879542926019223
+Alternating Diffusion,2,chs,5.36000313383262
+Alternating Diffusion,2,ami,0.6160098180604803
+Alternating Diffusion,2,ari,0.4233434400238494
+Alternating Diffusion,3,chs,5.368363043385205
+Alternating Diffusion,3,ami,0.5687977434303683
+Alternating Diffusion,3,ari,0.3801329561471208
+Alternating Diffusion,4,chs,5.303670729818732
+Alternating Diffusion,4,ami,0.568070349646042
+Alternating Diffusion,4,ari,0.3612870515101866
+Alternating Diffusion,5,chs,5.2744902547122265
+Alternating Diffusion,5,ami,0.552609228795689
+Alternating Diffusion,5,ari,0.32879542926019223
+Alternating Diffusion,6,chs,5.366144812957966
+Alternating Diffusion,6,ami,0.5683160884572641
+Alternating Diffusion,6,ari,0.38077613201344396
+Alternating Diffusion,7,chs,5.333982332645391
+Alternating Diffusion,7,ami,0.5690687850380071
+Alternating Diffusion,7,ari,0.3852738193103786
+Alternating Diffusion,8,chs,5.366887192896108
+Alternating Diffusion,8,ami,0.568427897731465
+Alternating Diffusion,8,ari,0.37961091490102383
+Alternating Diffusion,9,chs,5.294935748019771
+Alternating Diffusion,9,ami,0.5703121469992513
+Alternating Diffusion,9,ari,0.3948062474342834
+Alternating Diffusion,10,chs,5.324905938901225
+Alternating Diffusion,10,ami,0.590608799861973
+Alternating Diffusion,10,ari,0.42620639414343703
+Alternating Diffusion,11,chs,5.262832096261691
+Alternating Diffusion,11,ami,0.5960435061862926
+Alternating Diffusion,11,ari,0.4422722808881757
+Alternating Diffusion,12,chs,5.348970439590975
+Alternating Diffusion,12,ami,0.5998647239116738
+Alternating Diffusion,12,ari,0.41241039040875227
+Alternating Diffusion,13,chs,5.262476907103744
+Alternating Diffusion,13,ami,0.5797117617361711
+Alternating Diffusion,13,ari,0.4052995522019169
+Alternating Diffusion,14,chs,5.262314935307359
+Alternating Diffusion,14,ami,0.5952605025763125
+Alternating Diffusion,14,ari,0.4414839319939365
+Alternating Diffusion,15,chs,5.263015878416395
+Alternating Diffusion,15,ami,0.5961948067684876
+Alternating Diffusion,15,ari,0.44233564230189215
+Alternating Diffusion,16,chs,5.324956149964215
+Alternating Diffusion,16,ami,0.5909890020139222
+Alternating Diffusion,16,ari,0.4267282598187916
+Alternating Diffusion,17,chs,5.3600829500269045
+Alternating Diffusion,17,ami,0.6154589732534924
+Alternating Diffusion,17,ari,0.42247626671303373
+Alternating Diffusion,18,chs,5.217793981635504
+Alternating Diffusion,18,ami,0.5921470879989266
+Alternating Diffusion,18,ari,0.4374822792487481
+Alternating Diffusion,19,chs,5.315678258394976
+Alternating Diffusion,19,ami,0.5878880278505579
+Alternating Diffusion,19,ari,0.42094822756228933
+Alternating Diffusion,20,chs,5.3252808890772245
+Alternating Diffusion,20,ami,0.5906581144148855
+Alternating Diffusion,20,ari,0.42631925103507107
+Alternating Diffusion,21,chs,5.360003133832619
+Alternating Diffusion,21,ami,0.6160098180604803
+Alternating Diffusion,21,ari,0.4233434400238494
+Alternating Diffusion,22,chs,5.32672471728636
+Alternating Diffusion,22,ami,0.5860904486038132
+Alternating Diffusion,22,ari,0.38861802104681153
+Alternating Diffusion,23,chs,5.32690161993611
+Alternating Diffusion,23,ami,0.5860710160925283
+Alternating Diffusion,23,ari,0.38855829171654876
+Alternating Diffusion,24,chs,5.368363043385205
+Alternating Diffusion,24,ami,0.5687977434303683
+Alternating Diffusion,24,ari,0.3801329561471208
+Alternating Diffusion,25,chs,5.289518052329013
+Alternating Diffusion,25,ami,0.5758429791074043
+Alternating Diffusion,25,ari,0.3729579380495919
+Alternating Diffusion,26,chs,5.241148835459091
+Alternating Diffusion,26,ami,0.5593725593906848
+Alternating Diffusion,26,ari,0.3390261168900263
+Alternating Diffusion,27,chs,5.324956149964214
+Alternating Diffusion,27,ami,0.5909890020139222
+Alternating Diffusion,27,ari,0.4267282598187916
+Alternating Diffusion,28,chs,5.330815345701955
+Alternating Diffusion,28,ami,0.5871586961934667
+Alternating Diffusion,28,ari,0.38894592419046087
+Alternating Diffusion,29,chs,5.369542179317012
+Alternating Diffusion,29,ami,0.5687256410473736
+Alternating Diffusion,29,ari,0.3802635251568218
+Alternating Diffusion,30,chs,5.369754579777597
+Alternating Diffusion,30,ami,0.5688768845620792
+Alternating Diffusion,30,ari,0.3803194362398807
+Alternating Diffusion,31,chs,5.315894239513163
+Alternating Diffusion,31,ami,0.5876575150735797
+Alternating Diffusion,31,ari,0.42066402412721227
+Alternating Diffusion,32,chs,5.263404432485875
+Alternating Diffusion,32,ami,0.5959613400787924
+Alternating Diffusion,32,ari,0.4424349926973774
+Alternating Diffusion,33,chs,5.367144888129557
+Alternating Diffusion,33,ami,0.5684950726437555
+Alternating Diffusion,33,ari,0.3804997768420585
+Alternating Diffusion,34,chs,5.263309468033015
+Alternating Diffusion,34,ami,0.5959997840735854
+Alternating Diffusion,34,ari,0.44231228440524234
+Alternating Diffusion,35,chs,5.324956149964214
+Alternating Diffusion,35,ami,0.5909890020139222
+Alternating Diffusion,35,ari,0.4267282598187916
+Alternating Diffusion,36,chs,5.315678258394977
+Alternating Diffusion,36,ami,0.5878880278505579
+Alternating Diffusion,36,ari,0.42094822756228933
+Alternating Diffusion,37,chs,5.368064131950054
+Alternating Diffusion,37,ami,0.5687783326848062
+Alternating Diffusion,37,ari,0.38068631951057647
+Alternating Diffusion,38,chs,5.368064131950054
+Alternating Diffusion,38,ami,0.568778332684806
+Alternating Diffusion,38,ari,0.38068631951057647
+Alternating Diffusion,39,chs,5.315145024196616
+Alternating Diffusion,39,ami,0.5869033945910562
+Alternating Diffusion,39,ari,0.42016632183732244
+Alternating Diffusion,40,chs,5.294643048524412
+Alternating Diffusion,40,ami,0.5705072380293573
+Alternating Diffusion,40,ari,0.3948282258554633
+Alternating Diffusion,41,chs,5.3158928581478815
+Alternating Diffusion,41,ami,0.5876811850527774
+Alternating Diffusion,41,ari,0.4215040151134176
+Alternating Diffusion,42,chs,5.367191544770558
+Alternating Diffusion,42,ami,0.568617696399475
+Alternating Diffusion,42,ari,0.3799208580950563
+Alternating Diffusion,43,chs,5.3674043783153405
+Alternating Diffusion,43,ami,0.5685304685395091
+Alternating Diffusion,43,ari,0.3806246288747119
+Alternating Diffusion,44,chs,5.324905938901226
+Alternating Diffusion,44,ami,0.5906087998619729
+Alternating Diffusion,44,ari,0.42620639414343703
+Alternating Diffusion,45,chs,5.313863960160544
+Alternating Diffusion,45,ami,0.5541606482205502
+Alternating Diffusion,45,ari,0.3128884988153258
+Alternating Diffusion,46,chs,5.367066490037798
+Alternating Diffusion,46,ami,0.5685113518956698
+Alternating Diffusion,46,ari,0.38052423964250137
+Alternating Diffusion,47,chs,5.325407080713196
+Alternating Diffusion,47,ami,0.5908365190164475
+Alternating Diffusion,47,ari,0.4265047949757493
+Alternating Diffusion,48,chs,5.3158928581478815
+Alternating Diffusion,48,ami,0.5876811850527774
+Alternating Diffusion,48,ari,0.4215040151134176
+Alternating Diffusion,49,chs,5.3333136113873145
+Alternating Diffusion,49,ami,0.5688149479336649
+Alternating Diffusion,49,ari,0.3838091901522269
+Alternating Diffusion,50,chs,5.302759167040081
+Alternating Diffusion,50,ami,0.5678226459395467
+Alternating Diffusion,50,ari,0.3618002921934671
+Alternating Diffusion,51,chs,5.347419802028202
+Alternating Diffusion,51,ami,0.601808971762961
+Alternating Diffusion,51,ari,0.4147626485579167
+Alternating Diffusion,52,chs,5.369793644503052
+Alternating Diffusion,52,ami,0.5689395945853445
+Alternating Diffusion,52,ari,0.38057730895043274
+Alternating Diffusion,53,chs,5.369542179317012
+Alternating Diffusion,53,ami,0.5687256410473736
+Alternating Diffusion,53,ari,0.3802635251568218
+Alternating Diffusion,54,chs,5.263105249829876
+Alternating Diffusion,54,ami,0.5970905950496964
+Alternating Diffusion,54,ari,0.4430361674454432
+Alternating Diffusion,55,chs,5.365998477049422
+Alternating Diffusion,55,ami,0.5682112823232759
+Alternating Diffusion,55,ari,0.3804241551074994
+Alternating Diffusion,56,chs,5.324553144313727
+Alternating Diffusion,56,ami,0.5907954333691429
+Alternating Diffusion,56,ari,0.42635050925271084
+Alternating Diffusion,57,chs,5.294058659333537
+Alternating Diffusion,57,ami,0.5609483104391466
+Alternating Diffusion,57,ari,0.36263319385589665
+Alternating Diffusion,58,chs,5.273816144135186
+Alternating Diffusion,58,ami,0.5515168644702694
+Alternating Diffusion,58,ari,0.3250988190666029
+Alternating Diffusion,59,chs,5.294935748019771
+Alternating Diffusion,59,ami,0.5703121469992515
+Alternating Diffusion,59,ari,0.3948062474342834
+Alternating Diffusion,60,chs,5.368436386485806
+Alternating Diffusion,60,ami,0.568770907861983
+Alternating Diffusion,60,ari,0.37953357193208487
+Alternating Diffusion,61,chs,5.314492515535926
+Alternating Diffusion,61,ami,0.5859036984425052
+Alternating Diffusion,61,ari,0.4184456874806525
+Alternating Diffusion,62,chs,5.3289348479546526
+Alternating Diffusion,62,ami,0.5860968070321348
+Alternating Diffusion,62,ari,0.38866358421795766
+Alternating Diffusion,63,chs,5.366979742349465
+Alternating Diffusion,63,ami,0.5683985327151732
+Alternating Diffusion,63,ari,0.3801030329053011
+Alternating Diffusion,64,chs,5.315515923883803
+Alternating Diffusion,64,ami,0.5867068122136696
+Alternating Diffusion,64,ari,0.4192623921601748
+Alternating Diffusion,65,chs,5.361086492485985
+Alternating Diffusion,65,ami,0.6153350737243561
+Alternating Diffusion,65,ari,0.42227821514483277
+Alternating Diffusion,66,chs,5.366652500280999
+Alternating Diffusion,66,ami,0.5690750967160988
+Alternating Diffusion,66,ari,0.3802575584839408
+Alternating Diffusion,67,chs,5.333588687506829
+Alternating Diffusion,67,ami,0.568921956140478
+Alternating Diffusion,67,ari,0.3837365468684378
+Alternating Diffusion,68,chs,5.369793644503051
+Alternating Diffusion,68,ami,0.5689395945853445
+Alternating Diffusion,68,ari,0.38057730895043274
+Alternating Diffusion,69,chs,5.304279990098989
+Alternating Diffusion,69,ami,0.562815014534245
+Alternating Diffusion,69,ari,0.3816829957263912
+Alternating Diffusion,70,chs,5.255717135594252
+Alternating Diffusion,70,ami,0.5418930730413091
+Alternating Diffusion,70,ari,0.3128248322967626
+Alternating Diffusion,71,chs,5.369207242490309
+Alternating Diffusion,71,ami,0.5688072748390463
+Alternating Diffusion,71,ari,0.38056611418026015
+Alternating Diffusion,72,chs,5.287535452073211
+Alternating Diffusion,72,ami,0.5617417930539855
+Alternating Diffusion,72,ari,0.3702273284062886
+Alternating Diffusion,73,chs,5.360365186205043
+Alternating Diffusion,73,ami,0.6156317400357327
+Alternating Diffusion,73,ari,0.42283090693742126
+Alternating Diffusion,74,chs,5.367121029619186
+Alternating Diffusion,74,ami,0.5685179745675446
+Alternating Diffusion,74,ari,0.38049490643340383
+Alternating Diffusion,75,chs,5.360082950026904
+Alternating Diffusion,75,ami,0.6154589732534924
+Alternating Diffusion,75,ari,0.42247626671303373
+Alternating Diffusion,76,chs,5.360285406824569
+Alternating Diffusion,76,ami,0.6161824718866711
+Alternating Diffusion,76,ari,0.423698269383878
+Alternating Diffusion,77,chs,5.366632698392209
+Alternating Diffusion,77,ami,0.5680666161005379
+Alternating Diffusion,77,ari,0.3805207106710231
+Alternating Diffusion,78,chs,5.369044316073685
+Alternating Diffusion,78,ami,0.5687319965208159
+Alternating Diffusion,78,ari,0.3803309010168685
+Alternating Diffusion,79,chs,5.366574229185671
+Alternating Diffusion,79,ami,0.5683497966691241
+Alternating Diffusion,79,ari,0.3806958360995669
+Alternating Diffusion,80,chs,5.367071871728912
+Alternating Diffusion,80,ami,0.5684917712721141
+Alternating Diffusion,80,ari,0.3799371074596566
+Alternating Diffusion,81,chs,5.366575698960915
+Alternating Diffusion,81,ami,0.5682136867112596
+Alternating Diffusion,81,ari,0.3806712326623595
+Alternating Diffusion,82,chs,5.325345244403384
+Alternating Diffusion,82,ami,0.5903486456632095
+Alternating Diffusion,82,ari,0.4258205438860461
+Alternating Diffusion,83,chs,5.315678258394975
+Alternating Diffusion,83,ami,0.5878880278505579
+Alternating Diffusion,83,ari,0.42094822756228933
+Alternating Diffusion,84,chs,5.367426529534534
+Alternating Diffusion,84,ami,0.5686943862910366
+Alternating Diffusion,84,ari,0.38076887033475554
+Alternating Diffusion,85,chs,5.313916798035358
+Alternating Diffusion,85,ami,0.5679005771332483
+Alternating Diffusion,85,ari,0.3786804299147105
+Alternating Diffusion,86,chs,5.360003133832619
+Alternating Diffusion,86,ami,0.6160098180604804
+Alternating Diffusion,86,ari,0.4233434400238494
+Alternating Diffusion,87,chs,5.3267247172863605
+Alternating Diffusion,87,ami,0.5860904486038132
+Alternating Diffusion,87,ari,0.38861802104681153
+Alternating Diffusion,88,chs,5.330038688519996
+Alternating Diffusion,88,ami,0.5866385455339699
+Alternating Diffusion,88,ari,0.38823083737046415
+Alternating Diffusion,89,chs,5.265466945166699
+Alternating Diffusion,89,ami,0.5555349581266877
+Alternating Diffusion,89,ari,0.36617504682143626
+Alternating Diffusion,90,chs,5.315096179283966
+Alternating Diffusion,90,ami,0.5875027017889973
+Alternating Diffusion,90,ari,0.4207650816787599
+Alternating Diffusion,91,chs,5.315678258394975
+Alternating Diffusion,91,ami,0.5878880278505579
+Alternating Diffusion,91,ari,0.42094822756228933
+Alternating Diffusion,92,chs,5.332928896624056
+Alternating Diffusion,92,ami,0.5680192946534415
+Alternating Diffusion,92,ari,0.383477258252806
+Alternating Diffusion,93,chs,5.324956149964215
+Alternating Diffusion,93,ami,0.5909890020139222
+Alternating Diffusion,93,ari,0.4267282598187916
+Alternating Diffusion,94,chs,5.3665605453640195
+Alternating Diffusion,94,ami,0.5688707617034053
+Alternating Diffusion,94,ari,0.3800391311802631
+Alternating Diffusion,95,chs,5.367999939551904
+Alternating Diffusion,95,ami,0.5687159327019214
+Alternating Diffusion,95,ari,0.3806196374898339
+Alternating Diffusion,96,chs,5.315003287383407
+Alternating Diffusion,96,ami,0.5872826547870253
+Alternating Diffusion,96,ari,0.42077619081080414
+Alternating Diffusion,97,chs,5.324956149964214
+Alternating Diffusion,97,ami,0.5909890020139222
+Alternating Diffusion,97,ari,0.4267282598187916
+Alternating Diffusion,98,chs,5.26982387427
+Alternating Diffusion,98,ami,0.572746584815156
+Alternating Diffusion,98,ari,0.39333209681952247
+Alternating Diffusion,99,chs,5.349198169117258
+Alternating Diffusion,99,ami,0.5996347326598358
+Alternating Diffusion,99,ari,0.4121140613636055
+Multi-view Diffusion Maps,0,chs,5.346247493386509
+Multi-view Diffusion Maps,0,ami,0.5678959346723363
+Multi-view Diffusion Maps,0,ari,0.3888091496075413
+Multi-view Diffusion Maps,1,chs,5.279075213825594
+Multi-view Diffusion Maps,1,ami,0.5568667793240446
+Multi-view Diffusion Maps,1,ari,0.3672083473425855
+Multi-view Diffusion Maps,2,chs,5.243859371899282
+Multi-view Diffusion Maps,2,ami,0.5617902419557476
+Multi-view Diffusion Maps,2,ari,0.39794654388844514
+Multi-view Diffusion Maps,3,chs,5.345976206757893
+Multi-view Diffusion Maps,3,ami,0.5677543369864281
+Multi-view Diffusion Maps,3,ari,0.38859856715925173
+Multi-view Diffusion Maps,4,chs,5.2712450859106905
+Multi-view Diffusion Maps,4,ami,0.5913597377054167
+Multi-view Diffusion Maps,4,ari,0.4235293348883345
+Multi-view Diffusion Maps,5,chs,5.347292463674815
+Multi-view Diffusion Maps,5,ami,0.5681220273568364
+Multi-view Diffusion Maps,5,ari,0.38921309850691693
+Multi-view Diffusion Maps,6,chs,5.249161517394237
+Multi-view Diffusion Maps,6,ami,0.5442140176067879
+Multi-view Diffusion Maps,6,ari,0.36883673812253065
+Multi-view Diffusion Maps,7,chs,5.229712485827362
+Multi-view Diffusion Maps,7,ami,0.559833980475344
+Multi-view Diffusion Maps,7,ari,0.35312026016062215
+Multi-view Diffusion Maps,8,chs,5.345976206757892
+Multi-view Diffusion Maps,8,ami,0.567754336986428
+Multi-view Diffusion Maps,8,ari,0.38859856715925173
+Multi-view Diffusion Maps,9,chs,5.345976206757891
+Multi-view Diffusion Maps,9,ami,0.567754336986428
+Multi-view Diffusion Maps,9,ari,0.38859856715925173
+Multi-view Diffusion Maps,10,chs,5.345976206757893
+Multi-view Diffusion Maps,10,ami,0.5677543369864282
+Multi-view Diffusion Maps,10,ari,0.38859856715925173
+Multi-view Diffusion Maps,11,chs,5.271766864232427
+Multi-view Diffusion Maps,11,ami,0.563405794442365
+Multi-view Diffusion Maps,11,ari,0.38649242494239444
+Multi-view Diffusion Maps,12,chs,5.345976206757892
+Multi-view Diffusion Maps,12,ami,0.567754336986428
+Multi-view Diffusion Maps,12,ari,0.38859856715925173
+Multi-view Diffusion Maps,13,chs,5.313662035736028
+Multi-view Diffusion Maps,13,ami,0.5965390406744194
+Multi-view Diffusion Maps,13,ari,0.4450561384440165
+Multi-view Diffusion Maps,14,chs,5.318646120577829
+Multi-view Diffusion Maps,14,ami,0.5871124716786204
+Multi-view Diffusion Maps,14,ari,0.39794775267819127
+Multi-view Diffusion Maps,15,chs,5.254918265398839
+Multi-view Diffusion Maps,15,ami,0.5928647587056286
+Multi-view Diffusion Maps,15,ari,0.4434846994102746
+Multi-view Diffusion Maps,16,chs,5.254918265398838
+Multi-view Diffusion Maps,16,ami,0.5928647587056286
+Multi-view Diffusion Maps,16,ari,0.4434846994102746
+Multi-view Diffusion Maps,17,chs,5.346279392324206
+Multi-view Diffusion Maps,17,ami,0.5677946588407508
+Multi-view Diffusion Maps,17,ari,0.3887050151246053
+Multi-view Diffusion Maps,18,chs,5.245195508107448
+Multi-view Diffusion Maps,18,ami,0.5606188593813539
+Multi-view Diffusion Maps,18,ari,0.4007261214881426
+Multi-view Diffusion Maps,19,chs,5.347026452611776
+Multi-view Diffusion Maps,19,ami,0.5681159921847037
+Multi-view Diffusion Maps,19,ari,0.38920058246813083
+Multi-view Diffusion Maps,20,chs,5.313847348788969
+Multi-view Diffusion Maps,20,ami,0.5776353904532326
+Multi-view Diffusion Maps,20,ari,0.4097954425580537
+Multi-view Diffusion Maps,21,chs,5.3144867992750076
+Multi-view Diffusion Maps,21,ami,0.596565539254547
+Multi-view Diffusion Maps,21,ari,0.4446953196255653
+Multi-view Diffusion Maps,22,chs,5.34640796803542
+Multi-view Diffusion Maps,22,ami,0.5679391900005342
+Multi-view Diffusion Maps,22,ari,0.3888432794207071
+Multi-view Diffusion Maps,23,chs,5.345976206757893
+Multi-view Diffusion Maps,23,ami,0.5677543369864281
+Multi-view Diffusion Maps,23,ari,0.38859856715925173
+Multi-view Diffusion Maps,24,chs,5.34746716425916
+Multi-view Diffusion Maps,24,ami,0.5682854640803499
+Multi-view Diffusion Maps,24,ari,0.389318852392593
+Multi-view Diffusion Maps,25,chs,5.348261218100155
+Multi-view Diffusion Maps,25,ami,0.5685912135544363
+Multi-view Diffusion Maps,25,ari,0.3898039031391807
+Multi-view Diffusion Maps,26,chs,5.265483533554849
+Multi-view Diffusion Maps,26,ami,0.5544613906805554
+Multi-view Diffusion Maps,26,ari,0.34177747232174843
+Multi-view Diffusion Maps,27,chs,5.31351139029734
+Multi-view Diffusion Maps,27,ami,0.5959564146530502
+Multi-view Diffusion Maps,27,ari,0.4440588072334365
+Multi-view Diffusion Maps,28,chs,5.254918265398839
+Multi-view Diffusion Maps,28,ami,0.5928647587056286
+Multi-view Diffusion Maps,28,ari,0.4434846994102746
+Multi-view Diffusion Maps,29,chs,5.347873164859287
+Multi-view Diffusion Maps,29,ami,0.5683813915299273
+Multi-view Diffusion Maps,29,ari,0.38932021624627644
+Multi-view Diffusion Maps,30,chs,5.313398584845139
+Multi-view Diffusion Maps,30,ami,0.5963472277779057
+Multi-view Diffusion Maps,30,ari,0.4446180367259332
+Multi-view Diffusion Maps,31,chs,5.3456798787714055
+Multi-view Diffusion Maps,31,ami,0.5678884385635582
+Multi-view Diffusion Maps,31,ari,0.3886952199509339
+Multi-view Diffusion Maps,32,chs,5.313884254676657
+Multi-view Diffusion Maps,32,ami,0.5753404765516891
+Multi-view Diffusion Maps,32,ari,0.4076668864382996
+Multi-view Diffusion Maps,33,chs,5.346238405081885
+Multi-view Diffusion Maps,33,ami,0.6215690841904373
+Multi-view Diffusion Maps,33,ari,0.4517913069438985
+Multi-view Diffusion Maps,34,chs,5.318646120577828
+Multi-view Diffusion Maps,34,ami,0.5871124716786204
+Multi-view Diffusion Maps,34,ari,0.39794775267819127
+Multi-view Diffusion Maps,35,chs,5.345976206757892
+Multi-view Diffusion Maps,35,ami,0.567754336986428
+Multi-view Diffusion Maps,35,ari,0.38859856715925173
+Multi-view Diffusion Maps,36,chs,5.315943156259733
+Multi-view Diffusion Maps,36,ami,0.5862901948218984
+Multi-view Diffusion Maps,36,ari,0.3986370970389398
+Multi-view Diffusion Maps,37,chs,5.313818072791277
+Multi-view Diffusion Maps,37,ami,0.595950267517752
+Multi-view Diffusion Maps,37,ari,0.4440465240974318
+Multi-view Diffusion Maps,38,chs,5.346288954521249
+Multi-view Diffusion Maps,38,ami,0.5677525557648393
+Multi-view Diffusion Maps,38,ari,0.3885653000649928
+Multi-view Diffusion Maps,39,chs,5.289864778938227
+Multi-view Diffusion Maps,39,ami,0.5737285120816822
+Multi-view Diffusion Maps,39,ari,0.4083779684903202
+Multi-view Diffusion Maps,40,chs,5.315517370331281
+Multi-view Diffusion Maps,40,ami,0.5968343904988131
+Multi-view Diffusion Maps,40,ari,0.44574846593189527
+Multi-view Diffusion Maps,41,chs,5.345976206757894
+Multi-view Diffusion Maps,41,ami,0.567754336986428
+Multi-view Diffusion Maps,41,ari,0.38859856715925173
+Multi-view Diffusion Maps,42,chs,5.345116585997041
+Multi-view Diffusion Maps,42,ami,0.5679047037902786
+Multi-view Diffusion Maps,42,ari,0.3886955987076748
+Multi-view Diffusion Maps,43,chs,5.254417769260714
+Multi-view Diffusion Maps,43,ami,0.5923961143204212
+Multi-view Diffusion Maps,43,ari,0.4428780802237212
+Multi-view Diffusion Maps,44,chs,5.254759379596587
+Multi-view Diffusion Maps,44,ami,0.5933556977335961
+Multi-view Diffusion Maps,44,ari,0.44340997003710864
+Multi-view Diffusion Maps,45,chs,5.253377675465386
+Multi-view Diffusion Maps,45,ami,0.5853357331231915
+Multi-view Diffusion Maps,45,ari,0.42353206985093134
+Multi-view Diffusion Maps,46,chs,5.31565323289042
+Multi-view Diffusion Maps,46,ami,0.5967152231322936
+Multi-view Diffusion Maps,46,ari,0.4452113762040791
+Multi-view Diffusion Maps,47,chs,5.312963020959401
+Multi-view Diffusion Maps,47,ami,0.5771973090443588
+Multi-view Diffusion Maps,47,ari,0.4097910845165084
+Multi-view Diffusion Maps,48,chs,5.225702573118428
+Multi-view Diffusion Maps,48,ami,0.605883041043814
+Multi-view Diffusion Maps,48,ari,0.4722168904513666
+Multi-view Diffusion Maps,49,chs,5.346660553226139
+Multi-view Diffusion Maps,49,ami,0.5677705318613425
+Multi-view Diffusion Maps,49,ari,0.3886877800161113
+Multi-view Diffusion Maps,50,chs,5.31551737033128
+Multi-view Diffusion Maps,50,ami,0.5968343904988133
+Multi-view Diffusion Maps,50,ari,0.44574846593189527
+Multi-view Diffusion Maps,51,chs,5.3477613453043595
+Multi-view Diffusion Maps,51,ami,0.568038519051064
+Multi-view Diffusion Maps,51,ari,0.38904989526600514
+Multi-view Diffusion Maps,52,chs,5.3163318913025766
+Multi-view Diffusion Maps,52,ami,0.5866959815506287
+Multi-view Diffusion Maps,52,ari,0.3988253120080551
+Multi-view Diffusion Maps,53,chs,5.315517370331281
+Multi-view Diffusion Maps,53,ami,0.5968343904988133
+Multi-view Diffusion Maps,53,ari,0.44574846593189527
+Multi-view Diffusion Maps,54,chs,5.313519740128393
+Multi-view Diffusion Maps,54,ami,0.597056762397782
+Multi-view Diffusion Maps,54,ari,0.44572859288953515
+Multi-view Diffusion Maps,55,chs,5.345923686892741
+Multi-view Diffusion Maps,55,ami,0.5676509305568676
+Multi-view Diffusion Maps,55,ari,0.3884231351416224
+Multi-view Diffusion Maps,56,chs,5.3157947697243335
+Multi-view Diffusion Maps,56,ami,0.5864862256880786
+Multi-view Diffusion Maps,56,ari,0.39862202749190256
+Multi-view Diffusion Maps,57,chs,5.240977382781859
+Multi-view Diffusion Maps,57,ami,0.5383038904976304
+Multi-view Diffusion Maps,57,ari,0.32080813672114233
+Multi-view Diffusion Maps,58,chs,5.225344037270075
+Multi-view Diffusion Maps,58,ami,0.6014571899875484
+Multi-view Diffusion Maps,58,ari,0.46701483962972373
+Multi-view Diffusion Maps,59,chs,5.31551737033128
+Multi-view Diffusion Maps,59,ami,0.5968343904988131
+Multi-view Diffusion Maps,59,ari,0.44574846593189527
+Multi-view Diffusion Maps,60,chs,5.250362040184686
+Multi-view Diffusion Maps,60,ami,0.545072397737608
+Multi-view Diffusion Maps,60,ari,0.36957394369856567
+Multi-view Diffusion Maps,61,chs,5.3138180727912765
+Multi-view Diffusion Maps,61,ami,0.595950267517752
+Multi-view Diffusion Maps,61,ari,0.4440465240974318
+Multi-view Diffusion Maps,62,chs,5.300050730679509
+Multi-view Diffusion Maps,62,ami,0.5514193317268821
+Multi-view Diffusion Maps,62,ari,0.3255350969485688
+Multi-view Diffusion Maps,63,chs,5.345976206757892
+Multi-view Diffusion Maps,63,ami,0.567754336986428
+Multi-view Diffusion Maps,63,ari,0.38859856715925173
+Multi-view Diffusion Maps,64,chs,5.315517370331281
+Multi-view Diffusion Maps,64,ami,0.5968343904988133
+Multi-view Diffusion Maps,64,ari,0.44574846593189527
+Multi-view Diffusion Maps,65,chs,5.34640796803542
+Multi-view Diffusion Maps,65,ami,0.567939190000534
+Multi-view Diffusion Maps,65,ari,0.3888432794207071
+Multi-view Diffusion Maps,66,chs,5.313331099600658
+Multi-view Diffusion Maps,66,ami,0.5971012648974979
+Multi-view Diffusion Maps,66,ari,0.445614737378434
+Multi-view Diffusion Maps,67,chs,5.320331056744143
+Multi-view Diffusion Maps,67,ami,0.5762926546131153
+Multi-view Diffusion Maps,67,ari,0.41240888284003485
+Multi-view Diffusion Maps,68,chs,5.254918265398838
+Multi-view Diffusion Maps,68,ami,0.5928647587056287
+Multi-view Diffusion Maps,68,ari,0.4434846994102746
+Multi-view Diffusion Maps,69,chs,5.254453186470255
+Multi-view Diffusion Maps,69,ami,0.5930210685481282
+Multi-view Diffusion Maps,69,ari,0.44336628928749816
+Multi-view Diffusion Maps,70,chs,5.347060429955789
+Multi-view Diffusion Maps,70,ami,0.5681482180422095
+Multi-view Diffusion Maps,70,ari,0.3890334138864011
+Multi-view Diffusion Maps,71,chs,5.345794566461154
+Multi-view Diffusion Maps,71,ami,0.5675035124581541
+Multi-view Diffusion Maps,71,ari,0.3882843651646006
+Multi-view Diffusion Maps,72,chs,5.252397519351511
+Multi-view Diffusion Maps,72,ami,0.5921654805110959
+Multi-view Diffusion Maps,72,ari,0.4422668866379396
+Multi-view Diffusion Maps,73,chs,5.295859469673949
+Multi-view Diffusion Maps,73,ami,0.5635717127125309
+Multi-view Diffusion Maps,73,ari,0.36046784799460857
+Multi-view Diffusion Maps,74,chs,5.345611008450201
+Multi-view Diffusion Maps,74,ami,0.5676100002830953
+Multi-view Diffusion Maps,74,ari,0.3883511753024707
+Multi-view Diffusion Maps,75,chs,5.274681373478445
+Multi-view Diffusion Maps,75,ami,0.5709185915996042
+Multi-view Diffusion Maps,75,ari,0.39607040853528935
+Multi-view Diffusion Maps,76,chs,5.253289762872954
+Multi-view Diffusion Maps,76,ami,0.5926289251584275
+Multi-view Diffusion Maps,76,ari,0.44249855685728046
+Multi-view Diffusion Maps,77,chs,5.224772189561008
+Multi-view Diffusion Maps,77,ami,0.6008413936750492
+Multi-view Diffusion Maps,77,ari,0.46661838444220544
+Multi-view Diffusion Maps,78,chs,5.289760008928489
+Multi-view Diffusion Maps,78,ami,0.5715760922130895
+Multi-view Diffusion Maps,78,ari,0.3866948469015159
+Multi-view Diffusion Maps,79,chs,5.313030456326779
+Multi-view Diffusion Maps,79,ami,0.5965877626608587
+Multi-view Diffusion Maps,79,ari,0.4448950011571381
+Multi-view Diffusion Maps,80,chs,5.243441346602351
+Multi-view Diffusion Maps,80,ami,0.5595705352591811
+Multi-view Diffusion Maps,80,ari,0.39944992945380475
+Multi-view Diffusion Maps,81,chs,5.346645976120688
+Multi-view Diffusion Maps,81,ami,0.5678438260501556
+Multi-view Diffusion Maps,81,ari,0.3887179351786954
+Multi-view Diffusion Maps,82,chs,5.2244386061917485
+Multi-view Diffusion Maps,82,ami,0.5759089384804664
+Multi-view Diffusion Maps,82,ari,0.39147225674358743
+Multi-view Diffusion Maps,83,chs,5.313331099600659
+Multi-view Diffusion Maps,83,ami,0.5971012648974979
+Multi-view Diffusion Maps,83,ari,0.445614737378434
+Multi-view Diffusion Maps,84,chs,5.313511390297339
+Multi-view Diffusion Maps,84,ami,0.59595641465305
+Multi-view Diffusion Maps,84,ari,0.4440588072334365
+Multi-view Diffusion Maps,85,chs,5.278915674672609
+Multi-view Diffusion Maps,85,ami,0.5618702325643793
+Multi-view Diffusion Maps,85,ari,0.38468437191765303
+Multi-view Diffusion Maps,86,chs,5.345976206757892
+Multi-view Diffusion Maps,86,ami,0.5677543369864281
+Multi-view Diffusion Maps,86,ari,0.38859856715925173
+Multi-view Diffusion Maps,87,chs,5.345976206757893
+Multi-view Diffusion Maps,87,ami,0.5677543369864281
+Multi-view Diffusion Maps,87,ari,0.38859856715925173
+Multi-view Diffusion Maps,88,chs,5.315476643743637
+Multi-view Diffusion Maps,88,ami,0.5968715109906353
+Multi-view Diffusion Maps,88,ari,0.44550072564240467
+Multi-view Diffusion Maps,89,chs,5.2878834948031646
+Multi-view Diffusion Maps,89,ami,0.5702630748452263
+Multi-view Diffusion Maps,89,ari,0.38255839056035773
+Multi-view Diffusion Maps,90,chs,5.345976206757892
+Multi-view Diffusion Maps,90,ami,0.567754336986428
+Multi-view Diffusion Maps,90,ari,0.38859856715925173
+Multi-view Diffusion Maps,91,chs,5.346044298371665
+Multi-view Diffusion Maps,91,ami,0.567948194849779
+Multi-view Diffusion Maps,91,ari,0.3885774199486534
+Multi-view Diffusion Maps,92,chs,5.241410412001107
+Multi-view Diffusion Maps,92,ami,0.5612724378488284
+Multi-view Diffusion Maps,92,ari,0.40149173997172444
+Multi-view Diffusion Maps,93,chs,5.314806111732683
+Multi-view Diffusion Maps,93,ami,0.5969306287751251
+Multi-view Diffusion Maps,93,ari,0.4457303310397902
+Multi-view Diffusion Maps,94,chs,5.216381222092846
+Multi-view Diffusion Maps,94,ami,0.6019840275967641
+Multi-view Diffusion Maps,94,ari,0.47529686434326895
+Multi-view Diffusion Maps,95,chs,5.315493832203683
+Multi-view Diffusion Maps,95,ami,0.5964640986702583
+Multi-view Diffusion Maps,95,ari,0.44510197772803906
+Multi-view Diffusion Maps,96,chs,5.25333981297128
+Multi-view Diffusion Maps,96,ami,0.5926896750463228
+Multi-view Diffusion Maps,96,ari,0.4428702758256124
+Multi-view Diffusion Maps,97,chs,5.347292463674814
+Multi-view Diffusion Maps,97,ami,0.5681220273568364
+Multi-view Diffusion Maps,97,ari,0.38921309850691693
+Multi-view Diffusion Maps,98,chs,5.312988470531584
+Multi-view Diffusion Maps,98,ami,0.5771641141575502
+Multi-view Diffusion Maps,98,ari,0.40971869850447906
+Multi-view Diffusion Maps,99,chs,5.3138180727912765
+Multi-view Diffusion Maps,99,ami,0.595950267517752
+Multi-view Diffusion Maps,99,ari,0.4440465240974318
+Single-view Diffusion Maps (view 1),0,chs,5.325399684628854
+Single-view Diffusion Maps (view 1),0,ami,0.6828786562538278
+Single-view Diffusion Maps (view 1),0,ari,0.5413019690261538
+Single-view Diffusion Maps (view 1),1,chs,5.449888456124187
+Single-view Diffusion Maps (view 1),1,ami,0.6733044200965839
+Single-view Diffusion Maps (view 1),1,ari,0.5156321912853523
+Single-view Diffusion Maps (view 1),2,chs,5.449460372785143
+Single-view Diffusion Maps (view 1),2,ami,0.7258313990737911
+Single-view Diffusion Maps (view 1),2,ari,0.6066124078282992
+Single-view Diffusion Maps (view 1),3,chs,5.421118536785997
+Single-view Diffusion Maps (view 1),3,ami,0.7028785520269687
+Single-view Diffusion Maps (view 1),3,ari,0.5580910294766994
+Single-view Diffusion Maps (view 1),4,chs,5.450141284695496
+Single-view Diffusion Maps (view 1),4,ami,0.7256844593955463
+Single-view Diffusion Maps (view 1),4,ari,0.6073364678496997
+Single-view Diffusion Maps (view 1),5,chs,5.450172682381911
+Single-view Diffusion Maps (view 1),5,ami,0.6732486279688206
+Single-view Diffusion Maps (view 1),5,ari,0.5154890289463867
+Single-view Diffusion Maps (view 1),6,chs,5.421118536785998
+Single-view Diffusion Maps (view 1),6,ami,0.7028785520269688
+Single-view Diffusion Maps (view 1),6,ari,0.5580910294766994
+Single-view Diffusion Maps (view 1),7,chs,5.34629315256153
+Single-view Diffusion Maps (view 1),7,ami,0.6915395416235096
+Single-view Diffusion Maps (view 1),7,ari,0.5536663754136837
+Single-view Diffusion Maps (view 1),8,chs,5.4494657592872775
+Single-view Diffusion Maps (view 1),8,ami,0.7258777703929661
+Single-view Diffusion Maps (view 1),8,ari,0.6066973190577394
+Single-view Diffusion Maps (view 1),9,chs,5.449645024190652
+Single-view Diffusion Maps (view 1),9,ami,0.7257710845471748
+Single-view Diffusion Maps (view 1),9,ari,0.6074710019274198
+Single-view Diffusion Maps (view 1),10,chs,5.449308091151812
+Single-view Diffusion Maps (view 1),10,ami,0.7261238194679343
+Single-view Diffusion Maps (view 1),10,ari,0.6077625881179853
+Single-view Diffusion Maps (view 1),11,chs,5.417097430251713
+Single-view Diffusion Maps (view 1),11,ami,0.7180181706138111
+Single-view Diffusion Maps (view 1),11,ari,0.5902896837601416
+Single-view Diffusion Maps (view 1),12,chs,5.402987662948101
+Single-view Diffusion Maps (view 1),12,ami,0.6936132438871445
+Single-view Diffusion Maps (view 1),12,ari,0.5275294219912983
+Single-view Diffusion Maps (view 1),13,chs,5.412294137435438
+Single-view Diffusion Maps (view 1),13,ami,0.6895623239762121
+Single-view Diffusion Maps (view 1),13,ari,0.5393048981025866
+Single-view Diffusion Maps (view 1),14,chs,5.44987349093439
+Single-view Diffusion Maps (view 1),14,ami,0.7259577068219131
+Single-view Diffusion Maps (view 1),14,ari,0.6068087114731818
+Single-view Diffusion Maps (view 1),15,chs,5.416639644172695
+Single-view Diffusion Maps (view 1),15,ami,0.7178504537297291
+Single-view Diffusion Maps (view 1),15,ari,0.5901426572963673
+Single-view Diffusion Maps (view 1),16,chs,5.449285640503178
+Single-view Diffusion Maps (view 1),16,ami,0.672865405625791
+Single-view Diffusion Maps (view 1),16,ari,0.5149356693485219
+Single-view Diffusion Maps (view 1),17,chs,5.377844051883211
+Single-view Diffusion Maps (view 1),17,ami,0.7273345399959109
+Single-view Diffusion Maps (view 1),17,ari,0.6325668146066121
+Single-view Diffusion Maps (view 1),18,chs,5.359464145867209
+Single-view Diffusion Maps (view 1),18,ami,0.6825374379698514
+Single-view Diffusion Maps (view 1),18,ari,0.5425784939964
+Single-view Diffusion Maps (view 1),19,chs,5.450172682381913
+Single-view Diffusion Maps (view 1),19,ami,0.6732486279688206
+Single-view Diffusion Maps (view 1),19,ari,0.5154890289463867
+Single-view Diffusion Maps (view 1),20,chs,5.339027826598013
+Single-view Diffusion Maps (view 1),20,ami,0.6904587449149272
+Single-view Diffusion Maps (view 1),20,ari,0.5588982513048337
+Single-view Diffusion Maps (view 1),21,chs,5.449560544534361
+Single-view Diffusion Maps (view 1),21,ami,0.6734879491306301
+Single-view Diffusion Maps (view 1),21,ari,0.5149377281207386
+Single-view Diffusion Maps (view 1),22,chs,5.449888456124187
+Single-view Diffusion Maps (view 1),22,ami,0.6733044200965838
+Single-view Diffusion Maps (view 1),22,ari,0.5156321912853523
+Single-view Diffusion Maps (view 1),23,chs,5.376406323988826
+Single-view Diffusion Maps (view 1),23,ami,0.7272787025122189
+Single-view Diffusion Maps (view 1),23,ari,0.6324251087260616
+Single-view Diffusion Maps (view 1),24,chs,5.325312137308304
+Single-view Diffusion Maps (view 1),24,ami,0.6724415431616394
+Single-view Diffusion Maps (view 1),24,ari,0.4852812509670399
+Single-view Diffusion Maps (view 1),25,chs,5.450205002358896
+Single-view Diffusion Maps (view 1),25,ami,0.7259699156470008
+Single-view Diffusion Maps (view 1),25,ari,0.6075383727065091
+Single-view Diffusion Maps (view 1),26,chs,5.37784405188321
+Single-view Diffusion Maps (view 1),26,ami,0.727334539995911
+Single-view Diffusion Maps (view 1),26,ari,0.6325668146066121
+Single-view Diffusion Maps (view 1),27,chs,5.326020806291002
+Single-view Diffusion Maps (view 1),27,ami,0.6716487053833142
+Single-view Diffusion Maps (view 1),27,ari,0.4838848341523569
+Single-view Diffusion Maps (view 1),28,chs,5.352625790101922
+Single-view Diffusion Maps (view 1),28,ami,0.6829950327850731
+Single-view Diffusion Maps (view 1),28,ari,0.5170368064028027
+Single-view Diffusion Maps (view 1),29,chs,5.37734945849163
+Single-view Diffusion Maps (view 1),29,ami,0.7274254058680758
+Single-view Diffusion Maps (view 1),29,ari,0.6320723506621226
+Single-view Diffusion Maps (view 1),30,chs,5.449478018589499
+Single-view Diffusion Maps (view 1),30,ami,0.7261189278512523
+Single-view Diffusion Maps (view 1),30,ari,0.607742199932784
+Single-view Diffusion Maps (view 1),31,chs,5.375995416357146
+Single-view Diffusion Maps (view 1),31,ami,0.7270449681072391
+Single-view Diffusion Maps (view 1),31,ari,0.6320488669564088
+Single-view Diffusion Maps (view 1),32,chs,5.450141284695498
+Single-view Diffusion Maps (view 1),32,ami,0.725684459395546
+Single-view Diffusion Maps (view 1),32,ari,0.6073364678496997
+Single-view Diffusion Maps (view 1),33,chs,5.376827054206417
+Single-view Diffusion Maps (view 1),33,ami,0.727193008660744
+Single-view Diffusion Maps (view 1),33,ari,0.6316950030022331
+Single-view Diffusion Maps (view 1),34,chs,5.421003590932509
+Single-view Diffusion Maps (view 1),34,ami,0.7028807454458413
+Single-view Diffusion Maps (view 1),34,ari,0.5580942038413382
+Single-view Diffusion Maps (view 1),35,chs,5.364168130305195
+Single-view Diffusion Maps (view 1),35,ami,0.6841445810678877
+Single-view Diffusion Maps (view 1),35,ari,0.5469943431763468
+Single-view Diffusion Maps (view 1),36,chs,5.449704135965617
+Single-view Diffusion Maps (view 1),36,ami,0.7259624616290264
+Single-view Diffusion Maps (view 1),36,ari,0.6068289141444497
+Single-view Diffusion Maps (view 1),37,chs,5.399716404721396
+Single-view Diffusion Maps (view 1),37,ami,0.6938215965151581
+Single-view Diffusion Maps (view 1),37,ari,0.5717914090170064
+Single-view Diffusion Maps (view 1),38,chs,5.449888456124187
+Single-view Diffusion Maps (view 1),38,ami,0.6733044200965839
+Single-view Diffusion Maps (view 1),38,ari,0.5156321912853523
+Single-view Diffusion Maps (view 1),39,chs,5.376571317781804
+Single-view Diffusion Maps (view 1),39,ami,0.7277754717007692
+Single-view Diffusion Maps (view 1),39,ari,0.6326891261606534
+Single-view Diffusion Maps (view 1),40,chs,5.277285387426717
+Single-view Diffusion Maps (view 1),40,ami,0.6944820298474615
+Single-view Diffusion Maps (view 1),40,ari,0.5611139751272581
+Single-view Diffusion Maps (view 1),41,chs,5.44956054453436
+Single-view Diffusion Maps (view 1),41,ami,0.6734879491306301
+Single-view Diffusion Maps (view 1),41,ari,0.5149377281207386
+Single-view Diffusion Maps (view 1),42,chs,5.286173607150239
+Single-view Diffusion Maps (view 1),42,ami,0.6983179986714212
+Single-view Diffusion Maps (view 1),42,ari,0.5158558886170892
+Single-view Diffusion Maps (view 1),43,chs,5.377220090168808
+Single-view Diffusion Maps (view 1),43,ami,0.6980179657658901
+Single-view Diffusion Maps (view 1),43,ari,0.5795140700329533
+Single-view Diffusion Maps (view 1),44,chs,5.376571317781804
+Single-view Diffusion Maps (view 1),44,ami,0.7277754717007692
+Single-view Diffusion Maps (view 1),44,ari,0.6326891261606534
+Single-view Diffusion Maps (view 1),45,chs,5.4493808495632585
+Single-view Diffusion Maps (view 1),45,ami,0.673298762513793
+Single-view Diffusion Maps (view 1),45,ari,0.5149604107338505
+Single-view Diffusion Maps (view 1),46,chs,5.449888456124186
+Single-view Diffusion Maps (view 1),46,ami,0.6733044200965839
+Single-view Diffusion Maps (view 1),46,ari,0.5156321912853523
+Single-view Diffusion Maps (view 1),47,chs,5.311278765877467
+Single-view Diffusion Maps (view 1),47,ami,0.6830641361173986
+Single-view Diffusion Maps (view 1),47,ari,0.5318463946201664
+Single-view Diffusion Maps (view 1),48,chs,5.421245421610767
+Single-view Diffusion Maps (view 1),48,ami,0.7033705102670494
+Single-view Diffusion Maps (view 1),48,ari,0.5583093898728703
+Single-view Diffusion Maps (view 1),49,chs,5.449475096721291
+Single-view Diffusion Maps (view 1),49,ami,0.7257759736799746
+Single-view Diffusion Maps (view 1),49,ari,0.6074913957426099
+Single-view Diffusion Maps (view 1),50,chs,5.3581546693394095
+Single-view Diffusion Maps (view 1),50,ami,0.6973998551763353
+Single-view Diffusion Maps (view 1),50,ari,0.5736853566291857
+Single-view Diffusion Maps (view 1),51,chs,5.250373129012769
+Single-view Diffusion Maps (view 1),51,ami,0.7344407378026666
+Single-view Diffusion Maps (view 1),51,ari,0.6452758209433198
+Single-view Diffusion Maps (view 1),52,chs,5.449478018589497
+Single-view Diffusion Maps (view 1),52,ami,0.7261189278512522
+Single-view Diffusion Maps (view 1),52,ari,0.607742199932784
+Single-view Diffusion Maps (view 1),53,chs,5.368292842120066
+Single-view Diffusion Maps (view 1),53,ami,0.6920333624208126
+Single-view Diffusion Maps (view 1),53,ari,0.560635628014466
+Single-view Diffusion Maps (view 1),54,chs,5.449635113970659
+Single-view Diffusion Maps (view 1),54,ami,0.7258730162875532
+Single-view Diffusion Maps (view 1),54,ari,0.6066771118263667
+Single-view Diffusion Maps (view 1),55,chs,5.421559733531461
+Single-view Diffusion Maps (view 1),55,ami,0.7037196014727223
+Single-view Diffusion Maps (view 1),55,ari,0.5596914437642456
+Single-view Diffusion Maps (view 1),56,chs,5.4492773651572355
+Single-view Diffusion Maps (view 1),56,ami,0.7256079831026139
+Single-view Diffusion Maps (view 1),56,ari,0.6069326980722526
+Single-view Diffusion Maps (view 1),57,chs,5.3569181801857155
+Single-view Diffusion Maps (view 1),57,ami,0.6967163763970403
+Single-view Diffusion Maps (view 1),57,ari,0.5691432413515016
+Single-view Diffusion Maps (view 1),58,chs,5.449539904856918
+Single-view Diffusion Maps (view 1),58,ami,0.7252407429403155
+Single-view Diffusion Maps (view 1),58,ari,0.6066167652399371
+Single-view Diffusion Maps (view 1),59,chs,5.396506783101478
+Single-view Diffusion Maps (view 1),59,ami,0.6940842576097348
+Single-view Diffusion Maps (view 1),59,ari,0.5683835656375822
+Single-view Diffusion Maps (view 1),60,chs,5.449888456124187
+Single-view Diffusion Maps (view 1),60,ami,0.6733044200965838
+Single-view Diffusion Maps (view 1),60,ari,0.5156321912853523
+Single-view Diffusion Maps (view 1),61,chs,5.421118536785997
+Single-view Diffusion Maps (view 1),61,ami,0.7028785520269689
+Single-view Diffusion Maps (view 1),61,ari,0.5580910294766994
+Single-view Diffusion Maps (view 1),62,chs,5.357876430321344
+Single-view Diffusion Maps (view 1),62,ami,0.6782161299490295
+Single-view Diffusion Maps (view 1),62,ari,0.531279170498861
+Single-view Diffusion Maps (view 1),63,chs,5.421559733531461
+Single-view Diffusion Maps (view 1),63,ami,0.7037196014727224
+Single-view Diffusion Maps (view 1),63,ari,0.5596914437642456
+Single-view Diffusion Maps (view 1),64,chs,5.449541735437182
+Single-view Diffusion Maps (view 1),64,ami,0.7264044144384324
+Single-view Diffusion Maps (view 1),64,ari,0.6079439964777483
+Single-view Diffusion Maps (view 1),65,chs,5.231390584259996
+Single-view Diffusion Maps (view 1),65,ami,0.6610604334752342
+Single-view Diffusion Maps (view 1),65,ari,0.47456245260893043
+Single-view Diffusion Maps (view 1),66,chs,5.448873718182973
+Single-view Diffusion Maps (view 1),66,ami,0.7253322497316587
+Single-view Diffusion Maps (view 1),66,ari,0.6067717524585098
+Single-view Diffusion Maps (view 1),67,chs,5.375883921087935
+Single-view Diffusion Maps (view 1),67,ami,0.7270463068628412
+Single-view Diffusion Maps (view 1),67,ari,0.6320477005474905
+Single-view Diffusion Maps (view 1),68,chs,5.449380849563258
+Single-view Diffusion Maps (view 1),68,ami,0.6732987625137927
+Single-view Diffusion Maps (view 1),68,ari,0.5149604107338505
+Single-view Diffusion Maps (view 1),69,chs,5.416514443298092
+Single-view Diffusion Maps (view 1),69,ami,0.717737927820936
+Single-view Diffusion Maps (view 1),69,ari,0.5899896218322543
+Single-view Diffusion Maps (view 1),70,chs,5.417137822844975
+Single-view Diffusion Maps (view 1),70,ami,0.7180331178960386
+Single-view Diffusion Maps (view 1),70,ari,0.5904174140673276
+Single-view Diffusion Maps (view 1),71,chs,5.378066606381054
+Single-view Diffusion Maps (view 1),71,ami,0.6847051904357753
+Single-view Diffusion Maps (view 1),71,ari,0.5142903625501526
+Single-view Diffusion Maps (view 1),72,chs,5.37784405188321
+Single-view Diffusion Maps (view 1),72,ami,0.7273345399959112
+Single-view Diffusion Maps (view 1),72,ari,0.6325668146066121
+Single-view Diffusion Maps (view 1),73,chs,5.449380849563258
+Single-view Diffusion Maps (view 1),73,ami,0.6732987625137927
+Single-view Diffusion Maps (view 1),73,ari,0.5149604107338505
+Single-view Diffusion Maps (view 1),74,chs,5.449708741353505
+Single-view Diffusion Maps (view 1),74,ami,0.7260565511458766
+Single-view Diffusion Maps (view 1),74,ari,0.6076728586545667
+Single-view Diffusion Maps (view 1),75,chs,5.449888456124187
+Single-view Diffusion Maps (view 1),75,ami,0.6733044200965838
+Single-view Diffusion Maps (view 1),75,ari,0.5156321912853523
+Single-view Diffusion Maps (view 1),76,chs,5.449888456124187
+Single-view Diffusion Maps (view 1),76,ami,0.6733044200965839
+Single-view Diffusion Maps (view 1),76,ari,0.5156321912853523
+Single-view Diffusion Maps (view 1),77,chs,5.367420881498619
+Single-view Diffusion Maps (view 1),77,ami,0.6938249289868664
+Single-view Diffusion Maps (view 1),77,ari,0.564434410182371
+Single-view Diffusion Maps (view 1),78,chs,5.36346608971362
+Single-view Diffusion Maps (view 1),78,ami,0.6838662315127763
+Single-view Diffusion Maps (view 1),78,ari,0.5467678883121881
+Single-view Diffusion Maps (view 1),79,chs,5.449369977070195
+Single-view Diffusion Maps (view 1),79,ami,0.7252456285373465
+Single-view Diffusion Maps (view 1),79,ari,0.6066371701629585
+Single-view Diffusion Maps (view 1),80,chs,5.449841057381648
+Single-view Diffusion Maps (view 1),80,ami,0.6732269912251388
+Single-view Diffusion Maps (view 1),80,ari,0.5154413005376418
+Single-view Diffusion Maps (view 1),81,chs,5.449704135965617
+Single-view Diffusion Maps (view 1),81,ami,0.7259624616290264
+Single-view Diffusion Maps (view 1),81,ari,0.6068289141444497
+Single-view Diffusion Maps (view 1),82,chs,5.44987349093439
+Single-view Diffusion Maps (view 1),82,ami,0.7259577068219131
+Single-view Diffusion Maps (view 1),82,ari,0.6068087114731818
+Single-view Diffusion Maps (view 1),83,chs,5.363725482943976
+Single-view Diffusion Maps (view 1),83,ami,0.6947610920785631
+Single-view Diffusion Maps (view 1),83,ari,0.5593947423439231
+Single-view Diffusion Maps (view 1),84,chs,5.416680036922578
+Single-view Diffusion Maps (view 1),84,ami,0.7178654056242582
+Single-view Diffusion Maps (view 1),84,ari,0.5902703632808614
+Single-view Diffusion Maps (view 1),85,chs,5.449365893585407
+Single-view Diffusion Maps (view 1),85,ami,0.7254414260719647
+Single-view Diffusion Maps (view 1),85,ari,0.606686743111628
+Single-view Diffusion Maps (view 1),86,chs,5.2471595937419995
+Single-view Diffusion Maps (view 1),86,ami,0.6803275723303902
+Single-view Diffusion Maps (view 1),86,ari,0.5496112509030904
+Single-view Diffusion Maps (view 1),87,chs,5.449888456124187
+Single-view Diffusion Maps (view 1),87,ami,0.6733044200965838
+Single-view Diffusion Maps (view 1),87,ari,0.5156321912853523
+Single-view Diffusion Maps (view 1),88,chs,5.2474511186873665
+Single-view Diffusion Maps (view 1),88,ami,0.7342101241829806
+Single-view Diffusion Maps (view 1),88,ari,0.6443060815648394
+Single-view Diffusion Maps (view 1),89,chs,5.4499029081739945
+Single-view Diffusion Maps (view 1),89,ami,0.7255997865025551
+Single-view Diffusion Maps (view 1),89,ari,0.6072048552404027
+Single-view Diffusion Maps (view 1),90,chs,5.36276728535094
+Single-view Diffusion Maps (view 1),90,ami,0.6939850188122131
+Single-view Diffusion Maps (view 1),90,ari,0.5584385770738423
+Single-view Diffusion Maps (view 1),91,chs,5.41376305711984
+Single-view Diffusion Maps (view 1),91,ami,0.6894344322394698
+Single-view Diffusion Maps (view 1),91,ari,0.539128249012236
+Single-view Diffusion Maps (view 1),92,chs,5.377349458491629
+Single-view Diffusion Maps (view 1),92,ami,0.7274254058680758
+Single-view Diffusion Maps (view 1),92,ari,0.6320723506621226
+Single-view Diffusion Maps (view 1),93,chs,5.449888456124187
+Single-view Diffusion Maps (view 1),93,ami,0.6733044200965838
+Single-view Diffusion Maps (view 1),93,ari,0.5156321912853523
+Single-view Diffusion Maps (view 1),94,chs,5.382374516078569
+Single-view Diffusion Maps (view 1),94,ami,0.6971537046394647
+Single-view Diffusion Maps (view 1),94,ari,0.5742077942846285
+Single-view Diffusion Maps (view 1),95,chs,5.375954045869211
+Single-view Diffusion Maps (view 1),95,ami,0.7275370992302874
+Single-view Diffusion Maps (view 1),95,ari,0.6322928677857096
+Single-view Diffusion Maps (view 1),96,chs,5.449380849563258
+Single-view Diffusion Maps (view 1),96,ami,0.673298762513793
+Single-view Diffusion Maps (view 1),96,ari,0.5149604107338505
+Single-view Diffusion Maps (view 1),97,chs,5.375995416357146
+Single-view Diffusion Maps (view 1),97,ami,0.7270449681072391
+Single-view Diffusion Maps (view 1),97,ari,0.6320488669564088
+Single-view Diffusion Maps (view 1),98,chs,5.449043645794192
+Single-view Diffusion Maps (view 1),98,ami,0.7253273634241675
+Single-view Diffusion Maps (view 1),98,ari,0.6067513521754245
+Single-view Diffusion Maps (view 1),99,chs,5.348365073244765
+Single-view Diffusion Maps (view 1),99,ami,0.7039959384251288
+Single-view Diffusion Maps (view 1),99,ari,0.558974247430703
+Single-view Diffusion Maps (view 2),0,chs,4.394545280945193
+Single-view Diffusion Maps (view 2),0,ami,0.3791202832773448
+Single-view Diffusion Maps (view 2),0,ari,0.2771412404554953
+Single-view Diffusion Maps (view 2),1,chs,4.485770455052775
+Single-view Diffusion Maps (view 2),1,ami,0.3819961544036625
+Single-view Diffusion Maps (view 2),1,ari,0.2747701260084903
+Single-view Diffusion Maps (view 2),2,chs,4.446466816125964
+Single-view Diffusion Maps (view 2),2,ami,0.4043881901894423
+Single-view Diffusion Maps (view 2),2,ari,0.3211730831217027
+Single-view Diffusion Maps (view 2),3,chs,4.4489481834159506
+Single-view Diffusion Maps (view 2),3,ami,0.40518080850182303
+Single-view Diffusion Maps (view 2),3,ari,0.3218144791063913
+Single-view Diffusion Maps (view 2),4,chs,4.36421497249372
+Single-view Diffusion Maps (view 2),4,ami,0.37833603948171324
+Single-view Diffusion Maps (view 2),4,ari,0.28134702337634176
+Single-view Diffusion Maps (view 2),5,chs,4.48323735882509
+Single-view Diffusion Maps (view 2),5,ami,0.38121912167837174
+Single-view Diffusion Maps (view 2),5,ari,0.2738269253902219
+Single-view Diffusion Maps (view 2),6,chs,4.340171234733922
+Single-view Diffusion Maps (view 2),6,ami,0.3905278478522451
+Single-view Diffusion Maps (view 2),6,ari,0.27329327691030814
+Single-view Diffusion Maps (view 2),7,chs,4.485770455052775
+Single-view Diffusion Maps (view 2),7,ami,0.3819961544036626
+Single-view Diffusion Maps (view 2),7,ari,0.2747701260084903
+Single-view Diffusion Maps (view 2),8,chs,4.45062764334914
+Single-view Diffusion Maps (view 2),8,ami,0.40493197588586183
+Single-view Diffusion Maps (view 2),8,ari,0.32147922755221425
+Single-view Diffusion Maps (view 2),9,chs,4.474181687482593
+Single-view Diffusion Maps (view 2),9,ami,0.40200605973399284
+Single-view Diffusion Maps (view 2),9,ari,0.30412578241584975
+Single-view Diffusion Maps (view 2),10,chs,4.446466816125965
+Single-view Diffusion Maps (view 2),10,ami,0.4043881901894423
+Single-view Diffusion Maps (view 2),10,ari,0.3211730831217027
+Single-view Diffusion Maps (view 2),11,chs,4.469939393887469
+Single-view Diffusion Maps (view 2),11,ami,0.40023827008134555
+Single-view Diffusion Maps (view 2),11,ari,0.30356124037420634
+Single-view Diffusion Maps (view 2),12,chs,4.485273980059688
+Single-view Diffusion Maps (view 2),12,ami,0.3814916412634619
+Single-view Diffusion Maps (view 2),12,ari,0.27401113075922967
+Single-view Diffusion Maps (view 2),13,chs,4.448943843934339
+Single-view Diffusion Maps (view 2),13,ami,0.40491349052757675
+Single-view Diffusion Maps (view 2),13,ari,0.32150809033449373
+Single-view Diffusion Maps (view 2),14,chs,4.485770455052774
+Single-view Diffusion Maps (view 2),14,ami,0.3819961544036625
+Single-view Diffusion Maps (view 2),14,ari,0.2747701260084903
+Single-view Diffusion Maps (view 2),15,chs,4.408178560837372
+Single-view Diffusion Maps (view 2),15,ami,0.37981085767530276
+Single-view Diffusion Maps (view 2),15,ari,0.26973567189827696
+Single-view Diffusion Maps (view 2),16,chs,4.471147792409458
+Single-view Diffusion Maps (view 2),16,ami,0.4015571253849308
+Single-view Diffusion Maps (view 2),16,ari,0.30375784471020256
+Single-view Diffusion Maps (view 2),17,chs,4.446466816125964
+Single-view Diffusion Maps (view 2),17,ami,0.4043881901894422
+Single-view Diffusion Maps (view 2),17,ari,0.3211730831217027
+Single-view Diffusion Maps (view 2),18,chs,4.405702712540086
+Single-view Diffusion Maps (view 2),18,ami,0.3789372193664904
+Single-view Diffusion Maps (view 2),18,ari,0.2694768231809178
+Single-view Diffusion Maps (view 2),19,chs,4.446466816125965
+Single-view Diffusion Maps (view 2),19,ami,0.4043881901894423
+Single-view Diffusion Maps (view 2),19,ari,0.3211730831217027
+Single-view Diffusion Maps (view 2),20,chs,4.482575322203208
+Single-view Diffusion Maps (view 2),20,ami,0.3807593185441097
+Single-view Diffusion Maps (view 2),20,ari,0.27269726409122674
+Single-view Diffusion Maps (view 2),21,chs,4.4860621315295175
+Single-view Diffusion Maps (view 2),21,ami,0.3812031507216498
+Single-view Diffusion Maps (view 2),21,ari,0.2737705641121314
+Single-view Diffusion Maps (view 2),22,chs,4.4692237341980166
+Single-view Diffusion Maps (view 2),22,ami,0.4010264575923313
+Single-view Diffusion Maps (view 2),22,ari,0.30366586945006224
+Single-view Diffusion Maps (view 2),23,chs,4.4692237341980166
+Single-view Diffusion Maps (view 2),23,ami,0.4010264575923313
+Single-view Diffusion Maps (view 2),23,ari,0.30366586945006224
+Single-view Diffusion Maps (view 2),24,chs,4.448892426450794
+Single-view Diffusion Maps (view 2),24,ami,0.4051468951209089
+Single-view Diffusion Maps (view 2),24,ari,0.3217834980473213
+Single-view Diffusion Maps (view 2),25,chs,4.4494109167675475
+Single-view Diffusion Maps (view 2),25,ami,0.3822821766589119
+Single-view Diffusion Maps (view 2),25,ari,0.27874636173020145
+Single-view Diffusion Maps (view 2),26,chs,4.450627643349139
+Single-view Diffusion Maps (view 2),26,ami,0.40493197588586194
+Single-view Diffusion Maps (view 2),26,ari,0.32147922755221425
+Single-view Diffusion Maps (view 2),27,chs,4.446466816125964
+Single-view Diffusion Maps (view 2),27,ami,0.4043881901894422
+Single-view Diffusion Maps (view 2),27,ari,0.3211730831217027
+Single-view Diffusion Maps (view 2),28,chs,4.485770455052775
+Single-view Diffusion Maps (view 2),28,ami,0.3819961544036626
+Single-view Diffusion Maps (view 2),28,ari,0.2747701260084903
+Single-view Diffusion Maps (view 2),29,chs,4.4489053177354645
+Single-view Diffusion Maps (view 2),29,ami,0.4049589097589528
+Single-view Diffusion Maps (view 2),29,ari,0.32162599452099006
+Single-view Diffusion Maps (view 2),30,chs,4.484816619541812
+Single-view Diffusion Maps (view 2),30,ami,0.3814284909187832
+Single-view Diffusion Maps (view 2),30,ari,0.27405232392121287
+Single-view Diffusion Maps (view 2),31,chs,4.364214972493721
+Single-view Diffusion Maps (view 2),31,ami,0.37833603948171324
+Single-view Diffusion Maps (view 2),31,ari,0.28134702337634176
+Single-view Diffusion Maps (view 2),32,chs,4.447229167606933
+Single-view Diffusion Maps (view 2),32,ami,0.40422722371441727
+Single-view Diffusion Maps (view 2),32,ari,0.32154310294496585
+Single-view Diffusion Maps (view 2),33,chs,4.485770455052774
+Single-view Diffusion Maps (view 2),33,ami,0.3819961544036625
+Single-view Diffusion Maps (view 2),33,ari,0.2747701260084903
+Single-view Diffusion Maps (view 2),34,chs,4.450431193136689
+Single-view Diffusion Maps (view 2),34,ami,0.3822529838973861
+Single-view Diffusion Maps (view 2),34,ari,0.2787121563271931
+Single-view Diffusion Maps (view 2),35,chs,4.44944593184717
+Single-view Diffusion Maps (view 2),35,ami,0.4045815010021134
+Single-view Diffusion Maps (view 2),35,ari,0.3217088171985478
+Single-view Diffusion Maps (view 2),36,chs,4.449336768794261
+Single-view Diffusion Maps (view 2),36,ami,0.40480719258552733
+Single-view Diffusion Maps (view 2),36,ari,0.3216222254940331
+Single-view Diffusion Maps (view 2),37,chs,4.446466816125965
+Single-view Diffusion Maps (view 2),37,ami,0.40438819018944233
+Single-view Diffusion Maps (view 2),37,ari,0.3211730831217027
+Single-view Diffusion Maps (view 2),38,chs,4.44774549761339
+Single-view Diffusion Maps (view 2),38,ami,0.40423703266270716
+Single-view Diffusion Maps (view 2),38,ari,0.3211991468418053
+Single-view Diffusion Maps (view 2),39,chs,4.446466816125965
+Single-view Diffusion Maps (view 2),39,ami,0.40438819018944233
+Single-view Diffusion Maps (view 2),39,ari,0.3211730831217027
+Single-view Diffusion Maps (view 2),40,chs,4.451054247791627
+Single-view Diffusion Maps (view 2),40,ami,0.38234938288257114
+Single-view Diffusion Maps (view 2),40,ari,0.2789110663926684
+Single-view Diffusion Maps (view 2),41,chs,4.446466816125966
+Single-view Diffusion Maps (view 2),41,ami,0.40438819018944233
+Single-view Diffusion Maps (view 2),41,ari,0.3211730831217027
+Single-view Diffusion Maps (view 2),42,chs,4.446466816125965
+Single-view Diffusion Maps (view 2),42,ami,0.4043881901894423
+Single-view Diffusion Maps (view 2),42,ari,0.3211730831217027
+Single-view Diffusion Maps (view 2),43,chs,4.488575851569561
+Single-view Diffusion Maps (view 2),43,ami,0.3812249040022852
+Single-view Diffusion Maps (view 2),43,ari,0.2723626131823487
+Single-view Diffusion Maps (view 2),44,chs,4.4857704550527755
+Single-view Diffusion Maps (view 2),44,ami,0.3819961544036626
+Single-view Diffusion Maps (view 2),44,ari,0.2747701260084903
+Single-view Diffusion Maps (view 2),45,chs,4.450627643349138
+Single-view Diffusion Maps (view 2),45,ami,0.40493197588586183
+Single-view Diffusion Maps (view 2),45,ari,0.32147922755221425
+Single-view Diffusion Maps (view 2),46,chs,4.485658521312174
+Single-view Diffusion Maps (view 2),46,ami,0.3821158972606259
+Single-view Diffusion Maps (view 2),46,ari,0.2744149356756277
+Single-view Diffusion Maps (view 2),47,chs,4.449903408146458
+Single-view Diffusion Maps (view 2),47,ami,0.3821182933046368
+Single-view Diffusion Maps (view 2),47,ari,0.2785075396633489
+Single-view Diffusion Maps (view 2),48,chs,4.42563695902747
+Single-view Diffusion Maps (view 2),48,ami,0.3834092485623396
+Single-view Diffusion Maps (view 2),48,ari,0.28019927630756786
+Single-view Diffusion Maps (view 2),49,chs,4.391777802308209
+Single-view Diffusion Maps (view 2),49,ami,0.379500610957189
+Single-view Diffusion Maps (view 2),49,ari,0.2775410026566283
+Single-view Diffusion Maps (view 2),50,chs,4.483345274759118
+Single-view Diffusion Maps (view 2),50,ami,0.38124419698572537
+Single-view Diffusion Maps (view 2),50,ari,0.27301766950819584
+Single-view Diffusion Maps (view 2),51,chs,4.473455314014375
+Single-view Diffusion Maps (view 2),51,ami,0.4011578708769439
+Single-view Diffusion Maps (view 2),51,ari,0.30324095641349846
+Single-view Diffusion Maps (view 2),52,chs,4.485770455052775
+Single-view Diffusion Maps (view 2),52,ami,0.3819961544036626
+Single-view Diffusion Maps (view 2),52,ari,0.2747701260084903
+Single-view Diffusion Maps (view 2),53,chs,4.481221922289812
+Single-view Diffusion Maps (view 2),53,ami,0.3805556880082112
+Single-view Diffusion Maps (view 2),53,ari,0.27197482220674307
+Single-view Diffusion Maps (view 2),54,chs,4.45062764334914
+Single-view Diffusion Maps (view 2),54,ami,0.40493197588586194
+Single-view Diffusion Maps (view 2),54,ari,0.32147922755221425
+Single-view Diffusion Maps (view 2),55,chs,4.486337376493918
+Single-view Diffusion Maps (view 2),55,ami,0.3809756925585166
+Single-view Diffusion Maps (view 2),55,ari,0.2727191933118631
+Single-view Diffusion Maps (view 2),56,chs,4.4454506551209185
+Single-view Diffusion Maps (view 2),56,ami,0.40376746036025246
+Single-view Diffusion Maps (view 2),56,ari,0.3205787199044516
+Single-view Diffusion Maps (view 2),57,chs,4.469223734198017
+Single-view Diffusion Maps (view 2),57,ami,0.4010264575923313
+Single-view Diffusion Maps (view 2),57,ari,0.30366586945006224
+Single-view Diffusion Maps (view 2),58,chs,4.446466816125966
+Single-view Diffusion Maps (view 2),58,ami,0.40438819018944233
+Single-view Diffusion Maps (view 2),58,ari,0.3211730831217027
+Single-view Diffusion Maps (view 2),59,chs,4.484904840928728
+Single-view Diffusion Maps (view 2),59,ami,0.38076750763261563
+Single-view Diffusion Maps (view 2),59,ari,0.2721361384530732
+Single-view Diffusion Maps (view 2),60,chs,4.451197419239356
+Single-view Diffusion Maps (view 2),60,ami,0.3823814746843716
+Single-view Diffusion Maps (view 2),60,ari,0.2789218035755732
+Single-view Diffusion Maps (view 2),61,chs,4.451197419239355
+Single-view Diffusion Maps (view 2),61,ami,0.38238147468437156
+Single-view Diffusion Maps (view 2),61,ari,0.2789218035755732
+Single-view Diffusion Maps (view 2),62,chs,4.446466816125965
+Single-view Diffusion Maps (view 2),62,ami,0.40438819018944233
+Single-view Diffusion Maps (view 2),62,ari,0.3211730831217027
+Single-view Diffusion Maps (view 2),63,chs,4.448639430030271
+Single-view Diffusion Maps (view 2),63,ami,0.4041511822839383
+Single-view Diffusion Maps (view 2),63,ari,0.3214664980897601
+Single-view Diffusion Maps (view 2),64,chs,4.448892426450793
+Single-view Diffusion Maps (view 2),64,ami,0.405146895120909
+Single-view Diffusion Maps (view 2),64,ari,0.3217834980473213
+Single-view Diffusion Maps (view 2),65,chs,4.44671831586176
+Single-view Diffusion Maps (view 2),65,ami,0.40456702078185064
+Single-view Diffusion Maps (view 2),65,ari,0.32130598616756945
+Single-view Diffusion Maps (view 2),66,chs,4.485793584510053
+Single-view Diffusion Maps (view 2),66,ami,0.38103005540022306
+Single-view Diffusion Maps (view 2),66,ari,0.2734137487661083
+Single-view Diffusion Maps (view 2),67,chs,4.469353962103172
+Single-view Diffusion Maps (view 2),67,ami,0.4005523451196181
+Single-view Diffusion Maps (view 2),67,ari,0.30295204896607414
+Single-view Diffusion Maps (view 2),68,chs,4.394164365469903
+Single-view Diffusion Maps (view 2),68,ami,0.37886653925080804
+Single-view Diffusion Maps (view 2),68,ari,0.27695730014268244
+Single-view Diffusion Maps (view 2),69,chs,4.4857353706218905
+Single-view Diffusion Maps (view 2),69,ami,0.38229755439664753
+Single-view Diffusion Maps (view 2),69,ari,0.2749625268963233
+Single-view Diffusion Maps (view 2),70,chs,4.483045354245996
+Single-view Diffusion Maps (view 2),70,ami,0.38060129093308476
+Single-view Diffusion Maps (view 2),70,ari,0.27229873036505947
+Single-view Diffusion Maps (view 2),71,chs,4.3609729175962295
+Single-view Diffusion Maps (view 2),71,ami,0.37872028162834837
+Single-view Diffusion Maps (view 2),71,ari,0.28237042233567866
+Single-view Diffusion Maps (view 2),72,chs,4.451054247791626
+Single-view Diffusion Maps (view 2),72,ami,0.38234938288257114
+Single-view Diffusion Maps (view 2),72,ari,0.2789110663926684
+Single-view Diffusion Maps (view 2),73,chs,4.2658807567005965
+Single-view Diffusion Maps (view 2),73,ami,0.37791090308269926
+Single-view Diffusion Maps (view 2),73,ari,0.2844261947699091
+Single-view Diffusion Maps (view 2),74,chs,4.448526165200062
+Single-view Diffusion Maps (view 2),74,ami,0.4050140950947063
+Single-view Diffusion Maps (view 2),74,ari,0.32157286498202237
+Single-view Diffusion Maps (view 2),75,chs,4.425187015024624
+Single-view Diffusion Maps (view 2),75,ami,0.3824628955672402
+Single-view Diffusion Maps (view 2),75,ari,0.2790789275370754
+Single-view Diffusion Maps (view 2),76,chs,4.392774101135439
+Single-view Diffusion Maps (view 2),76,ami,0.3795317085866381
+Single-view Diffusion Maps (view 2),76,ari,0.2775914778640379
+Single-view Diffusion Maps (view 2),77,chs,4.303410466472978
+Single-view Diffusion Maps (view 2),77,ami,0.3868502300605115
+Single-view Diffusion Maps (view 2),77,ari,0.2906640065995111
+Single-view Diffusion Maps (view 2),78,chs,4.4852457067440055
+Single-view Diffusion Maps (view 2),78,ami,0.38080077297734977
+Single-view Diffusion Maps (view 2),78,ari,0.2733266806454662
+Single-view Diffusion Maps (view 2),79,chs,4.408333215835851
+Single-view Diffusion Maps (view 2),79,ami,0.4061523716002488
+Single-view Diffusion Maps (view 2),79,ari,0.3166071301663889
+Single-view Diffusion Maps (view 2),80,chs,4.448905317735464
+Single-view Diffusion Maps (view 2),80,ami,0.4049589097589528
+Single-view Diffusion Maps (view 2),80,ari,0.32162599452099006
+Single-view Diffusion Maps (view 2),81,chs,4.351676949145659
+Single-view Diffusion Maps (view 2),81,ami,0.3794716399533453
+Single-view Diffusion Maps (view 2),81,ari,0.2715137091295823
+Single-view Diffusion Maps (view 2),82,chs,4.486073061771039
+Single-view Diffusion Maps (view 2),82,ami,0.3808320184940162
+Single-view Diffusion Maps (view 2),82,ari,0.2721045414818996
+Single-view Diffusion Maps (view 2),83,chs,4.448892426450793
+Single-view Diffusion Maps (view 2),83,ami,0.405146895120909
+Single-view Diffusion Maps (view 2),83,ari,0.3217834980473213
+Single-view Diffusion Maps (view 2),84,chs,4.490189619709838
+Single-view Diffusion Maps (view 2),84,ami,0.3821647151699826
+Single-view Diffusion Maps (view 2),84,ari,0.2748575027270448
+Single-view Diffusion Maps (view 2),85,chs,4.488142092722114
+Single-view Diffusion Maps (view 2),85,ami,0.3811034894539951
+Single-view Diffusion Maps (view 2),85,ari,0.2722863204730404
+Single-view Diffusion Maps (view 2),86,chs,4.449062678774477
+Single-view Diffusion Maps (view 2),86,ami,0.40463436414202936
+Single-view Diffusion Maps (view 2),86,ari,0.32165681846747496
+Single-view Diffusion Maps (view 2),87,chs,4.320257074300784
+Single-view Diffusion Maps (view 2),87,ami,0.38985805525927913
+Single-view Diffusion Maps (view 2),87,ari,0.3008972683169032
+Single-view Diffusion Maps (view 2),88,chs,4.396066889416859
+Single-view Diffusion Maps (view 2),88,ami,0.4025977876867273
+Single-view Diffusion Maps (view 2),88,ari,0.3097465691977442
+Single-view Diffusion Maps (view 2),89,chs,4.48323735882509
+Single-view Diffusion Maps (view 2),89,ami,0.38121912167837185
+Single-view Diffusion Maps (view 2),89,ari,0.2738269253902219
+Single-view Diffusion Maps (view 2),90,chs,4.469223734198016
+Single-view Diffusion Maps (view 2),90,ami,0.4010264575923313
+Single-view Diffusion Maps (view 2),90,ari,0.30366586945006224
+Single-view Diffusion Maps (view 2),91,chs,4.48323735882509
+Single-view Diffusion Maps (view 2),91,ami,0.3812191216783718
+Single-view Diffusion Maps (view 2),91,ari,0.2738269253902219
+Single-view Diffusion Maps (view 2),92,chs,4.448570693936208
+Single-view Diffusion Maps (view 2),92,ami,0.4043670902527732
+Single-view Diffusion Maps (view 2),92,ari,0.3216326329105435
+Single-view Diffusion Maps (view 2),93,chs,4.446466816125965
+Single-view Diffusion Maps (view 2),93,ami,0.40438819018944233
+Single-view Diffusion Maps (view 2),93,ari,0.3211730831217027
+Single-view Diffusion Maps (view 2),94,chs,4.469223734198016
+Single-view Diffusion Maps (view 2),94,ami,0.40102645759233124
+Single-view Diffusion Maps (view 2),94,ari,0.30366586945006224
+Single-view Diffusion Maps (view 2),95,chs,4.486506817222102
+Single-view Diffusion Maps (view 2),95,ami,0.3809534278841131
+Single-view Diffusion Maps (view 2),95,ari,0.27218085012484916
+Single-view Diffusion Maps (view 2),96,chs,4.360102306803055
+Single-view Diffusion Maps (view 2),96,ami,0.3756784369298023
+Single-view Diffusion Maps (view 2),96,ari,0.2768252972051048
+Single-view Diffusion Maps (view 2),97,chs,4.485770455052775
+Single-view Diffusion Maps (view 2),97,ami,0.3819961544036625
+Single-view Diffusion Maps (view 2),97,ari,0.2747701260084903
+Single-view Diffusion Maps (view 2),98,chs,4.449647972781658
+Single-view Diffusion Maps (view 2),98,ami,0.4046159658060768
+Single-view Diffusion Maps (view 2),98,ari,0.32160732990281277
+Single-view Diffusion Maps (view 2),99,chs,4.469787598374698
+Single-view Diffusion Maps (view 2),99,ami,0.4007180851063283
+Single-view Diffusion Maps (view 2),99,ari,0.303506675991548
+Integrated Diffusion Maps,0,chs,5.282269236577022
+Integrated Diffusion Maps,0,ami,0.6183499822701731
+Integrated Diffusion Maps,0,ari,0.4905856106889621
+Integrated Diffusion Maps,1,chs,5.328919512787517
+Integrated Diffusion Maps,1,ami,0.6264740476560035
+Integrated Diffusion Maps,1,ari,0.48432414787873007
+Integrated Diffusion Maps,2,chs,5.367565599929999
+Integrated Diffusion Maps,2,ami,0.6157033617924901
+Integrated Diffusion Maps,2,ari,0.4461087526811558
+Integrated Diffusion Maps,3,chs,5.369141940601677
+Integrated Diffusion Maps,3,ami,0.6167276240627589
+Integrated Diffusion Maps,3,ari,0.44831358324078985
+Integrated Diffusion Maps,4,chs,5.367772544423714
+Integrated Diffusion Maps,4,ami,0.6163478931572578
+Integrated Diffusion Maps,4,ari,0.4475786556802698
+Integrated Diffusion Maps,5,chs,5.325272279229645
+Integrated Diffusion Maps,5,ami,0.6254767768698296
+Integrated Diffusion Maps,5,ari,0.484384170940526
+Integrated Diffusion Maps,6,chs,5.3266929047064195
+Integrated Diffusion Maps,6,ami,0.6265195962562361
+Integrated Diffusion Maps,6,ari,0.4847642208394068
+Integrated Diffusion Maps,7,chs,5.328115650119863
+Integrated Diffusion Maps,7,ami,0.6261852741012344
+Integrated Diffusion Maps,7,ari,0.48471552522884725
+Integrated Diffusion Maps,8,chs,5.338239729636355
+Integrated Diffusion Maps,8,ami,0.6175396024935345
+Integrated Diffusion Maps,8,ari,0.4759190273657124
+Integrated Diffusion Maps,9,chs,5.366223941708312
+Integrated Diffusion Maps,9,ami,0.6152447633433807
+Integrated Diffusion Maps,9,ari,0.44559445431102784
+Integrated Diffusion Maps,10,chs,5.278910485439187
+Integrated Diffusion Maps,10,ami,0.6232316291328183
+Integrated Diffusion Maps,10,ari,0.48649980881203864
+Integrated Diffusion Maps,11,chs,5.3691419406016765
+Integrated Diffusion Maps,11,ami,0.6167276240627588
+Integrated Diffusion Maps,11,ari,0.44831358324078985
+Integrated Diffusion Maps,12,chs,5.338771013934064
+Integrated Diffusion Maps,12,ami,0.6281773710151779
+Integrated Diffusion Maps,12,ari,0.4834396556277656
+Integrated Diffusion Maps,13,chs,5.339960949188647
+Integrated Diffusion Maps,13,ami,0.6165537475167824
+Integrated Diffusion Maps,13,ari,0.47522987644834525
+Integrated Diffusion Maps,14,chs,5.338658744209534
+Integrated Diffusion Maps,14,ami,0.6176917376329215
+Integrated Diffusion Maps,14,ari,0.47623298862119784
+Integrated Diffusion Maps,15,chs,5.369778612687093
+Integrated Diffusion Maps,15,ami,0.6169402355587974
+Integrated Diffusion Maps,15,ari,0.4484598106344648
+Integrated Diffusion Maps,16,chs,5.367772544423714
+Integrated Diffusion Maps,16,ami,0.6163478931572579
+Integrated Diffusion Maps,16,ari,0.4475786556802698
+Integrated Diffusion Maps,17,chs,5.368740402827406
+Integrated Diffusion Maps,17,ami,0.6163572625153116
+Integrated Diffusion Maps,17,ari,0.44762165710939056
+Integrated Diffusion Maps,18,chs,5.2310564090560625
+Integrated Diffusion Maps,18,ami,0.640381248015025
+Integrated Diffusion Maps,18,ari,0.5314627276281904
+Integrated Diffusion Maps,19,chs,5.366984921895361
+Integrated Diffusion Maps,19,ami,0.6164559438106731
+Integrated Diffusion Maps,19,ari,0.44782217802491386
+Integrated Diffusion Maps,20,chs,5.369409014276969
+Integrated Diffusion Maps,20,ami,0.6161923938926905
+Integrated Diffusion Maps,20,ari,0.4473694452565252
+Integrated Diffusion Maps,21,chs,5.325066998556781
+Integrated Diffusion Maps,21,ami,0.625216814315585
+Integrated Diffusion Maps,21,ari,0.4837883719675209
+Integrated Diffusion Maps,22,chs,5.255160093875342
+Integrated Diffusion Maps,22,ami,0.6287707299200338
+Integrated Diffusion Maps,22,ari,0.49351622919001903
+Integrated Diffusion Maps,23,chs,5.33931022308917
+Integrated Diffusion Maps,23,ami,0.6161598084654327
+Integrated Diffusion Maps,23,ari,0.4746240568138486
+Integrated Diffusion Maps,24,chs,5.255516481307036
+Integrated Diffusion Maps,24,ami,0.6290278930919463
+Integrated Diffusion Maps,24,ari,0.4937822900471
+Integrated Diffusion Maps,25,chs,5.255516481307035
+Integrated Diffusion Maps,25,ami,0.6290278930919463
+Integrated Diffusion Maps,25,ari,0.4937822900471
+Integrated Diffusion Maps,26,chs,5.30976499883498
+Integrated Diffusion Maps,26,ami,0.5899404975270172
+Integrated Diffusion Maps,26,ari,0.40904110884958733
+Integrated Diffusion Maps,27,chs,5.256166177344954
+Integrated Diffusion Maps,27,ami,0.6290355186713232
+Integrated Diffusion Maps,27,ari,0.4933904693163648
+Integrated Diffusion Maps,28,chs,5.368462873694304
+Integrated Diffusion Maps,28,ami,0.6159907588187418
+Integrated Diffusion Maps,28,ari,0.44689848287052164
+Integrated Diffusion Maps,29,chs,5.369141940601677
+Integrated Diffusion Maps,29,ami,0.6167276240627589
+Integrated Diffusion Maps,29,ari,0.44831358324078985
+Integrated Diffusion Maps,30,chs,5.338239729636355
+Integrated Diffusion Maps,30,ami,0.6175396024935346
+Integrated Diffusion Maps,30,ari,0.4759190273657124
+Integrated Diffusion Maps,31,chs,5.2256626301667595
+Integrated Diffusion Maps,31,ami,0.6291763064391118
+Integrated Diffusion Maps,31,ari,0.5228645849705136
+Integrated Diffusion Maps,32,chs,5.370016234579884
+Integrated Diffusion Maps,32,ami,0.6166713808609614
+Integrated Diffusion Maps,32,ari,0.44802668141279
+Integrated Diffusion Maps,33,chs,5.369165706286695
+Integrated Diffusion Maps,33,ami,0.6170334615749129
+Integrated Diffusion Maps,33,ari,0.4486651049566122
+Integrated Diffusion Maps,34,chs,5.255117127725297
+Integrated Diffusion Maps,34,ami,0.6288318203291435
+Integrated Diffusion Maps,34,ari,0.49333758761071134
+Integrated Diffusion Maps,35,chs,5.278197247620781
+Integrated Diffusion Maps,35,ami,0.6344832361464162
+Integrated Diffusion Maps,35,ari,0.4940139233056079
+Integrated Diffusion Maps,36,chs,5.3384156007921915
+Integrated Diffusion Maps,36,ami,0.6282099841950239
+Integrated Diffusion Maps,36,ari,0.48376001717678474
+Integrated Diffusion Maps,37,chs,5.327436581966037
+Integrated Diffusion Maps,37,ami,0.6254762250731026
+Integrated Diffusion Maps,37,ari,0.4839854749973316
+Integrated Diffusion Maps,38,chs,5.189652190726864
+Integrated Diffusion Maps,38,ami,0.6261287152590111
+Integrated Diffusion Maps,38,ari,0.4339473669918879
+Integrated Diffusion Maps,39,chs,5.367760158940227
+Integrated Diffusion Maps,39,ami,0.6158655872337069
+Integrated Diffusion Maps,39,ari,0.4463729130322883
+Integrated Diffusion Maps,40,chs,5.325272279229644
+Integrated Diffusion Maps,40,ami,0.6254767768698297
+Integrated Diffusion Maps,40,ari,0.484384170940526
+Integrated Diffusion Maps,41,chs,5.3395547661721
+Integrated Diffusion Maps,41,ami,0.6165140072600097
+Integrated Diffusion Maps,41,ari,0.47530652227008535
+Integrated Diffusion Maps,42,chs,5.314654835984313
+Integrated Diffusion Maps,42,ami,0.6112963706563634
+Integrated Diffusion Maps,42,ari,0.4420812521920978
+Integrated Diffusion Maps,43,chs,5.368125928913768
+Integrated Diffusion Maps,43,ami,0.616030348475459
+Integrated Diffusion Maps,43,ari,0.44707877031294696
+Integrated Diffusion Maps,44,chs,5.339706461048205
+Integrated Diffusion Maps,44,ami,0.6279017454583435
+Integrated Diffusion Maps,44,ari,0.4837181809205499
+Integrated Diffusion Maps,45,chs,5.338228534490974
+Integrated Diffusion Maps,45,ami,0.6276262633280997
+Integrated Diffusion Maps,45,ari,0.4827471670704921
+Integrated Diffusion Maps,46,chs,5.326667576221206
+Integrated Diffusion Maps,46,ami,0.6257562828274061
+Integrated Diffusion Maps,46,ari,0.4840265041101283
+Integrated Diffusion Maps,47,chs,5.27773290074435
+Integrated Diffusion Maps,47,ami,0.6238348771573052
+Integrated Diffusion Maps,47,ari,0.4867798836425391
+Integrated Diffusion Maps,48,chs,5.327695005199463
+Integrated Diffusion Maps,48,ami,0.626197766766647
+Integrated Diffusion Maps,48,ari,0.4843151856399825
+Integrated Diffusion Maps,49,chs,5.3691419406016765
+Integrated Diffusion Maps,49,ami,0.6167276240627589
+Integrated Diffusion Maps,49,ari,0.44831358324078985
+Integrated Diffusion Maps,50,chs,5.3690230826305445
+Integrated Diffusion Maps,50,ami,0.6163247165804981
+Integrated Diffusion Maps,50,ari,0.4474744107705764
+Integrated Diffusion Maps,51,chs,5.255516481307035
+Integrated Diffusion Maps,51,ami,0.6290278930919464
+Integrated Diffusion Maps,51,ari,0.4937822900471
+Integrated Diffusion Maps,52,chs,5.367859573842549
+Integrated Diffusion Maps,52,ami,0.6162593084853346
+Integrated Diffusion Maps,52,ari,0.447423025251844
+Integrated Diffusion Maps,53,chs,5.369409014276968
+Integrated Diffusion Maps,53,ami,0.6161923938926905
+Integrated Diffusion Maps,53,ari,0.4473694452565252
+Integrated Diffusion Maps,54,chs,5.270409436351413
+Integrated Diffusion Maps,54,ami,0.6241214818415064
+Integrated Diffusion Maps,54,ari,0.48694179034555746
+Integrated Diffusion Maps,55,chs,5.369163665802416
+Integrated Diffusion Maps,55,ami,0.6165353716033991
+Integrated Diffusion Maps,55,ari,0.44788547452165106
+Integrated Diffusion Maps,56,chs,5.2566353491309386
+Integrated Diffusion Maps,56,ami,0.6289529192565791
+Integrated Diffusion Maps,56,ari,0.4939373196487119
+Integrated Diffusion Maps,57,chs,5.33336448271291
+Integrated Diffusion Maps,57,ami,0.6197004960815977
+Integrated Diffusion Maps,57,ari,0.4569223595327285
+Integrated Diffusion Maps,58,chs,5.367859573842549
+Integrated Diffusion Maps,58,ami,0.6162593084853346
+Integrated Diffusion Maps,58,ari,0.447423025251844
+Integrated Diffusion Maps,59,chs,5.339960949188648
+Integrated Diffusion Maps,59,ami,0.6165537475167823
+Integrated Diffusion Maps,59,ari,0.47522987644834525
+Integrated Diffusion Maps,60,chs,5.32598990133111
+Integrated Diffusion Maps,60,ami,0.6260047750016776
+Integrated Diffusion Maps,60,ari,0.4844798263309472
+Integrated Diffusion Maps,61,chs,5.335220690238243
+Integrated Diffusion Maps,61,ami,0.6194152753716354
+Integrated Diffusion Maps,61,ari,0.45662143994301946
+Integrated Diffusion Maps,62,chs,5.163256168748398
+Integrated Diffusion Maps,62,ami,0.6217645545696542
+Integrated Diffusion Maps,62,ari,0.47470484959796727
+Integrated Diffusion Maps,63,chs,5.326667576221206
+Integrated Diffusion Maps,63,ami,0.625756282827406
+Integrated Diffusion Maps,63,ari,0.4840265041101283
+Integrated Diffusion Maps,64,chs,5.369572678683371
+Integrated Diffusion Maps,64,ami,0.616973088651452
+Integrated Diffusion Maps,64,ari,0.44854222098361723
+Integrated Diffusion Maps,65,chs,5.367781881006487
+Integrated Diffusion Maps,65,ami,0.6156732761944967
+Integrated Diffusion Maps,65,ari,0.4459453724518589
+Integrated Diffusion Maps,66,chs,5.368084345860763
+Integrated Diffusion Maps,66,ami,0.6160780637716543
+Integrated Diffusion Maps,66,ari,0.447155133821761
+Integrated Diffusion Maps,67,chs,5.344973101322288
+Integrated Diffusion Maps,67,ami,0.6298656821879567
+Integrated Diffusion Maps,67,ari,0.48325028313878887
+Integrated Diffusion Maps,68,chs,5.325272279229644
+Integrated Diffusion Maps,68,ami,0.6254767768698296
+Integrated Diffusion Maps,68,ari,0.484384170940526
+Integrated Diffusion Maps,69,chs,5.333688200568476
+Integrated Diffusion Maps,69,ami,0.6193134589377615
+Integrated Diffusion Maps,69,ari,0.4564022709709743
+Integrated Diffusion Maps,70,chs,5.163256168748399
+Integrated Diffusion Maps,70,ami,0.6217645545696543
+Integrated Diffusion Maps,70,ari,0.47470484959796727
+Integrated Diffusion Maps,71,chs,5.278521531380363
+Integrated Diffusion Maps,71,ami,0.6232735775462176
+Integrated Diffusion Maps,71,ari,0.4861811052005927
+Integrated Diffusion Maps,72,chs,5.3384251370538225
+Integrated Diffusion Maps,72,ami,0.6279417509637985
+Integrated Diffusion Maps,72,ari,0.48369686025170416
+Integrated Diffusion Maps,73,chs,5.3691419406016765
+Integrated Diffusion Maps,73,ami,0.6167276240627589
+Integrated Diffusion Maps,73,ari,0.44831358324078985
+Integrated Diffusion Maps,74,chs,5.231056409056063
+Integrated Diffusion Maps,74,ami,0.640381248015025
+Integrated Diffusion Maps,74,ari,0.5314627276281904
+Integrated Diffusion Maps,75,chs,5.369141940601677
+Integrated Diffusion Maps,75,ami,0.6167276240627589
+Integrated Diffusion Maps,75,ari,0.44831358324078985
+Integrated Diffusion Maps,76,chs,5.33764692848648
+Integrated Diffusion Maps,76,ami,0.6171747747235543
+Integrated Diffusion Maps,76,ari,0.47531652290034343
+Integrated Diffusion Maps,77,chs,5.33785825024251
+Integrated Diffusion Maps,77,ami,0.6177538670332976
+Integrated Diffusion Maps,77,ari,0.4762562230193339
+Integrated Diffusion Maps,78,chs,5.368174088409838
+Integrated Diffusion Maps,78,ami,0.6167182499845877
+Integrated Diffusion Maps,78,ari,0.44827059730282
+Integrated Diffusion Maps,79,chs,5.338297651567907
+Integrated Diffusion Maps,79,ami,0.6175686412243722
+Integrated Diffusion Maps,79,ari,0.4759226371390495
+Integrated Diffusion Maps,80,chs,5.245982492039034
+Integrated Diffusion Maps,80,ami,0.6372638878547283
+Integrated Diffusion Maps,80,ari,0.5001016796642948
+Integrated Diffusion Maps,81,chs,5.279677753316366
+Integrated Diffusion Maps,81,ami,0.6183676080546485
+Integrated Diffusion Maps,81,ari,0.48899065285585996
+Integrated Diffusion Maps,82,chs,5.289083681072855
+Integrated Diffusion Maps,82,ami,0.6226152806136083
+Integrated Diffusion Maps,82,ari,0.4588086666898282
+Integrated Diffusion Maps,83,chs,5.224002347221816
+Integrated Diffusion Maps,83,ami,0.6291497549456674
+Integrated Diffusion Maps,83,ari,0.5229072990547298
+Integrated Diffusion Maps,84,chs,5.3691419406016765
+Integrated Diffusion Maps,84,ami,0.6167276240627589
+Integrated Diffusion Maps,84,ari,0.44831358324078985
+Integrated Diffusion Maps,85,chs,5.369409014276971
+Integrated Diffusion Maps,85,ami,0.6161923938926908
+Integrated Diffusion Maps,85,ari,0.4473694452565252
+Integrated Diffusion Maps,86,chs,5.279004349570414
+Integrated Diffusion Maps,86,ami,0.6232115734857048
+Integrated Diffusion Maps,86,ari,0.4864562938481167
+Integrated Diffusion Maps,87,chs,5.369141940601676
+Integrated Diffusion Maps,87,ami,0.616727624062759
+Integrated Diffusion Maps,87,ari,0.44831358324078985
+Integrated Diffusion Maps,88,chs,5.254899173227298
+Integrated Diffusion Maps,88,ami,0.6290230489687797
+Integrated Diffusion Maps,88,ari,0.4937606429084131
+Integrated Diffusion Maps,89,chs,5.33400045519838
+Integrated Diffusion Maps,89,ami,0.6197554492409701
+Integrated Diffusion Maps,89,ari,0.45730583385389334
+Integrated Diffusion Maps,90,chs,5.338239729636355
+Integrated Diffusion Maps,90,ami,0.6175396024935346
+Integrated Diffusion Maps,90,ari,0.4759190273657124
+Integrated Diffusion Maps,91,chs,5.212356021880998
+Integrated Diffusion Maps,91,ami,0.6472068260735602
+Integrated Diffusion Maps,91,ari,0.5281553704657423
+Integrated Diffusion Maps,92,chs,5.339960949188647
+Integrated Diffusion Maps,92,ami,0.6165537475167823
+Integrated Diffusion Maps,92,ari,0.47522987644834525
+Integrated Diffusion Maps,93,chs,5.255117127725296
+Integrated Diffusion Maps,93,ami,0.6288318203291435
+Integrated Diffusion Maps,93,ari,0.49333758761071134
+Integrated Diffusion Maps,94,chs,5.32598990133111
+Integrated Diffusion Maps,94,ami,0.6260047750016776
+Integrated Diffusion Maps,94,ari,0.4844798263309472
+Integrated Diffusion Maps,95,chs,5.367760158940227
+Integrated Diffusion Maps,95,ami,0.615865587233707
+Integrated Diffusion Maps,95,ari,0.4463729130322883
+Integrated Diffusion Maps,96,chs,5.326837905250235
+Integrated Diffusion Maps,96,ami,0.6258862599818859
+Integrated Diffusion Maps,96,ari,0.4843243801135399
+Integrated Diffusion Maps,97,chs,5.369783250332442
+Integrated Diffusion Maps,97,ami,0.617038242890647
+Integrated Diffusion Maps,97,ari,0.44868700292123664
+Integrated Diffusion Maps,98,chs,5.278598699020421
+Integrated Diffusion Maps,98,ami,0.6226077657889091
+Integrated Diffusion Maps,98,ari,0.48545044533925735
+Integrated Diffusion Maps,99,chs,5.368653559877093
+Integrated Diffusion Maps,99,ami,0.6164603528536853
+Integrated Diffusion Maps,99,ari,0.44784244707187537
+Composite Diffusion Maps,0,chs,5.247911589677531
+Composite Diffusion Maps,0,ami,0.5578756026701206
+Composite Diffusion Maps,0,ari,0.39211243747572444
+Composite Diffusion Maps,1,chs,5.2590332748907045
+Composite Diffusion Maps,1,ami,0.5604194160054039
+Composite Diffusion Maps,1,ari,0.38631305603759625
+Composite Diffusion Maps,2,chs,5.259033274890705
+Composite Diffusion Maps,2,ami,0.5604194160054038
+Composite Diffusion Maps,2,ari,0.38631305603759625
+Composite Diffusion Maps,3,chs,5.289297943118193
+Composite Diffusion Maps,3,ami,0.5396360737721838
+Composite Diffusion Maps,3,ari,0.3612858149937753
+Composite Diffusion Maps,4,chs,5.282646229412217
+Composite Diffusion Maps,4,ami,0.588130704833264
+Composite Diffusion Maps,4,ari,0.39414200652034276
+Composite Diffusion Maps,5,chs,5.2187643636714895
+Composite Diffusion Maps,5,ami,0.5431555121450706
+Composite Diffusion Maps,5,ari,0.3718521273582127
+Composite Diffusion Maps,6,chs,5.288271488372441
+Composite Diffusion Maps,6,ami,0.5391676190633721
+Composite Diffusion Maps,6,ari,0.3605919285860668
+Composite Diffusion Maps,7,chs,5.288271488372441
+Composite Diffusion Maps,7,ami,0.5391676190633722
+Composite Diffusion Maps,7,ari,0.3605919285860668
+Composite Diffusion Maps,8,chs,5.268373150131912
+Composite Diffusion Maps,8,ami,0.5418625325504779
+Composite Diffusion Maps,8,ari,0.3498391922719088
+Composite Diffusion Maps,9,chs,5.289483625172426
+Composite Diffusion Maps,9,ami,0.5399629356800987
+Composite Diffusion Maps,9,ari,0.36167710984129275
+Composite Diffusion Maps,10,chs,5.2844209499801735
+Composite Diffusion Maps,10,ami,0.5887441598960536
+Composite Diffusion Maps,10,ari,0.3950070155456034
+Composite Diffusion Maps,11,chs,5.2590332748907045
+Composite Diffusion Maps,11,ami,0.5604194160054038
+Composite Diffusion Maps,11,ari,0.38631305603759625
+Composite Diffusion Maps,12,chs,5.249905785486691
+Composite Diffusion Maps,12,ami,0.5584908711781895
+Composite Diffusion Maps,12,ari,0.3921167302574079
+Composite Diffusion Maps,13,chs,5.246580383485059
+Composite Diffusion Maps,13,ami,0.5422432160285742
+Composite Diffusion Maps,13,ari,0.34332648258711457
+Composite Diffusion Maps,14,chs,5.188051573562425
+Composite Diffusion Maps,14,ami,0.535081987132134
+Composite Diffusion Maps,14,ari,0.3628993618104055
+Composite Diffusion Maps,15,chs,5.289475706665727
+Composite Diffusion Maps,15,ami,0.5399764219756797
+Composite Diffusion Maps,15,ari,0.361465452614381
+Composite Diffusion Maps,16,chs,5.2590332748907045
+Composite Diffusion Maps,16,ami,0.5604194160054038
+Composite Diffusion Maps,16,ari,0.38631305603759625
+Composite Diffusion Maps,17,chs,5.2594782579121055
+Composite Diffusion Maps,17,ami,0.5602916226493484
+Composite Diffusion Maps,17,ari,0.3860531809349151
+Composite Diffusion Maps,18,chs,5.178585967189651
+Composite Diffusion Maps,18,ami,0.5472308398505792
+Composite Diffusion Maps,18,ari,0.385656639647411
+Composite Diffusion Maps,19,chs,5.291015729473806
+Composite Diffusion Maps,19,ami,0.5389194952246873
+Composite Diffusion Maps,19,ari,0.35911967933459155
+Composite Diffusion Maps,20,chs,5.253914796456436
+Composite Diffusion Maps,20,ami,0.5582434634977006
+Composite Diffusion Maps,20,ari,0.36377030767558327
+Composite Diffusion Maps,21,chs,5.288271488372442
+Composite Diffusion Maps,21,ami,0.5391676190633722
+Composite Diffusion Maps,21,ari,0.3605919285860668
+Composite Diffusion Maps,22,chs,5.288443743830351
+Composite Diffusion Maps,22,ami,0.5393414027942492
+Composite Diffusion Maps,22,ari,0.3609479309482198
+Composite Diffusion Maps,23,chs,5.138546901340901
+Composite Diffusion Maps,23,ami,0.5650728836854202
+Composite Diffusion Maps,23,ari,0.3966066259142407
+Composite Diffusion Maps,24,chs,5.288443743830351
+Composite Diffusion Maps,24,ami,0.5393414027942492
+Composite Diffusion Maps,24,ari,0.3609479309482198
+Composite Diffusion Maps,25,chs,5.261807896048973
+Composite Diffusion Maps,25,ami,0.5578612598127138
+Composite Diffusion Maps,25,ari,0.3669635943940999
+Composite Diffusion Maps,26,chs,5.167645238596056
+Composite Diffusion Maps,26,ami,0.5185949213457813
+Composite Diffusion Maps,26,ari,0.31938895469412965
+Composite Diffusion Maps,27,chs,5.289483625172426
+Composite Diffusion Maps,27,ami,0.5399629356800988
+Composite Diffusion Maps,27,ari,0.36167710984129275
+Composite Diffusion Maps,28,chs,5.269169524189369
+Composite Diffusion Maps,28,ami,0.5411764753803618
+Composite Diffusion Maps,28,ari,0.34862449690689007
+Composite Diffusion Maps,29,chs,5.288639427131117
+Composite Diffusion Maps,29,ami,0.5395504872264586
+Composite Diffusion Maps,29,ari,0.3613850508922083
+Composite Diffusion Maps,30,chs,5.251838675956366
+Composite Diffusion Maps,30,ami,0.5576019193115125
+Composite Diffusion Maps,30,ari,0.3632607232287109
+Composite Diffusion Maps,31,chs,5.289895386795508
+Composite Diffusion Maps,31,ami,0.539308384764683
+Composite Diffusion Maps,31,ari,0.3608497969832894
+Composite Diffusion Maps,32,chs,5.165414060251381
+Composite Diffusion Maps,32,ami,0.5324498909461517
+Composite Diffusion Maps,32,ari,0.35346915954580677
+Composite Diffusion Maps,33,chs,5.288780143875132
+Composite Diffusion Maps,33,ami,0.5397985124837958
+Composite Diffusion Maps,33,ari,0.3615881022379164
+Composite Diffusion Maps,34,chs,5.281982874604058
+Composite Diffusion Maps,34,ami,0.5886773195936205
+Composite Diffusion Maps,34,ari,0.3953708963049926
+Composite Diffusion Maps,35,chs,5.166866906083962
+Composite Diffusion Maps,35,ami,0.5347906193585166
+Composite Diffusion Maps,35,ari,0.35587833855038803
+Composite Diffusion Maps,36,chs,5.247912607433097
+Composite Diffusion Maps,36,ami,0.5421347276664673
+Composite Diffusion Maps,36,ari,0.3422456669612577
+Composite Diffusion Maps,37,chs,5.180389009302257
+Composite Diffusion Maps,37,ami,0.5499081491954324
+Composite Diffusion Maps,37,ari,0.3881461920726694
+Composite Diffusion Maps,38,chs,5.268373150131912
+Composite Diffusion Maps,38,ami,0.5418625325504777
+Composite Diffusion Maps,38,ari,0.3498391922719088
+Composite Diffusion Maps,39,chs,5.291767290726767
+Composite Diffusion Maps,39,ami,0.5390238860741801
+Composite Diffusion Maps,39,ari,0.3589067409359869
+Composite Diffusion Maps,40,chs,5.249905785486689
+Composite Diffusion Maps,40,ami,0.5584908711781895
+Composite Diffusion Maps,40,ari,0.3921167302574079
+Composite Diffusion Maps,41,chs,5.192157583777892
+Composite Diffusion Maps,41,ami,0.5322370377027699
+Composite Diffusion Maps,41,ari,0.30914767968691154
+Composite Diffusion Maps,42,chs,5.284020178508432
+Composite Diffusion Maps,42,ami,0.5901930729149449
+Composite Diffusion Maps,42,ari,0.39861630884185095
+Composite Diffusion Maps,43,chs,5.249071695047044
+Composite Diffusion Maps,43,ami,0.5581996462775027
+Composite Diffusion Maps,43,ari,0.3921106901143671
+Composite Diffusion Maps,44,chs,5.232227582686891
+Composite Diffusion Maps,44,ami,0.5261492587125443
+Composite Diffusion Maps,44,ari,0.29315954767678104
+Composite Diffusion Maps,45,chs,5.284020178508432
+Composite Diffusion Maps,45,ami,0.5901930729149449
+Composite Diffusion Maps,45,ari,0.39861630884185095
+Composite Diffusion Maps,46,chs,5.251714390555184
+Composite Diffusion Maps,46,ami,0.5576494633328744
+Composite Diffusion Maps,46,ari,0.36335600544869023
+Composite Diffusion Maps,47,chs,5.210661396656432
+Composite Diffusion Maps,47,ami,0.5296902892316011
+Composite Diffusion Maps,47,ari,0.3353011079338462
+Composite Diffusion Maps,48,chs,5.288443743830351
+Composite Diffusion Maps,48,ami,0.5393414027942492
+Composite Diffusion Maps,48,ari,0.3609479309482198
+Composite Diffusion Maps,49,chs,5.289483625172427
+Composite Diffusion Maps,49,ami,0.5399629356800988
+Composite Diffusion Maps,49,ari,0.36167710984129275
+Composite Diffusion Maps,50,chs,5.160040466076741
+Composite Diffusion Maps,50,ami,0.5292552587985555
+Composite Diffusion Maps,50,ari,0.35162496392177156
+Composite Diffusion Maps,51,chs,4.9766956736887105
+Composite Diffusion Maps,51,ami,0.4909944363120898
+Composite Diffusion Maps,51,ari,0.26425275015506955
+Composite Diffusion Maps,52,chs,5.249394553082129
+Composite Diffusion Maps,52,ami,0.5424726833001129
+Composite Diffusion Maps,52,ari,0.34309138113430787
+Composite Diffusion Maps,53,chs,5.223808912679725
+Composite Diffusion Maps,53,ami,0.5324975370392377
+Composite Diffusion Maps,53,ari,0.3102517624622254
+Composite Diffusion Maps,54,chs,5.2422855291594095
+Composite Diffusion Maps,54,ami,0.5302659872596206
+Composite Diffusion Maps,54,ari,0.34460330432797964
+Composite Diffusion Maps,55,chs,5.256586510740238
+Composite Diffusion Maps,55,ami,0.5568080359372466
+Composite Diffusion Maps,55,ari,0.3639350521887704
+Composite Diffusion Maps,56,chs,5.1612579156193155
+Composite Diffusion Maps,56,ami,0.5299743111324285
+Composite Diffusion Maps,56,ari,0.35236645922096743
+Composite Diffusion Maps,57,chs,5.268373150131911
+Composite Diffusion Maps,57,ami,0.5418625325504778
+Composite Diffusion Maps,57,ari,0.3498391922719088
+Composite Diffusion Maps,58,chs,5.210199009398874
+Composite Diffusion Maps,58,ami,0.5304858899194695
+Composite Diffusion Maps,58,ari,0.3373202294891935
+Composite Diffusion Maps,59,chs,5.288271488372442
+Composite Diffusion Maps,59,ami,0.5391676190633722
+Composite Diffusion Maps,59,ari,0.3605919285860668
+Composite Diffusion Maps,60,chs,5.250938186555775
+Composite Diffusion Maps,60,ami,0.5574841972369585
+Composite Diffusion Maps,60,ari,0.3641953121516407
+Composite Diffusion Maps,61,chs,5.289483625172426
+Composite Diffusion Maps,61,ami,0.5399629356800989
+Composite Diffusion Maps,61,ari,0.36167710984129275
+Composite Diffusion Maps,62,chs,5.288377167964681
+Composite Diffusion Maps,62,ami,0.539247326892072
+Composite Diffusion Maps,62,ari,0.36071456183464967
+Composite Diffusion Maps,63,chs,5.228221851197246
+Composite Diffusion Maps,63,ami,0.53249913261367
+Composite Diffusion Maps,63,ari,0.3093077789716323
+Composite Diffusion Maps,64,chs,5.223751530891233
+Composite Diffusion Maps,64,ami,0.5323617159866271
+Composite Diffusion Maps,64,ari,0.3110300769312416
+Composite Diffusion Maps,65,chs,5.227637298734205
+Composite Diffusion Maps,65,ami,0.5454014949770181
+Composite Diffusion Maps,65,ari,0.3695561282902555
+Composite Diffusion Maps,66,chs,5.255112292691653
+Composite Diffusion Maps,66,ami,0.559517695520715
+Composite Diffusion Maps,66,ari,0.3929620405911692
+Composite Diffusion Maps,67,chs,5.19645442932579
+Composite Diffusion Maps,67,ami,0.5645387832974113
+Composite Diffusion Maps,67,ari,0.4128490965000581
+Composite Diffusion Maps,68,chs,5.288271488372441
+Composite Diffusion Maps,68,ami,0.5391676190633722
+Composite Diffusion Maps,68,ari,0.3605919285860668
+Composite Diffusion Maps,69,chs,5.249905785486691
+Composite Diffusion Maps,69,ami,0.5584908711781895
+Composite Diffusion Maps,69,ari,0.3921167302574079
+Composite Diffusion Maps,70,chs,5.2096428539528095
+Composite Diffusion Maps,70,ami,0.5298399065420863
+Composite Diffusion Maps,70,ari,0.33531156633820874
+Composite Diffusion Maps,71,chs,5.198573226530192
+Composite Diffusion Maps,71,ami,0.5643243524953463
+Composite Diffusion Maps,71,ari,0.4123696784290214
+Composite Diffusion Maps,72,chs,5.251714390555183
+Composite Diffusion Maps,72,ami,0.5576494633328744
+Composite Diffusion Maps,72,ari,0.36335600544869023
+Composite Diffusion Maps,73,chs,5.182860892858413
+Composite Diffusion Maps,73,ami,0.549273392590369
+Composite Diffusion Maps,73,ari,0.3873715848766981
+Composite Diffusion Maps,74,chs,5.188596658284766
+Composite Diffusion Maps,74,ami,0.5499226341466441
+Composite Diffusion Maps,74,ari,0.38213965883325235
+Composite Diffusion Maps,75,chs,5.263040683942886
+Composite Diffusion Maps,75,ami,0.5584164990300967
+Composite Diffusion Maps,75,ari,0.36763639665954717
+Composite Diffusion Maps,76,chs,5.169439016288308
+Composite Diffusion Maps,76,ami,0.5361929526054395
+Composite Diffusion Maps,76,ari,0.35744862920918397
+Composite Diffusion Maps,77,chs,5.28814178311276
+Composite Diffusion Maps,77,ami,0.5396642553227037
+Composite Diffusion Maps,77,ari,0.3613331883687211
+Composite Diffusion Maps,78,chs,5.249905785486691
+Composite Diffusion Maps,78,ami,0.5584908711781895
+Composite Diffusion Maps,78,ari,0.3921167302574079
+Composite Diffusion Maps,79,chs,5.28838623345071
+Composite Diffusion Maps,79,ami,0.5396223265306663
+Composite Diffusion Maps,79,ari,0.3612178552723532
+Composite Diffusion Maps,80,chs,5.260623539802738
+Composite Diffusion Maps,80,ami,0.560358861955181
+Composite Diffusion Maps,80,ari,0.3868718252285338
+Composite Diffusion Maps,81,chs,5.029700410887329
+Composite Diffusion Maps,81,ami,0.5401977411783979
+Composite Diffusion Maps,81,ari,0.2981347037605268
+Composite Diffusion Maps,82,chs,5.249905785486691
+Composite Diffusion Maps,82,ami,0.5584908711781895
+Composite Diffusion Maps,82,ari,0.3921167302574079
+Composite Diffusion Maps,83,chs,5.249905785486689
+Composite Diffusion Maps,83,ami,0.5584908711781895
+Composite Diffusion Maps,83,ari,0.3921167302574079
+Composite Diffusion Maps,84,chs,5.249905785486691
+Composite Diffusion Maps,84,ami,0.5584908711781895
+Composite Diffusion Maps,84,ari,0.3921167302574079
+Composite Diffusion Maps,85,chs,5.288271488372442
+Composite Diffusion Maps,85,ami,0.5391676190633722
+Composite Diffusion Maps,85,ari,0.3605919285860668
+Composite Diffusion Maps,86,chs,5.288443743830351
+Composite Diffusion Maps,86,ami,0.5393414027942494
+Composite Diffusion Maps,86,ari,0.3609479309482198
+Composite Diffusion Maps,87,chs,5.28844374383035
+Composite Diffusion Maps,87,ami,0.5393414027942492
+Composite Diffusion Maps,87,ari,0.3609479309482198
+Composite Diffusion Maps,88,chs,5.288885505383101
+Composite Diffusion Maps,88,ami,0.5394161883057484
+Composite Diffusion Maps,88,ari,0.3607882604325012
+Composite Diffusion Maps,89,chs,5.249905785486691
+Composite Diffusion Maps,89,ami,0.5584908711781896
+Composite Diffusion Maps,89,ari,0.3921167302574079
+Composite Diffusion Maps,90,chs,5.190502389045779
+Composite Diffusion Maps,90,ami,0.5302509735299488
+Composite Diffusion Maps,90,ari,0.30022848057774043
+Composite Diffusion Maps,91,chs,5.192157583777892
+Composite Diffusion Maps,91,ami,0.5322370377027699
+Composite Diffusion Maps,91,ari,0.30914767968691154
+Composite Diffusion Maps,92,chs,5.268373150131913
+Composite Diffusion Maps,92,ami,0.5418625325504779
+Composite Diffusion Maps,92,ari,0.3498391922719088
+Composite Diffusion Maps,93,chs,5.249071695047045
+Composite Diffusion Maps,93,ami,0.5581996462775028
+Composite Diffusion Maps,93,ari,0.3921106901143671
+Composite Diffusion Maps,94,chs,5.212128521574396
+Composite Diffusion Maps,94,ami,0.5304443678028438
+Composite Diffusion Maps,94,ari,0.33576163077678406
+Composite Diffusion Maps,95,chs,5.249905785486691
+Composite Diffusion Maps,95,ami,0.5584908711781895
+Composite Diffusion Maps,95,ari,0.3921167302574079
+Composite Diffusion Maps,96,chs,5.196454429325789
+Composite Diffusion Maps,96,ami,0.5645387832974111
+Composite Diffusion Maps,96,ari,0.4128490965000581
+Composite Diffusion Maps,97,chs,5.196360950383318
+Composite Diffusion Maps,97,ami,0.5255261365867008
+Composite Diffusion Maps,97,ari,0.30321689972160626
+Composite Diffusion Maps,98,chs,5.288271488372441
+Composite Diffusion Maps,98,ami,0.5391676190633721
+Composite Diffusion Maps,98,ari,0.3605919285860668
+Composite Diffusion Maps,99,chs,5.289483625172426
+Composite Diffusion Maps,99,ami,0.5399629356800988
+Composite Diffusion Maps,99,ari,0.36167710984129275
+Affinity Addition,0,chs,5.36429798831519
+Affinity Addition,0,ami,0.5727012341483303
+Affinity Addition,0,ari,0.391615954900603
+Affinity Addition,1,chs,5.353249663477019
+Affinity Addition,1,ami,0.6081147390586165
+Affinity Addition,1,ari,0.4390788702733576
+Affinity Addition,2,chs,5.369050985183472
+Affinity Addition,2,ami,0.6210786035046741
+Affinity Addition,2,ari,0.48895778696454134
+Affinity Addition,3,chs,5.364221629765458
+Affinity Addition,3,ami,0.5725590156488927
+Affinity Addition,3,ari,0.39173034508164645
+Affinity Addition,4,chs,5.340012718826188
+Affinity Addition,4,ami,0.5863189413538897
+Affinity Addition,4,ari,0.4282303480302168
+Affinity Addition,5,chs,5.367694945015485
+Affinity Addition,5,ami,0.620574074234681
+Affinity Addition,5,ari,0.4891400085766536
+Affinity Addition,6,chs,5.265606374195903
+Affinity Addition,6,ami,0.5833364461749768
+Affinity Addition,6,ari,0.4209030459615948
+Affinity Addition,7,chs,5.369015482938156
+Affinity Addition,7,ami,0.6211021518738506
+Affinity Addition,7,ari,0.48918701769255774
+Affinity Addition,8,chs,5.28816501664612
+Affinity Addition,8,ami,0.5834393368987786
+Affinity Addition,8,ari,0.38975854626214035
+Affinity Addition,9,chs,5.369287703944506
+Affinity Addition,9,ami,0.6214135835780887
+Affinity Addition,9,ari,0.4895853193085666
+Affinity Addition,10,chs,5.368720564527097
+Affinity Addition,10,ami,0.6211261069314306
+Affinity Addition,10,ari,0.4897986359256031
+Affinity Addition,11,chs,5.35939153216292
+Affinity Addition,11,ami,0.5719123744831492
+Affinity Addition,11,ari,0.3912954585815532
+Affinity Addition,12,chs,5.26519997303456
+Affinity Addition,12,ami,0.5825069548801355
+Affinity Addition,12,ari,0.4217560966713803
+Affinity Addition,13,chs,5.366698739624517
+Affinity Addition,13,ami,0.6194310995222472
+Affinity Addition,13,ari,0.4878061389235571
+Affinity Addition,14,chs,5.364535655050941
+Affinity Addition,14,ami,0.5727501206007446
+Affinity Addition,14,ari,0.3922936206504527
+Affinity Addition,15,chs,5.314223652484291
+Affinity Addition,15,ami,0.5883305531399642
+Affinity Addition,15,ari,0.4294379277203926
+Affinity Addition,16,chs,5.369287703944505
+Affinity Addition,16,ami,0.6214135835780887
+Affinity Addition,16,ari,0.4895853193085666
+Affinity Addition,17,chs,5.30244830348913
+Affinity Addition,17,ami,0.5831387270963377
+Affinity Addition,17,ari,0.403050694179519
+Affinity Addition,18,chs,5.363928714035451
+Affinity Addition,18,ami,0.5723770780038961
+Affinity Addition,18,ari,0.39142038449023164
+Affinity Addition,19,chs,5.366973733360089
+Affinity Addition,19,ami,0.6197423726699942
+Affinity Addition,19,ari,0.4882022559005538
+Affinity Addition,20,chs,5.368297907589591
+Affinity Addition,20,ami,0.6197228173304365
+Affinity Addition,20,ari,0.4880942992072046
+Affinity Addition,21,chs,5.358787380445634
+Affinity Addition,21,ami,0.5717175206147993
+Affinity Addition,21,ari,0.39105499692084134
+Affinity Addition,22,chs,5.293430205120016
+Affinity Addition,22,ami,0.5918470735743069
+Affinity Addition,22,ari,0.4407236582620976
+Affinity Addition,23,chs,5.234539257212284
+Affinity Addition,23,ami,0.5818245508611294
+Affinity Addition,23,ari,0.42245904509501436
+Affinity Addition,24,chs,5.359904282965634
+Affinity Addition,24,ami,0.5725708942514698
+Affinity Addition,24,ari,0.3911498531831009
+Affinity Addition,25,chs,5.288935406516423
+Affinity Addition,25,ami,0.6199521936702372
+Affinity Addition,25,ari,0.49280868821542817
+Affinity Addition,26,chs,5.307684411601481
+Affinity Addition,26,ami,0.5845594503920947
+Affinity Addition,26,ari,0.4039938759841299
+Affinity Addition,27,chs,5.369386159486832
+Affinity Addition,27,ami,0.6214242047768644
+Affinity Addition,27,ari,0.48938185630643377
+Affinity Addition,28,chs,5.364228508258091
+Affinity Addition,28,ami,0.5725390136043077
+Affinity Addition,28,ari,0.39168197589948023
+Affinity Addition,29,chs,5.307442806106469
+Affinity Addition,29,ami,0.5839551218265723
+Affinity Addition,29,ari,0.4030925740212567
+Affinity Addition,30,chs,5.363341362829798
+Affinity Addition,30,ami,0.6368334659115568
+Affinity Addition,30,ari,0.4737059187664563
+Affinity Addition,31,chs,5.3596916024511945
+Affinity Addition,31,ami,0.5720742578115859
+Affinity Addition,31,ari,0.39155702305587237
+Affinity Addition,32,chs,5.369386159486833
+Affinity Addition,32,ami,0.6214242047768644
+Affinity Addition,32,ari,0.48938185630643377
+Affinity Addition,33,chs,5.363833724689927
+Affinity Addition,33,ami,0.637069300842406
+Affinity Addition,33,ari,0.47350555336517725
+Affinity Addition,34,chs,5.350649898962867
+Affinity Addition,34,ami,0.6074481838108315
+Affinity Addition,34,ari,0.4374643002901577
+Affinity Addition,35,chs,5.303115067119116
+Affinity Addition,35,ami,0.5751528360798798
+Affinity Addition,35,ari,0.4158517509862357
+Affinity Addition,36,chs,5.2939686002264175
+Affinity Addition,36,ami,0.6205106828230451
+Affinity Addition,36,ari,0.493047132382397
+Affinity Addition,37,chs,5.364653142414031
+Affinity Addition,37,ami,0.6189120137498946
+Affinity Addition,37,ari,0.48767342850217454
+Affinity Addition,38,chs,5.349289551513936
+Affinity Addition,38,ami,0.6077355064215895
+Affinity Addition,38,ari,0.43787496950242966
+Affinity Addition,39,chs,5.364228508258091
+Affinity Addition,39,ami,0.5725390136043077
+Affinity Addition,39,ari,0.39168197589948023
+Affinity Addition,40,chs,5.364221724120261
+Affinity Addition,40,ami,0.5725154394210908
+Affinity Addition,40,ari,0.3916394981324764
+Affinity Addition,41,chs,5.293430205120015
+Affinity Addition,41,ami,0.591847073574307
+Affinity Addition,41,ari,0.4407236582620976
+Affinity Addition,42,chs,5.362554455741303
+Affinity Addition,42,ami,0.6366224607023194
+Affinity Addition,42,ari,0.4738592510050579
+Affinity Addition,43,chs,5.2889354065164245
+Affinity Addition,43,ami,0.6199521936702375
+Affinity Addition,43,ari,0.49280868821542817
+Affinity Addition,44,chs,5.288585122611741
+Affinity Addition,44,ami,0.6198515203060816
+Affinity Addition,44,ari,0.49207433250801513
+Affinity Addition,45,chs,5.294835423345176
+Affinity Addition,45,ami,0.5920198551840424
+Affinity Addition,45,ari,0.44058640354277984
+Affinity Addition,46,chs,5.291304362044897
+Affinity Addition,46,ami,0.607075578653486
+Affinity Addition,46,ari,0.45840529530125457
+Affinity Addition,47,chs,5.368206267373597
+Affinity Addition,47,ami,0.6200056243077096
+Affinity Addition,47,ari,0.4885427068050468
+Affinity Addition,48,chs,5.293968600226417
+Affinity Addition,48,ami,0.6205106828230452
+Affinity Addition,48,ari,0.493047132382397
+Affinity Addition,49,chs,5.365336109726787
+Affinity Addition,49,ami,0.6195120232973393
+Affinity Addition,49,ari,0.48871417753816354
+Affinity Addition,50,chs,5.284572500934593
+Affinity Addition,50,ami,0.5812067611879129
+Affinity Addition,50,ari,0.41816818940587264
+Affinity Addition,51,chs,5.285402126616575
+Affinity Addition,51,ami,0.5808351694795859
+Affinity Addition,51,ari,0.41754684727933145
+Affinity Addition,52,chs,5.366737294198073
+Affinity Addition,52,ami,0.6200907231161655
+Affinity Addition,52,ari,0.4888919168488399
+Affinity Addition,53,chs,5.280438636949207
+Affinity Addition,53,ami,0.5799013603518142
+Affinity Addition,53,ari,0.4167046727816647
+Affinity Addition,54,chs,5.366660176838064
+Affinity Addition,54,ami,0.6197282644985995
+Affinity Addition,54,ari,0.4881177667865594
+Affinity Addition,55,chs,5.253678556596492
+Affinity Addition,55,ami,0.5910261323418772
+Affinity Addition,55,ari,0.40071284685215414
+Affinity Addition,56,chs,5.369386159486833
+Affinity Addition,56,ami,0.6214242047768644
+Affinity Addition,56,ari,0.48938185630643377
+Affinity Addition,57,chs,5.350430978846953
+Affinity Addition,57,ami,0.6075414973731996
+Affinity Addition,57,ari,0.43753223526315854
+Affinity Addition,58,chs,5.363928714035451
+Affinity Addition,58,ami,0.5723770780038961
+Affinity Addition,58,ari,0.39142038449023164
+Affinity Addition,59,chs,5.358787380445634
+Affinity Addition,59,ami,0.5717175206147995
+Affinity Addition,59,ari,0.39105499692084134
+Affinity Addition,60,chs,5.366660176838064
+Affinity Addition,60,ami,0.6197282644985994
+Affinity Addition,60,ari,0.4881177667865594
+Affinity Addition,61,chs,5.364203299595245
+Affinity Addition,61,ami,0.5725720243190193
+Affinity Addition,61,ari,0.39177008211853404
+Affinity Addition,62,chs,5.359624734030907
+Affinity Addition,62,ami,0.637111718624995
+Affinity Addition,62,ari,0.4746452652391408
+Affinity Addition,63,chs,5.360594728498777
+Affinity Addition,63,ami,0.6363024331198174
+Affinity Addition,63,ari,0.4729430066639014
+Affinity Addition,64,chs,5.274181243478179
+Affinity Addition,64,ami,0.590842741519279
+Affinity Addition,64,ari,0.429992497654603
+Affinity Addition,65,chs,5.364228508258091
+Affinity Addition,65,ami,0.5725390136043077
+Affinity Addition,65,ari,0.39168197589948023
+Affinity Addition,66,chs,5.293617483711863
+Affinity Addition,66,ami,0.6204100369079023
+Affinity Addition,66,ari,0.49231293639649715
+Affinity Addition,67,chs,5.369287703944505
+Affinity Addition,67,ami,0.6214135835780887
+Affinity Addition,67,ari,0.4895853193085666
+Affinity Addition,68,chs,5.348676151574981
+Affinity Addition,68,ami,0.6074736746204341
+Affinity Addition,68,ari,0.43862912934583326
+Affinity Addition,69,chs,5.363928714035453
+Affinity Addition,69,ami,0.5723770780038961
+Affinity Addition,69,ari,0.39142038449023164
+Affinity Addition,70,chs,5.366698739624518
+Affinity Addition,70,ami,0.6194310995222471
+Affinity Addition,70,ari,0.4878061389235571
+Affinity Addition,71,chs,5.364221629765456
+Affinity Addition,71,ami,0.5725590156488928
+Affinity Addition,71,ari,0.39173034508164645
+Affinity Addition,72,chs,5.363180701249697
+Affinity Addition,72,ami,0.6368901492911766
+Affinity Addition,72,ari,0.4738144065292905
+Affinity Addition,73,chs,5.368297907589589
+Affinity Addition,73,ami,0.6197228173304365
+Affinity Addition,73,ari,0.4880942992072046
+Affinity Addition,74,chs,5.286168633641209
+Affinity Addition,74,ami,0.6059437069655251
+Affinity Addition,74,ari,0.45702460752327184
+Affinity Addition,75,chs,5.2651615667777945
+Affinity Addition,75,ami,0.5832738047175624
+Affinity Addition,75,ari,0.4208063129572561
+Affinity Addition,76,chs,5.293280221162493
+Affinity Addition,76,ami,0.6202556813405715
+Affinity Addition,76,ari,0.4920623971733044
+Affinity Addition,77,chs,5.368282911092294
+Affinity Addition,77,ami,0.6208992789099057
+Affinity Addition,77,ari,0.489621816110348
+Affinity Addition,78,chs,5.338762313468051
+Affinity Addition,78,ami,0.5872449059579058
+Affinity Addition,78,ari,0.42901359237628733
+Affinity Addition,79,chs,5.230936288271196
+Affinity Addition,79,ami,0.6093668503141827
+Affinity Addition,79,ari,0.44374568327582875
+Affinity Addition,80,chs,5.362626026226087
+Affinity Addition,80,ami,0.636919321548606
+Affinity Addition,80,ari,0.4740914119077465
+Affinity Addition,81,chs,5.3586483129149896
+Affinity Addition,81,ami,0.635650219278818
+Affinity Addition,81,ari,0.4728182497001164
+Affinity Addition,82,chs,5.3659713832599705
+Affinity Addition,82,ami,0.6191945207493951
+Affinity Addition,82,ari,0.4875458144923301
+Affinity Addition,83,chs,5.365962325044146
+Affinity Addition,83,ami,0.6200701987627465
+Affinity Addition,83,ari,0.4890942159468024
+Affinity Addition,84,chs,5.293529204508504
+Affinity Addition,84,ami,0.5903662818114105
+Affinity Addition,84,ari,0.4431348802297918
+Affinity Addition,85,chs,5.364221629765458
+Affinity Addition,85,ami,0.5725590156488927
+Affinity Addition,85,ari,0.39173034508164645
+Affinity Addition,86,chs,5.366973058064088
+Affinity Addition,86,ami,0.619301051191086
+Affinity Addition,86,ari,0.48770918223907855
+Affinity Addition,87,chs,5.295148545831031
+Affinity Addition,87,ami,0.6211752009213428
+Affinity Addition,87,ari,0.4938233181862762
+Affinity Addition,88,chs,5.359691602451195
+Affinity Addition,88,ami,0.5720742578115857
+Affinity Addition,88,ari,0.39155702305587237
+Affinity Addition,89,chs,5.363341362829801
+Affinity Addition,89,ami,0.6368334659115569
+Affinity Addition,89,ari,0.4737059187664563
+Affinity Addition,90,chs,5.365962325044146
+Affinity Addition,90,ami,0.6200701987627465
+Affinity Addition,90,ari,0.4890942159468024
+Affinity Addition,91,chs,5.363180701249696
+Affinity Addition,91,ami,0.6368901492911767
+Affinity Addition,91,ari,0.4738144065292905
+Affinity Addition,92,chs,5.2889354065164245
+Affinity Addition,92,ami,0.6199521936702372
+Affinity Addition,92,ari,0.49280868821542817
+Affinity Addition,93,chs,5.367412736663
+Affinity Addition,93,ami,0.6199690093862033
+Affinity Addition,93,ari,0.4883787132853718
+Affinity Addition,94,chs,5.364228508258091
+Affinity Addition,94,ami,0.5725390136043077
+Affinity Addition,94,ari,0.39168197589948023
+Affinity Addition,95,chs,5.364228508258091
+Affinity Addition,95,ami,0.5725390136043077
+Affinity Addition,95,ari,0.39168197589948023
+Affinity Addition,96,chs,5.362626026226085
+Affinity Addition,96,ami,0.636919321548606
+Affinity Addition,96,ari,0.4740914119077465
+Affinity Addition,97,chs,5.36029667789192
+Affinity Addition,97,ami,0.6358986533022845
+Affinity Addition,97,ari,0.4725632098393083
+Affinity Addition,98,chs,5.367547567356363
+Affinity Addition,98,ami,0.619778423863015
+Affinity Addition,98,ari,0.48815683262404086
+Affinity Addition,99,chs,5.3646531424140305
+Affinity Addition,99,ami,0.6189120137498946
+Affinity Addition,99,ari,0.48767342850217454
+Affinity Multiplication,0,chs,5.3560093160879045
+Affinity Multiplication,0,ami,0.5626371160777783
+Affinity Multiplication,0,ari,0.37389016613432574
+Affinity Multiplication,1,chs,5.3080952910449515
+Affinity Multiplication,1,ami,0.5815562419132955
+Affinity Multiplication,1,ari,0.4116131171263054
+Affinity Multiplication,2,chs,5.307765076908131
+Affinity Multiplication,2,ami,0.5812754832402733
+Affinity Multiplication,2,ari,0.4112432635122644
+Affinity Multiplication,3,chs,5.307765076908131
+Affinity Multiplication,3,ami,0.5812754832402733
+Affinity Multiplication,3,ari,0.4112432635122644
+Affinity Multiplication,4,chs,5.318142800925368
+Affinity Multiplication,4,ami,0.577827779302977
+Affinity Multiplication,4,ari,0.37790950314622646
+Affinity Multiplication,5,chs,5.357936811700314
+Affinity Multiplication,5,ami,0.5621949479633003
+Affinity Multiplication,5,ari,0.37359504889341266
+Affinity Multiplication,6,chs,5.3578899342360025
+Affinity Multiplication,6,ami,0.5622049722733249
+Affinity Multiplication,6,ari,0.37360762637509587
+Affinity Multiplication,7,chs,5.3091308909662525
+Affinity Multiplication,7,ami,0.5822271648787106
+Affinity Multiplication,7,ari,0.4128307698252133
+Affinity Multiplication,8,chs,5.308844794974341
+Affinity Multiplication,8,ami,0.5814169134612254
+Affinity Multiplication,8,ari,0.41100399361264833
+Affinity Multiplication,9,chs,5.197642715051712
+Affinity Multiplication,9,ami,0.5844556578835215
+Affinity Multiplication,9,ari,0.42236171424012325
+Affinity Multiplication,10,chs,5.357563321000815
+Affinity Multiplication,10,ami,0.5619482711903089
+Affinity Multiplication,10,ari,0.37348887333111136
+Affinity Multiplication,11,chs,5.23490318955159
+Affinity Multiplication,11,ami,0.5391711174054855
+Affinity Multiplication,11,ari,0.3559930246729656
+Affinity Multiplication,12,chs,5.357595021548338
+Affinity Multiplication,12,ami,0.5623746442143633
+Affinity Multiplication,12,ari,0.3739361367787097
+Affinity Multiplication,13,chs,5.285508111605384
+Affinity Multiplication,13,ami,0.5577673101244066
+Affinity Multiplication,13,ari,0.3483413120952321
+Affinity Multiplication,14,chs,5.326476157183328
+Affinity Multiplication,14,ami,0.5646443527413109
+Affinity Multiplication,14,ari,0.37017908226413093
+Affinity Multiplication,15,chs,5.317454177210077
+Affinity Multiplication,15,ami,0.5777600997276554
+Affinity Multiplication,15,ari,0.3778074934799928
+Affinity Multiplication,16,chs,5.326476157183327
+Affinity Multiplication,16,ami,0.5646443527413109
+Affinity Multiplication,16,ari,0.37017908226413093
+Affinity Multiplication,17,chs,5.301435794476022
+Affinity Multiplication,17,ami,0.5822890699867197
+Affinity Multiplication,17,ari,0.4077717216442828
+Affinity Multiplication,18,chs,5.307765076908132
+Affinity Multiplication,18,ami,0.5812754832402733
+Affinity Multiplication,18,ari,0.4112432635122644
+Affinity Multiplication,19,chs,5.325032680472537
+Affinity Multiplication,19,ami,0.5623733441870025
+Affinity Multiplication,19,ari,0.3669799780002814
+Affinity Multiplication,20,chs,5.351596293485059
+Affinity Multiplication,20,ami,0.6090468412741178
+Affinity Multiplication,20,ari,0.4120795289338081
+Affinity Multiplication,21,chs,5.349397456205887
+Affinity Multiplication,21,ami,0.6079198171148562
+Affinity Multiplication,21,ari,0.40785506441102554
+Affinity Multiplication,22,chs,5.309233976658475
+Affinity Multiplication,22,ami,0.5600057259581461
+Affinity Multiplication,22,ari,0.36625164123959475
+Affinity Multiplication,23,chs,5.356534660520174
+Affinity Multiplication,23,ami,0.5629748147963999
+Affinity Multiplication,23,ari,0.3742225659333683
+Affinity Multiplication,24,chs,5.087686506422861
+Affinity Multiplication,24,ami,0.5638390267030035
+Affinity Multiplication,24,ari,0.40180758541960954
+Affinity Multiplication,25,chs,5.239532557963841
+Affinity Multiplication,25,ami,0.5567657050963268
+Affinity Multiplication,25,ari,0.37430001522265566
+Affinity Multiplication,26,chs,5.258004818426128
+Affinity Multiplication,26,ami,0.5900514447425722
+Affinity Multiplication,26,ari,0.4349762177105679
+Affinity Multiplication,27,chs,5.317919532048084
+Affinity Multiplication,27,ami,0.5772122103616342
+Affinity Multiplication,27,ari,0.37856230985614864
+Affinity Multiplication,28,chs,5.359314343093455
+Affinity Multiplication,28,ami,0.5629821941068452
+Affinity Multiplication,28,ari,0.37443090589832445
+Affinity Multiplication,29,chs,5.358499556150067
+Affinity Multiplication,29,ami,0.5631781902248875
+Affinity Multiplication,29,ari,0.37416441517816085
+Affinity Multiplication,30,chs,5.3112700597316325
+Affinity Multiplication,30,ami,0.5614052650755422
+Affinity Multiplication,30,ari,0.36075858876330347
+Affinity Multiplication,31,chs,5.357889934236004
+Affinity Multiplication,31,ami,0.5622049722733247
+Affinity Multiplication,31,ari,0.37360762637509587
+Affinity Multiplication,32,chs,5.358144205927189
+Affinity Multiplication,32,ami,0.5626344426842321
+Affinity Multiplication,32,ari,0.3742106465471937
+Affinity Multiplication,33,chs,5.3180687137301526
+Affinity Multiplication,33,ami,0.5769971428456567
+Affinity Multiplication,33,ari,0.3784128961991375
+Affinity Multiplication,34,chs,5.357316728520435
+Affinity Multiplication,34,ami,0.5625142868811658
+Affinity Multiplication,34,ari,0.37370063102449486
+Affinity Multiplication,35,chs,5.318514069413881
+Affinity Multiplication,35,ami,0.5770927500699214
+Affinity Multiplication,35,ari,0.3783045048896584
+Affinity Multiplication,36,chs,5.356684089635064
+Affinity Multiplication,36,ami,0.5621614891170065
+Affinity Multiplication,36,ari,0.37343428897713726
+Affinity Multiplication,37,chs,5.2517243258029795
+Affinity Multiplication,37,ami,0.5391784101644144
+Affinity Multiplication,37,ari,0.3060629600012777
+Affinity Multiplication,38,chs,5.357591707214544
+Affinity Multiplication,38,ami,0.5620930876791405
+Affinity Multiplication,38,ari,0.373597290351581
+Affinity Multiplication,39,chs,5.325032680472535
+Affinity Multiplication,39,ami,0.5623733441870025
+Affinity Multiplication,39,ari,0.3669799780002814
+Affinity Multiplication,40,chs,5.318142800925368
+Affinity Multiplication,40,ami,0.577827779302977
+Affinity Multiplication,40,ari,0.37790950314622646
+Affinity Multiplication,41,chs,5.311217010952275
+Affinity Multiplication,41,ami,0.5612249228590689
+Affinity Multiplication,41,ari,0.36057025679950266
+Affinity Multiplication,42,chs,5.286842615301042
+Affinity Multiplication,42,ami,0.5578643963730701
+Affinity Multiplication,42,ari,0.34770094570581744
+Affinity Multiplication,43,chs,5.258004818426128
+Affinity Multiplication,43,ami,0.5900514447425722
+Affinity Multiplication,43,ari,0.4349762177105679
+Affinity Multiplication,44,chs,5.357749037579502
+Affinity Multiplication,44,ami,0.561840401959227
+Affinity Multiplication,44,ari,0.37333437351799575
+Affinity Multiplication,45,chs,5.3586568869975295
+Affinity Multiplication,45,ami,0.5629254108159231
+Affinity Multiplication,45,ari,0.3739020253647791
+Affinity Multiplication,46,chs,5.356696277131555
+Affinity Multiplication,46,ami,0.5625823421949543
+Affinity Multiplication,46,ari,0.37427840955465136
+Affinity Multiplication,47,chs,5.351281589486938
+Affinity Multiplication,47,ami,0.6085233080143257
+Affinity Multiplication,47,ari,0.4106499808312551
+Affinity Multiplication,48,chs,5.351080401564009
+Affinity Multiplication,48,ami,0.6087758790310687
+Affinity Multiplication,48,ari,0.41105060981817093
+Affinity Multiplication,49,chs,5.285871896591017
+Affinity Multiplication,49,ami,0.5581694660465052
+Affinity Multiplication,49,ari,0.3486247944894235
+Affinity Multiplication,50,chs,5.356684089635066
+Affinity Multiplication,50,ami,0.5621614891170065
+Affinity Multiplication,50,ari,0.37343428897713726
+Affinity Multiplication,51,chs,5.357490723902185
+Affinity Multiplication,51,ami,0.5620916251435072
+Affinity Multiplication,51,ari,0.37358546232488954
+Affinity Multiplication,52,chs,5.357889934236004
+Affinity Multiplication,52,ami,0.5622049722733247
+Affinity Multiplication,52,ari,0.37360762637509587
+Affinity Multiplication,53,chs,5.357889934236003
+Affinity Multiplication,53,ami,0.5622049722733247
+Affinity Multiplication,53,ari,0.37360762637509587
+Affinity Multiplication,54,chs,5.258004818426128
+Affinity Multiplication,54,ami,0.5900514447425722
+Affinity Multiplication,54,ari,0.4349762177105679
+Affinity Multiplication,55,chs,5.282864679511796
+Affinity Multiplication,55,ami,0.5690564751540355
+Affinity Multiplication,55,ari,0.36688851355262747
+Affinity Multiplication,56,chs,5.358415923503249
+Affinity Multiplication,56,ami,0.563162512361332
+Affinity Multiplication,56,ari,0.37414141732660794
+Affinity Multiplication,57,chs,5.35101259050295
+Affinity Multiplication,57,ami,0.6084392726752321
+Affinity Multiplication,57,ari,0.4089632148746839
+Affinity Multiplication,58,chs,5.357870618967319
+Affinity Multiplication,58,ami,0.5626310241808611
+Affinity Multiplication,58,ari,0.3742175350721647
+Affinity Multiplication,59,chs,5.357749037579502
+Affinity Multiplication,59,ami,0.561840401959227
+Affinity Multiplication,59,ari,0.37333437351799575
+Affinity Multiplication,60,chs,5.310031317032487
+Affinity Multiplication,60,ami,0.5823672810731239
+Affinity Multiplication,60,ari,0.41283282898531676
+Affinity Multiplication,61,chs,5.240788871187882
+Affinity Multiplication,61,ami,0.5568409799239873
+Affinity Multiplication,61,ari,0.37404351862909585
+Affinity Multiplication,62,chs,5.29962777011888
+Affinity Multiplication,62,ami,0.5812274110922219
+Affinity Multiplication,62,ari,0.40378420909573387
+Affinity Multiplication,63,chs,5.309130890966253
+Affinity Multiplication,63,ami,0.5822271648787106
+Affinity Multiplication,63,ari,0.4128307698252133
+Affinity Multiplication,64,chs,5.352661317875953
+Affinity Multiplication,64,ami,0.609898735335166
+Affinity Multiplication,64,ari,0.41295120300132465
+Affinity Multiplication,65,chs,5.3579368117003145
+Affinity Multiplication,65,ami,0.5621949479633003
+Affinity Multiplication,65,ari,0.37359504889341266
+Affinity Multiplication,66,chs,5.3345806766245225
+Affinity Multiplication,66,ami,0.5958388863207906
+Affinity Multiplication,66,ari,0.40357689706361444
+Affinity Multiplication,67,chs,5.2616121530478495
+Affinity Multiplication,67,ami,0.5513678338398581
+Affinity Multiplication,67,ari,0.3561083594800385
+Affinity Multiplication,68,chs,5.3577490375795005
+Affinity Multiplication,68,ami,0.5618404019592271
+Affinity Multiplication,68,ari,0.37333437351799575
+Affinity Multiplication,69,chs,5.317919532048085
+Affinity Multiplication,69,ami,0.5772122103616342
+Affinity Multiplication,69,ari,0.37856230985614864
+Affinity Multiplication,70,chs,5.357490723902185
+Affinity Multiplication,70,ami,0.5620916251435074
+Affinity Multiplication,70,ari,0.37358546232488954
+Affinity Multiplication,71,chs,5.197659194382422
+Affinity Multiplication,71,ami,0.5844527715596872
+Affinity Multiplication,71,ari,0.42202423789964455
+Affinity Multiplication,72,chs,5.352496703327912
+Affinity Multiplication,72,ami,0.6098048040988666
+Affinity Multiplication,72,ari,0.41228518980285755
+Affinity Multiplication,73,chs,5.311217010952276
+Affinity Multiplication,73,ami,0.561224922859069
+Affinity Multiplication,73,ari,0.36057025679950266
+Affinity Multiplication,74,chs,5.359181655052403
+Affinity Multiplication,74,ami,0.5628091478041752
+Affinity Multiplication,74,ari,0.37416898502666207
+Affinity Multiplication,75,chs,5.309397043278969
+Affinity Multiplication,75,ami,0.5819447693365164
+Affinity Multiplication,75,ari,0.4127261766248601
+Affinity Multiplication,76,chs,5.357497431453469
+Affinity Multiplication,76,ami,0.5619599644751869
+Affinity Multiplication,76,ari,0.37330977715229413
+Affinity Multiplication,77,chs,5.238800094803835
+Affinity Multiplication,77,ami,0.5564562098897919
+Affinity Multiplication,77,ari,0.37401470463797704
+Affinity Multiplication,78,chs,5.357877261746358
+Affinity Multiplication,78,ami,0.5623562011946099
+Affinity Multiplication,78,ari,0.37397902657201537
+Affinity Multiplication,79,chs,5.250630230526482
+Affinity Multiplication,79,ami,0.556118172133772
+Affinity Multiplication,79,ari,0.38582020698539465
+Affinity Multiplication,80,chs,5.316459580042286
+Affinity Multiplication,80,ami,0.5775733292939943
+Affinity Multiplication,80,ari,0.3771023761560093
+Affinity Multiplication,81,chs,5.3577490375795005
+Affinity Multiplication,81,ami,0.5618404019592272
+Affinity Multiplication,81,ari,0.37333437351799575
+Affinity Multiplication,82,chs,5.357749037579501
+Affinity Multiplication,82,ami,0.561840401959227
+Affinity Multiplication,82,ari,0.37333437351799575
+Affinity Multiplication,83,chs,5.3593143430934544
+Affinity Multiplication,83,ami,0.5629821941068452
+Affinity Multiplication,83,ari,0.37443090589832445
+Affinity Multiplication,84,chs,5.35747876556805
+Affinity Multiplication,84,ami,0.5621184773357406
+Affinity Multiplication,84,ari,0.3736804921640555
+Affinity Multiplication,85,chs,5.309397043278969
+Affinity Multiplication,85,ami,0.5819447693365164
+Affinity Multiplication,85,ari,0.4127261766248601
+Affinity Multiplication,86,chs,5.252329833752973
+Affinity Multiplication,86,ami,0.5540492878159661
+Affinity Multiplication,86,ari,0.3093634240675094
+Affinity Multiplication,87,chs,5.3520909492541335
+Affinity Multiplication,87,ami,0.6087140745173355
+Affinity Multiplication,87,ari,0.4100846151632485
+Affinity Multiplication,88,chs,5.357478765568051
+Affinity Multiplication,88,ami,0.5621184773357405
+Affinity Multiplication,88,ari,0.3736804921640555
+Affinity Multiplication,89,chs,5.337798998791003
+Affinity Multiplication,89,ami,0.5943449253159846
+Affinity Multiplication,89,ari,0.4010123902770699
+Affinity Multiplication,90,chs,5.307765076908131
+Affinity Multiplication,90,ami,0.5812754832402733
+Affinity Multiplication,90,ari,0.4112432635122644
+Affinity Multiplication,91,chs,5.265688002099617
+Affinity Multiplication,91,ami,0.5517451089658264
+Affinity Multiplication,91,ari,0.355576437342577
+Affinity Multiplication,92,chs,5.356671420599136
+Affinity Multiplication,92,ami,0.5623126999016889
+Affinity Multiplication,92,ari,0.37380598104888607
+Affinity Multiplication,93,chs,5.3590243239669775
+Affinity Multiplication,93,ami,0.5630618224292057
+Affinity Multiplication,93,ari,0.37443197216281715
+Affinity Multiplication,94,chs,5.317919532048084
+Affinity Multiplication,94,ami,0.5772122103616342
+Affinity Multiplication,94,ari,0.37856230985614864
+Affinity Multiplication,95,chs,5.356511844193927
+Affinity Multiplication,95,ami,0.5621418407522014
+Affinity Multiplication,95,ari,0.3734099000406903
+Affinity Multiplication,96,chs,5.251567229939692
+Affinity Multiplication,96,ami,0.5553408214930002
+Affinity Multiplication,96,ari,0.3102966265299572
+Affinity Multiplication,97,chs,5.356169962120795
+Affinity Multiplication,97,ami,0.5628108032580452
+Affinity Multiplication,97,ari,0.3742855133264767
+Affinity Multiplication,98,chs,5.309320241261331
+Affinity Multiplication,98,ami,0.5820289443790682
+Affinity Multiplication,98,ari,0.4124197321011589
+Affinity Multiplication,99,chs,5.357490723902185
+Affinity Multiplication,99,ami,0.5620916251435073
+Affinity Multiplication,99,ari,0.37358546232488954
+Cross Diffusion Maps,0,chs,3.8909034071276682
+Cross Diffusion Maps,0,ami,0.4223238523581643
+Cross Diffusion Maps,0,ari,0.2810608097370717
+Cross Diffusion Maps,1,chs,3.8909034071276682
+Cross Diffusion Maps,1,ami,0.4223238523581643
+Cross Diffusion Maps,1,ari,0.2810608097370717
+Cross Diffusion Maps,2,chs,3.883949201695657
+Cross Diffusion Maps,2,ami,0.4232199610050205
+Cross Diffusion Maps,2,ari,0.2885667643388661
+Cross Diffusion Maps,3,chs,3.8909034071276682
+Cross Diffusion Maps,3,ami,0.4223238523581642
+Cross Diffusion Maps,3,ari,0.2810608097370717
+Cross Diffusion Maps,4,chs,3.8815392013327674
+Cross Diffusion Maps,4,ami,0.4225350675244419
+Cross Diffusion Maps,4,ari,0.28787377275266746
+Cross Diffusion Maps,5,chs,3.8954374728019565
+Cross Diffusion Maps,5,ami,0.4235749460468545
+Cross Diffusion Maps,5,ari,0.28792743674242116
+Cross Diffusion Maps,6,chs,3.875940777185744
+Cross Diffusion Maps,6,ami,0.42249475163885386
+Cross Diffusion Maps,6,ari,0.28872853179692476
+Cross Diffusion Maps,7,chs,3.8841218906093946
+Cross Diffusion Maps,7,ami,0.42304641554108097
+Cross Diffusion Maps,7,ari,0.2884518522187339
+Cross Diffusion Maps,8,chs,3.8909034071276682
+Cross Diffusion Maps,8,ami,0.42232385235816416
+Cross Diffusion Maps,8,ari,0.2810608097370717
+Cross Diffusion Maps,9,chs,3.891364777584484
+Cross Diffusion Maps,9,ami,0.42338322718268745
+Cross Diffusion Maps,9,ari,0.2889522122560524
+Cross Diffusion Maps,10,chs,3.8912374613007366
+Cross Diffusion Maps,10,ami,0.4222914758574219
+Cross Diffusion Maps,10,ari,0.2814032039299808
+Cross Diffusion Maps,11,chs,3.8909034071276682
+Cross Diffusion Maps,11,ami,0.4223238523581642
+Cross Diffusion Maps,11,ari,0.2810608097370717
+Cross Diffusion Maps,12,chs,3.8927285686877156
+Cross Diffusion Maps,12,ami,0.4225493887907699
+Cross Diffusion Maps,12,ari,0.28147051617780017
+Cross Diffusion Maps,13,chs,3.8924518683976546
+Cross Diffusion Maps,13,ami,0.4224304016919676
+Cross Diffusion Maps,13,ari,0.2813641414303286
+Cross Diffusion Maps,14,chs,3.8909034071276682
+Cross Diffusion Maps,14,ami,0.4223238523581642
+Cross Diffusion Maps,14,ari,0.2810608097370717
+Cross Diffusion Maps,15,chs,3.8909034071276682
+Cross Diffusion Maps,15,ami,0.4223238523581643
+Cross Diffusion Maps,15,ari,0.2810608097370717
+Cross Diffusion Maps,16,chs,3.8911181059681423
+Cross Diffusion Maps,16,ami,0.42216125910733937
+Cross Diffusion Maps,16,ari,0.2812112500539013
+Cross Diffusion Maps,17,chs,3.890903407127669
+Cross Diffusion Maps,17,ami,0.4223238523581642
+Cross Diffusion Maps,17,ari,0.2810608097370717
+Cross Diffusion Maps,18,chs,3.8947371528818695
+Cross Diffusion Maps,18,ami,0.4227297833969505
+Cross Diffusion Maps,18,ari,0.28743995194816624
+Cross Diffusion Maps,19,chs,3.8909034071276682
+Cross Diffusion Maps,19,ami,0.4223238523581643
+Cross Diffusion Maps,19,ari,0.2810608097370717
+Cross Diffusion Maps,20,chs,3.8956258587450625
+Cross Diffusion Maps,20,ami,0.42271038257704496
+Cross Diffusion Maps,20,ari,0.28741654988405363
+Cross Diffusion Maps,21,chs,3.8940082881979774
+Cross Diffusion Maps,21,ami,0.42255700485460257
+Cross Diffusion Maps,21,ari,0.28160715226649835
+Cross Diffusion Maps,22,chs,3.8887872262152916
+Cross Diffusion Maps,22,ami,0.4227596275002687
+Cross Diffusion Maps,22,ari,0.2874827035869648
+Cross Diffusion Maps,23,chs,3.8959286750716986
+Cross Diffusion Maps,23,ami,0.4226843678054463
+Cross Diffusion Maps,23,ari,0.2873545421616689
+Cross Diffusion Maps,24,chs,3.888738378300755
+Cross Diffusion Maps,24,ami,0.4220790510391017
+Cross Diffusion Maps,24,ari,0.2809224742000126
+Cross Diffusion Maps,25,chs,3.8886277659032062
+Cross Diffusion Maps,25,ami,0.4219977532408344
+Cross Diffusion Maps,25,ari,0.28085315274745337
+Cross Diffusion Maps,26,chs,3.8922220531759164
+Cross Diffusion Maps,26,ami,0.4237522939173662
+Cross Diffusion Maps,26,ari,0.2891898239861268
+Cross Diffusion Maps,27,chs,3.8909034071276682
+Cross Diffusion Maps,27,ami,0.4223238523581642
+Cross Diffusion Maps,27,ari,0.2810608097370717
+Cross Diffusion Maps,28,chs,3.875821082117721
+Cross Diffusion Maps,28,ami,0.4223851063257583
+Cross Diffusion Maps,28,ari,0.2883734518332468
+Cross Diffusion Maps,29,chs,3.8909034071276682
+Cross Diffusion Maps,29,ami,0.4223238523581643
+Cross Diffusion Maps,29,ari,0.2810608097370717
+Cross Diffusion Maps,30,chs,3.8909034071276682
+Cross Diffusion Maps,30,ami,0.4223238523581642
+Cross Diffusion Maps,30,ari,0.2810608097370717
+Cross Diffusion Maps,31,chs,3.8956258587450625
+Cross Diffusion Maps,31,ami,0.42271038257704496
+Cross Diffusion Maps,31,ari,0.28741654988405363
+Cross Diffusion Maps,32,chs,3.966150934567986
+Cross Diffusion Maps,32,ami,0.42696573062732346
+Cross Diffusion Maps,32,ari,0.2832059437449952
+Cross Diffusion Maps,33,chs,3.8909034071276682
+Cross Diffusion Maps,33,ami,0.4223238523581643
+Cross Diffusion Maps,33,ari,0.2810608097370717
+Cross Diffusion Maps,34,chs,3.8959286750716995
+Cross Diffusion Maps,34,ami,0.4226843678054463
+Cross Diffusion Maps,34,ari,0.2873545421616689
+Cross Diffusion Maps,35,chs,3.895914643826241
+Cross Diffusion Maps,35,ami,0.4230006356498233
+Cross Diffusion Maps,35,ari,0.2875102484968665
+Cross Diffusion Maps,36,chs,3.8909034071276682
+Cross Diffusion Maps,36,ami,0.4223238523581643
+Cross Diffusion Maps,36,ari,0.2810608097370717
+Cross Diffusion Maps,37,chs,3.8959286750716986
+Cross Diffusion Maps,37,ami,0.4226843678054463
+Cross Diffusion Maps,37,ari,0.2873545421616689
+Cross Diffusion Maps,38,chs,3.8909034071276682
+Cross Diffusion Maps,38,ami,0.4223238523581642
+Cross Diffusion Maps,38,ari,0.2810608097370717
+Cross Diffusion Maps,39,chs,3.8909253512523083
+Cross Diffusion Maps,39,ami,0.42215027669653704
+Cross Diffusion Maps,39,ari,0.28126121876243754
+Cross Diffusion Maps,40,chs,3.906537062644122
+Cross Diffusion Maps,40,ami,0.42383000347854705
+Cross Diffusion Maps,40,ari,0.28649607362475654
+Cross Diffusion Maps,41,chs,3.8899262175276283
+Cross Diffusion Maps,41,ami,0.4239855695271809
+Cross Diffusion Maps,41,ari,0.28524429793925166
+Cross Diffusion Maps,42,chs,3.883405011710067
+Cross Diffusion Maps,42,ami,0.4226201935874403
+Cross Diffusion Maps,42,ari,0.28780230524435324
+Cross Diffusion Maps,43,chs,3.895437472801956
+Cross Diffusion Maps,43,ami,0.4235749460468545
+Cross Diffusion Maps,43,ari,0.28792743674242116
+Cross Diffusion Maps,44,chs,3.8834050117100665
+Cross Diffusion Maps,44,ami,0.4226201935874403
+Cross Diffusion Maps,44,ari,0.28780230524435324
+Cross Diffusion Maps,45,chs,3.890903407127669
+Cross Diffusion Maps,45,ami,0.4223238523581643
+Cross Diffusion Maps,45,ari,0.2810608097370717
+Cross Diffusion Maps,46,chs,3.9032892541463347
+Cross Diffusion Maps,46,ami,0.4245737871377715
+Cross Diffusion Maps,46,ari,0.2876078056500047
+Cross Diffusion Maps,47,chs,3.8834050117100674
+Cross Diffusion Maps,47,ami,0.4226201935874403
+Cross Diffusion Maps,47,ari,0.28780230524435324
+Cross Diffusion Maps,48,chs,3.894737152881869
+Cross Diffusion Maps,48,ami,0.42272978339695055
+Cross Diffusion Maps,48,ari,0.28743995194816624
+Cross Diffusion Maps,49,chs,3.890316121076384
+Cross Diffusion Maps,49,ami,0.425211830599495
+Cross Diffusion Maps,49,ari,0.28558981901491226
+Cross Diffusion Maps,50,chs,3.8909034071276682
+Cross Diffusion Maps,50,ami,0.4223238523581642
+Cross Diffusion Maps,50,ari,0.2810608097370717
+Cross Diffusion Maps,51,chs,3.9658185170503693
+Cross Diffusion Maps,51,ami,0.42765214797477097
+Cross Diffusion Maps,51,ari,0.2839782185469967
+Cross Diffusion Maps,52,chs,3.891215268759358
+Cross Diffusion Maps,52,ami,0.42268176609453556
+Cross Diffusion Maps,52,ari,0.28163901543819914
+Cross Diffusion Maps,53,chs,3.9014877580997704
+Cross Diffusion Maps,53,ami,0.4239805637699328
+Cross Diffusion Maps,53,ari,0.28633135914065444
+Cross Diffusion Maps,54,chs,3.8909034071276682
+Cross Diffusion Maps,54,ami,0.4223238523581642
+Cross Diffusion Maps,54,ari,0.2810608097370717
+Cross Diffusion Maps,55,chs,3.8788105695059425
+Cross Diffusion Maps,55,ami,0.42293980370287365
+Cross Diffusion Maps,55,ari,0.2890484074658409
+Cross Diffusion Maps,56,chs,3.8924518683976537
+Cross Diffusion Maps,56,ami,0.4224304016919676
+Cross Diffusion Maps,56,ari,0.2813641414303286
+Cross Diffusion Maps,57,chs,3.894737152881869
+Cross Diffusion Maps,57,ami,0.42272978339695055
+Cross Diffusion Maps,57,ari,0.28743995194816624
+Cross Diffusion Maps,58,chs,3.885683345428392
+Cross Diffusion Maps,58,ami,0.42350361400205844
+Cross Diffusion Maps,58,ari,0.2888530027096368
+Cross Diffusion Maps,59,chs,3.894737152881869
+Cross Diffusion Maps,59,ami,0.42272978339695055
+Cross Diffusion Maps,59,ari,0.28743995194816624
+Cross Diffusion Maps,60,chs,3.8909034071276682
+Cross Diffusion Maps,60,ami,0.4223238523581642
+Cross Diffusion Maps,60,ari,0.2810608097370717
+Cross Diffusion Maps,61,chs,3.889946848878248
+Cross Diffusion Maps,61,ami,0.4225369927372666
+Cross Diffusion Maps,61,ari,0.2810857646130605
+Cross Diffusion Maps,62,chs,3.8959286750717
+Cross Diffusion Maps,62,ami,0.4226843678054464
+Cross Diffusion Maps,62,ari,0.2873545421616689
+Cross Diffusion Maps,63,chs,3.8909034071276682
+Cross Diffusion Maps,63,ami,0.4223238523581642
+Cross Diffusion Maps,63,ari,0.2810608097370717
+Cross Diffusion Maps,64,chs,3.9018624081944653
+Cross Diffusion Maps,64,ami,0.424749898752966
+Cross Diffusion Maps,64,ari,0.2876102096034366
+Cross Diffusion Maps,65,chs,3.890903407127668
+Cross Diffusion Maps,65,ami,0.4223238523581642
+Cross Diffusion Maps,65,ari,0.2810608097370717
+Cross Diffusion Maps,66,chs,3.8909034071276682
+Cross Diffusion Maps,66,ami,0.4223238523581642
+Cross Diffusion Maps,66,ari,0.2810608097370717
+Cross Diffusion Maps,67,chs,3.8912374613007366
+Cross Diffusion Maps,67,ami,0.4222914758574219
+Cross Diffusion Maps,67,ari,0.2814032039299808
+Cross Diffusion Maps,68,chs,3.8835410542263564
+Cross Diffusion Maps,68,ami,0.4229514471339088
+Cross Diffusion Maps,68,ari,0.28826849663320314
+Cross Diffusion Maps,69,chs,3.890903407127668
+Cross Diffusion Maps,69,ami,0.42232385235816416
+Cross Diffusion Maps,69,ari,0.2810608097370717
+Cross Diffusion Maps,70,chs,3.8909034071276682
+Cross Diffusion Maps,70,ami,0.4223238523581643
+Cross Diffusion Maps,70,ari,0.2810608097370717
+Cross Diffusion Maps,71,chs,3.8909034071276682
+Cross Diffusion Maps,71,ami,0.42232385235816416
+Cross Diffusion Maps,71,ari,0.2810608097370717
+Cross Diffusion Maps,72,chs,3.89321577522691
+Cross Diffusion Maps,72,ami,0.4227743048778474
+Cross Diffusion Maps,72,ari,0.2818557986834154
+Cross Diffusion Maps,73,chs,3.8956929067729487
+Cross Diffusion Maps,73,ami,0.422964406024018
+Cross Diffusion Maps,73,ari,0.2874667471571609
+Cross Diffusion Maps,74,chs,3.8860113823604587
+Cross Diffusion Maps,74,ami,0.4233747710704862
+Cross Diffusion Maps,74,ari,0.2886097656660117
+Cross Diffusion Maps,75,chs,3.8869010172600187
+Cross Diffusion Maps,75,ami,0.42334970243141296
+Cross Diffusion Maps,75,ari,0.28684400945613886
+Cross Diffusion Maps,76,chs,3.8909034071276682
+Cross Diffusion Maps,76,ami,0.4223238523581642
+Cross Diffusion Maps,76,ari,0.2810608097370717
+Cross Diffusion Maps,77,chs,3.8911181059681414
+Cross Diffusion Maps,77,ami,0.4221612591073394
+Cross Diffusion Maps,77,ari,0.2812112500539013
+Cross Diffusion Maps,78,chs,3.894737152881868
+Cross Diffusion Maps,78,ami,0.42272978339695055
+Cross Diffusion Maps,78,ari,0.28743995194816624
+Cross Diffusion Maps,79,chs,3.8909034071276682
+Cross Diffusion Maps,79,ami,0.4223238523581642
+Cross Diffusion Maps,79,ari,0.2810608097370717
+Cross Diffusion Maps,80,chs,3.883541054226357
+Cross Diffusion Maps,80,ami,0.4229514471339088
+Cross Diffusion Maps,80,ari,0.28826849663320314
+Cross Diffusion Maps,81,chs,3.894008288197976
+Cross Diffusion Maps,81,ami,0.42255700485460257
+Cross Diffusion Maps,81,ari,0.28160715226649835
+Cross Diffusion Maps,82,chs,3.8881230044291897
+Cross Diffusion Maps,82,ami,0.4236499053523111
+Cross Diffusion Maps,82,ari,0.28842295506167154
+Cross Diffusion Maps,83,chs,3.967326090023496
+Cross Diffusion Maps,83,ami,0.4274114436850517
+Cross Diffusion Maps,83,ari,0.2834967946833924
+Cross Diffusion Maps,84,chs,3.891118105968142
+Cross Diffusion Maps,84,ami,0.42216125910733937
+Cross Diffusion Maps,84,ari,0.2812112500539013
+Cross Diffusion Maps,85,chs,3.8982032374773787
+Cross Diffusion Maps,85,ami,0.4230014104527547
+Cross Diffusion Maps,85,ari,0.28734092986868215
+Cross Diffusion Maps,86,chs,3.6556177813359785
+Cross Diffusion Maps,86,ami,0.371877414699575
+Cross Diffusion Maps,86,ari,0.23342634129354944
+Cross Diffusion Maps,87,chs,3.894737152881869
+Cross Diffusion Maps,87,ami,0.42272978339695055
+Cross Diffusion Maps,87,ari,0.28743995194816624
+Cross Diffusion Maps,88,chs,3.885074895385737
+Cross Diffusion Maps,88,ami,0.4229595103015405
+Cross Diffusion Maps,88,ari,0.28795348702512735
+Cross Diffusion Maps,89,chs,3.89473715288187
+Cross Diffusion Maps,89,ami,0.4227297833969505
+Cross Diffusion Maps,89,ari,0.28743995194816624
+Cross Diffusion Maps,90,chs,3.8909034071276682
+Cross Diffusion Maps,90,ami,0.4223238523581642
+Cross Diffusion Maps,90,ari,0.2810608097370717
+Cross Diffusion Maps,91,chs,3.883279168434127
+Cross Diffusion Maps,91,ami,0.4235142002883105
+Cross Diffusion Maps,91,ari,0.2877653452344428
+Cross Diffusion Maps,92,chs,3.967326090023498
+Cross Diffusion Maps,92,ami,0.42741144368505174
+Cross Diffusion Maps,92,ari,0.2834967946833924
+Cross Diffusion Maps,93,chs,3.8909034071276682
+Cross Diffusion Maps,93,ami,0.4223238523581642
+Cross Diffusion Maps,93,ari,0.2810608097370717
+Cross Diffusion Maps,94,chs,3.8909034071276682
+Cross Diffusion Maps,94,ami,0.4223238523581642
+Cross Diffusion Maps,94,ari,0.2810608097370717
+Cross Diffusion Maps,95,chs,3.8909034071276682
+Cross Diffusion Maps,95,ami,0.4223238523581643
+Cross Diffusion Maps,95,ari,0.2810608097370717
+Cross Diffusion Maps,96,chs,3.8909034071276682
+Cross Diffusion Maps,96,ami,0.42232385235816416
+Cross Diffusion Maps,96,ari,0.2810608097370717
+Cross Diffusion Maps,97,chs,3.8909034071276682
+Cross Diffusion Maps,97,ami,0.42232385235816433
+Cross Diffusion Maps,97,ari,0.2810608097370717
+Cross Diffusion Maps,98,chs,3.887905942192492
+Cross Diffusion Maps,98,ami,0.4226530738794977
+Cross Diffusion Maps,98,ari,0.28766940460974455
+Cross Diffusion Maps,99,chs,3.890903407127669
+Cross Diffusion Maps,99,ami,0.4223238523581642
+Cross Diffusion Maps,99,ari,0.2810608097370717
+Powered Alternating Diffusion,0,chs,5.274597553960702
+Powered Alternating Diffusion,0,ami,0.579072564016923
+Powered Alternating Diffusion,0,ari,0.432469553320427
+Powered Alternating Diffusion,1,chs,5.330696876839996
+Powered Alternating Diffusion,1,ami,0.5791736737126698
+Powered Alternating Diffusion,1,ari,0.4068691645637514
+Powered Alternating Diffusion,2,chs,5.329237033024257
+Powered Alternating Diffusion,2,ami,0.579678818283716
+Powered Alternating Diffusion,2,ari,0.40887736055040047
+Powered Alternating Diffusion,3,chs,5.286913221469444
+Powered Alternating Diffusion,3,ami,0.5971084381998263
+Powered Alternating Diffusion,3,ari,0.4456147714604844
+Powered Alternating Diffusion,4,chs,5.20723074238114
+Powered Alternating Diffusion,4,ami,0.579149934804587
+Powered Alternating Diffusion,4,ari,0.44140442688367104
+Powered Alternating Diffusion,5,chs,5.271492545078749
+Powered Alternating Diffusion,5,ami,0.5789820099314693
+Powered Alternating Diffusion,5,ari,0.43263621201621744
+Powered Alternating Diffusion,6,chs,5.293847246843902
+Powered Alternating Diffusion,6,ami,0.5954049863659856
+Powered Alternating Diffusion,6,ari,0.4403957146274347
+Powered Alternating Diffusion,7,chs,5.3297575890782705
+Powered Alternating Diffusion,7,ami,0.5798595633142535
+Powered Alternating Diffusion,7,ari,0.4089292580533186
+Powered Alternating Diffusion,8,chs,5.329993134367841
+Powered Alternating Diffusion,8,ami,0.5796036421846564
+Powered Alternating Diffusion,8,ari,0.4084558100204705
+Powered Alternating Diffusion,9,chs,5.294074048463345
+Powered Alternating Diffusion,9,ami,0.5953980054580132
+Powered Alternating Diffusion,9,ari,0.44035530795773337
+Powered Alternating Diffusion,10,chs,5.3303717839631615
+Powered Alternating Diffusion,10,ami,0.5799685594096547
+Powered Alternating Diffusion,10,ari,0.40893077603789574
+Powered Alternating Diffusion,11,chs,5.330259152893219
+Powered Alternating Diffusion,11,ami,0.5798765434212413
+Powered Alternating Diffusion,11,ari,0.40875979456710654
+Powered Alternating Diffusion,12,chs,5.206789999307045
+Powered Alternating Diffusion,12,ami,0.57954507615071
+Powered Alternating Diffusion,12,ari,0.44156862023310856
+Powered Alternating Diffusion,13,chs,5.1101013395892805
+Powered Alternating Diffusion,13,ami,0.582952214150981
+Powered Alternating Diffusion,13,ari,0.4529145175928042
+Powered Alternating Diffusion,14,chs,5.330359771335604
+Powered Alternating Diffusion,14,ami,0.5796865544877142
+Powered Alternating Diffusion,14,ari,0.40862498555218696
+Powered Alternating Diffusion,15,chs,5.330573873441945
+Powered Alternating Diffusion,15,ami,0.5787794000039174
+Powered Alternating Diffusion,15,ari,0.4067437664471968
+Powered Alternating Diffusion,16,chs,5.330676248089476
+Powered Alternating Diffusion,16,ami,0.5800210560701804
+Powered Alternating Diffusion,16,ari,0.40904116802851465
+Powered Alternating Diffusion,17,chs,5.330359771335605
+Powered Alternating Diffusion,17,ami,0.5796865544877143
+Powered Alternating Diffusion,17,ari,0.40862498555218696
+Powered Alternating Diffusion,18,chs,5.206878272344081
+Powered Alternating Diffusion,18,ami,0.58038915362356
+Powered Alternating Diffusion,18,ari,0.44285927146666415
+Powered Alternating Diffusion,19,chs,5.329603337224485
+Powered Alternating Diffusion,19,ami,0.5797317900567386
+Powered Alternating Diffusion,19,ari,0.40869229197666535
+Powered Alternating Diffusion,20,chs,5.224136375429501
+Powered Alternating Diffusion,20,ami,0.6018526175418206
+Powered Alternating Diffusion,20,ari,0.45815520930208214
+Powered Alternating Diffusion,21,chs,5.286169269092866
+Powered Alternating Diffusion,21,ami,0.5964461181543061
+Powered Alternating Diffusion,21,ari,0.44466114239589916
+Powered Alternating Diffusion,22,chs,5.328726084726629
+Powered Alternating Diffusion,22,ami,0.5788632283783869
+Powered Alternating Diffusion,22,ari,0.40708951680934624
+Powered Alternating Diffusion,23,chs,5.3297360044602025
+Powered Alternating Diffusion,23,ami,0.5798683656853572
+Powered Alternating Diffusion,23,ari,0.4089480599955683
+Powered Alternating Diffusion,24,chs,5.112884241538089
+Powered Alternating Diffusion,24,ami,0.5833879287661268
+Powered Alternating Diffusion,24,ari,0.44038157007345696
+Powered Alternating Diffusion,25,chs,5.329714102505196
+Powered Alternating Diffusion,25,ami,0.5800360307340531
+Powered Alternating Diffusion,25,ari,0.40889541076243224
+Powered Alternating Diffusion,26,chs,5.3297360044602025
+Powered Alternating Diffusion,26,ami,0.5798683656853572
+Powered Alternating Diffusion,26,ari,0.4089480599955683
+Powered Alternating Diffusion,27,chs,5.3297360044602025
+Powered Alternating Diffusion,27,ami,0.5798683656853572
+Powered Alternating Diffusion,27,ari,0.4089480599955683
+Powered Alternating Diffusion,28,chs,5.330359771335605
+Powered Alternating Diffusion,28,ami,0.5796865544877142
+Powered Alternating Diffusion,28,ari,0.40862498555218696
+Powered Alternating Diffusion,29,chs,5.330371783963162
+Powered Alternating Diffusion,29,ami,0.5799685594096547
+Powered Alternating Diffusion,29,ari,0.40893077603789574
+Powered Alternating Diffusion,30,chs,5.3303859865506915
+Powered Alternating Diffusion,30,ami,0.5791104065373387
+Powered Alternating Diffusion,30,ari,0.40674083699762054
+Powered Alternating Diffusion,31,chs,5.330359771335605
+Powered Alternating Diffusion,31,ami,0.5796865544877143
+Powered Alternating Diffusion,31,ari,0.40862498555218696
+Powered Alternating Diffusion,32,chs,5.329757589078271
+Powered Alternating Diffusion,32,ami,0.5798595633142534
+Powered Alternating Diffusion,32,ari,0.4089292580533186
+Powered Alternating Diffusion,33,chs,5.3297360044602025
+Powered Alternating Diffusion,33,ami,0.5798683656853572
+Powered Alternating Diffusion,33,ari,0.4089480599955683
+Powered Alternating Diffusion,34,chs,5.127395089235715
+Powered Alternating Diffusion,34,ami,0.5528842282570513
+Powered Alternating Diffusion,34,ari,0.3704856916820193
+Powered Alternating Diffusion,35,chs,5.330359771335604
+Powered Alternating Diffusion,35,ami,0.5796865544877143
+Powered Alternating Diffusion,35,ari,0.40862498555218696
+Powered Alternating Diffusion,36,chs,5.3303717839631615
+Powered Alternating Diffusion,36,ami,0.5799685594096549
+Powered Alternating Diffusion,36,ari,0.40893077603789574
+Powered Alternating Diffusion,37,chs,5.33038598655069
+Powered Alternating Diffusion,37,ami,0.5791104065373387
+Powered Alternating Diffusion,37,ari,0.40674083699762054
+Powered Alternating Diffusion,38,chs,5.2797584788594385
+Powered Alternating Diffusion,38,ami,0.5797376810479463
+Powered Alternating Diffusion,38,ari,0.43011022515767844
+Powered Alternating Diffusion,39,chs,5.330048334637082
+Powered Alternating Diffusion,39,ami,0.5796237501364184
+Powered Alternating Diffusion,39,ari,0.40849694986694585
+Powered Alternating Diffusion,40,chs,5.287675180975896
+Powered Alternating Diffusion,40,ami,0.5976356587273999
+Powered Alternating Diffusion,40,ari,0.4464834848348497
+Powered Alternating Diffusion,41,chs,5.286169269092866
+Powered Alternating Diffusion,41,ami,0.5964461181543061
+Powered Alternating Diffusion,41,ari,0.44466114239589916
+Powered Alternating Diffusion,42,chs,5.32975758907827
+Powered Alternating Diffusion,42,ami,0.5798595633142535
+Powered Alternating Diffusion,42,ari,0.4089292580533186
+Powered Alternating Diffusion,43,chs,5.231197917927996
+Powered Alternating Diffusion,43,ami,0.6024733315259319
+Powered Alternating Diffusion,43,ari,0.459535845338936
+Powered Alternating Diffusion,44,chs,5.279111387549051
+Powered Alternating Diffusion,44,ami,0.5806871970889013
+Powered Alternating Diffusion,44,ari,0.4316604679564498
+Powered Alternating Diffusion,45,chs,5.244820809818409
+Powered Alternating Diffusion,45,ami,0.6020009226427339
+Powered Alternating Diffusion,45,ari,0.45419556628916175
+Powered Alternating Diffusion,46,chs,5.330371783963162
+Powered Alternating Diffusion,46,ami,0.5799685594096549
+Powered Alternating Diffusion,46,ari,0.40893077603789574
+Powered Alternating Diffusion,47,chs,5.266234994058784
+Powered Alternating Diffusion,47,ami,0.5763037143865324
+Powered Alternating Diffusion,47,ari,0.43058200769271837
+Powered Alternating Diffusion,48,chs,5.2317919282499155
+Powered Alternating Diffusion,48,ami,0.6025858501245143
+Powered Alternating Diffusion,48,ari,0.4597339626137859
+Powered Alternating Diffusion,49,chs,5.3297360044602025
+Powered Alternating Diffusion,49,ami,0.5798683656853572
+Powered Alternating Diffusion,49,ari,0.4089480599955683
+Powered Alternating Diffusion,50,chs,5.244820809818409
+Powered Alternating Diffusion,50,ami,0.6020009226427337
+Powered Alternating Diffusion,50,ari,0.45419556628916175
+Powered Alternating Diffusion,51,chs,5.230136190653555
+Powered Alternating Diffusion,51,ami,0.6023778777665872
+Powered Alternating Diffusion,51,ari,0.45997197765875447
+Powered Alternating Diffusion,52,chs,5.329871432701703
+Powered Alternating Diffusion,52,ami,0.5798913276946048
+Powered Alternating Diffusion,52,ari,0.4090266643117905
+Powered Alternating Diffusion,53,chs,5.329736004460202
+Powered Alternating Diffusion,53,ami,0.5798683656853572
+Powered Alternating Diffusion,53,ari,0.4089480599955683
+Powered Alternating Diffusion,54,chs,5.263307078208275
+Powered Alternating Diffusion,54,ami,0.5850108930623218
+Powered Alternating Diffusion,54,ari,0.4368250786990838
+Powered Alternating Diffusion,55,chs,5.210422830649745
+Powered Alternating Diffusion,55,ami,0.5739258266270401
+Powered Alternating Diffusion,55,ari,0.4352709520159078
+Powered Alternating Diffusion,56,chs,5.206955560198372
+Powered Alternating Diffusion,56,ami,0.5799485533127429
+Powered Alternating Diffusion,56,ari,0.44189083092006787
+Powered Alternating Diffusion,57,chs,5.3297360044602025
+Powered Alternating Diffusion,57,ami,0.579868365685357
+Powered Alternating Diffusion,57,ari,0.4089480599955683
+Powered Alternating Diffusion,58,chs,5.33031554888983
+Powered Alternating Diffusion,58,ami,0.5800904352062342
+Powered Alternating Diffusion,58,ari,0.40941050506806337
+Powered Alternating Diffusion,59,chs,5.330048334637081
+Powered Alternating Diffusion,59,ami,0.5796237501364184
+Powered Alternating Diffusion,59,ari,0.40849694986694585
+Powered Alternating Diffusion,60,chs,5.330394337608957
+Powered Alternating Diffusion,60,ami,0.5790990133522755
+Powered Alternating Diffusion,60,ari,0.4067153594999134
+Powered Alternating Diffusion,61,chs,5.096966932283998
+Powered Alternating Diffusion,61,ami,0.5844450443800592
+Powered Alternating Diffusion,61,ari,0.43971787866559797
+Powered Alternating Diffusion,62,chs,5.28186347994184
+Powered Alternating Diffusion,62,ami,0.5801530086067564
+Powered Alternating Diffusion,62,ari,0.4304329809589349
+Powered Alternating Diffusion,63,chs,5.3297360044602025
+Powered Alternating Diffusion,63,ami,0.5798683656853572
+Powered Alternating Diffusion,63,ari,0.4089480599955683
+Powered Alternating Diffusion,64,chs,5.329736004460202
+Powered Alternating Diffusion,64,ami,0.5798683656853572
+Powered Alternating Diffusion,64,ari,0.4089480599955683
+Powered Alternating Diffusion,65,chs,5.3297360044602025
+Powered Alternating Diffusion,65,ami,0.5798683656853572
+Powered Alternating Diffusion,65,ari,0.4089480599955683
+Powered Alternating Diffusion,66,chs,5.272072765943654
+Powered Alternating Diffusion,66,ami,0.579212025230037
+Powered Alternating Diffusion,66,ari,0.4326770311529793
+Powered Alternating Diffusion,67,chs,5.244820809818409
+Powered Alternating Diffusion,67,ami,0.6020009226427339
+Powered Alternating Diffusion,67,ari,0.45419556628916175
+Powered Alternating Diffusion,68,chs,5.274072640476428
+Powered Alternating Diffusion,68,ami,0.5790936213851685
+Powered Alternating Diffusion,68,ari,0.43259386601407823
+Powered Alternating Diffusion,69,chs,5.329239864543273
+Powered Alternating Diffusion,69,ami,0.5793360323129867
+Powered Alternating Diffusion,69,ari,0.4079231858654278
+Powered Alternating Diffusion,70,chs,5.215519356120497
+Powered Alternating Diffusion,70,ami,0.5812140642188215
+Powered Alternating Diffusion,70,ari,0.4424109036185006
+Powered Alternating Diffusion,71,chs,5.274072640476429
+Powered Alternating Diffusion,71,ami,0.5790936213851686
+Powered Alternating Diffusion,71,ari,0.43259386601407823
+Powered Alternating Diffusion,72,chs,5.281863479941841
+Powered Alternating Diffusion,72,ami,0.5801530086067564
+Powered Alternating Diffusion,72,ari,0.4304329809589349
+Powered Alternating Diffusion,73,chs,5.329603337224484
+Powered Alternating Diffusion,73,ami,0.5797317900567387
+Powered Alternating Diffusion,73,ari,0.40869229197666535
+Powered Alternating Diffusion,74,chs,5.215519356120498
+Powered Alternating Diffusion,74,ami,0.5812140642188217
+Powered Alternating Diffusion,74,ari,0.4424109036185006
+Powered Alternating Diffusion,75,chs,5.211025022413484
+Powered Alternating Diffusion,75,ami,0.5756489080024236
+Powered Alternating Diffusion,75,ari,0.4353481306467008
+Powered Alternating Diffusion,76,chs,5.3303859865506915
+Powered Alternating Diffusion,76,ami,0.5791104065373386
+Powered Alternating Diffusion,76,ari,0.40674083699762054
+Powered Alternating Diffusion,77,chs,5.273230678706548
+Powered Alternating Diffusion,77,ami,0.5790994487177431
+Powered Alternating Diffusion,77,ari,0.4325440036990881
+Powered Alternating Diffusion,78,chs,5.24505098321116
+Powered Alternating Diffusion,78,ami,0.6020608302492387
+Powered Alternating Diffusion,78,ari,0.45433589921316797
+Powered Alternating Diffusion,79,chs,5.293958064856058
+Powered Alternating Diffusion,79,ami,0.5955710889975827
+Powered Alternating Diffusion,79,ari,0.44070251726184
+Powered Alternating Diffusion,80,chs,5.280700253806161
+Powered Alternating Diffusion,80,ami,0.5806298912154925
+Powered Alternating Diffusion,80,ari,0.43150013635573337
+Powered Alternating Diffusion,81,chs,5.3297575890782705
+Powered Alternating Diffusion,81,ami,0.5798595633142534
+Powered Alternating Diffusion,81,ari,0.4089292580533186
+Powered Alternating Diffusion,82,chs,5.3287702617601065
+Powered Alternating Diffusion,82,ami,0.5794104475141275
+Powered Alternating Diffusion,82,ari,0.40859450188470975
+Powered Alternating Diffusion,83,chs,5.330639880936833
+Powered Alternating Diffusion,83,ami,0.5801280936387866
+Powered Alternating Diffusion,83,ari,0.4092651670902387
+Powered Alternating Diffusion,84,chs,5.329736004460202
+Powered Alternating Diffusion,84,ami,0.5798683656853572
+Powered Alternating Diffusion,84,ari,0.4089480599955683
+Powered Alternating Diffusion,85,chs,5.329757589078271
+Powered Alternating Diffusion,85,ami,0.5798595633142536
+Powered Alternating Diffusion,85,ari,0.4089292580533186
+Powered Alternating Diffusion,86,chs,5.276043600091224
+Powered Alternating Diffusion,86,ami,0.5794393239438366
+Powered Alternating Diffusion,86,ari,0.4327154148185172
+Powered Alternating Diffusion,87,chs,5.11288424153809
+Powered Alternating Diffusion,87,ami,0.5833879287661267
+Powered Alternating Diffusion,87,ari,0.44038157007345696
+Powered Alternating Diffusion,88,chs,5.330394337608957
+Powered Alternating Diffusion,88,ami,0.5790990133522756
+Powered Alternating Diffusion,88,ari,0.4067153594999134
+Powered Alternating Diffusion,89,chs,5.3297360044602025
+Powered Alternating Diffusion,89,ami,0.5798683656853572
+Powered Alternating Diffusion,89,ari,0.4089480599955683
+Powered Alternating Diffusion,90,chs,5.282051162321558
+Powered Alternating Diffusion,90,ami,0.5791679958961478
+Powered Alternating Diffusion,90,ari,0.42936250051503505
+Powered Alternating Diffusion,91,chs,5.244820809818408
+Powered Alternating Diffusion,91,ami,0.6020009226427337
+Powered Alternating Diffusion,91,ari,0.45419556628916175
+Powered Alternating Diffusion,92,chs,5.330912727148578
+Powered Alternating Diffusion,92,ami,0.579313497895395
+Powered Alternating Diffusion,92,ari,0.4067625653405723
+Powered Alternating Diffusion,93,chs,5.2751513555286405
+Powered Alternating Diffusion,93,ami,0.5794814821596639
+Powered Alternating Diffusion,93,ari,0.4331981386813949
+Powered Alternating Diffusion,94,chs,5.28186347994184
+Powered Alternating Diffusion,94,ami,0.5801530086067564
+Powered Alternating Diffusion,94,ari,0.4304329809589349
+Powered Alternating Diffusion,95,chs,5.279219403702786
+Powered Alternating Diffusion,95,ami,0.5802972094287061
+Powered Alternating Diffusion,95,ari,0.43100881266866164
+Powered Alternating Diffusion,96,chs,5.329901256393726
+Powered Alternating Diffusion,96,ami,0.5798481358145603
+Powered Alternating Diffusion,96,ari,0.40878540736526464
+Powered Alternating Diffusion,97,chs,5.292832610771784
+Powered Alternating Diffusion,97,ami,0.594930054647692
+Powered Alternating Diffusion,97,ari,0.43972860538358566
+Powered Alternating Diffusion,98,chs,5.292065875336474
+Powered Alternating Diffusion,98,ami,0.5940772990664702
+Powered Alternating Diffusion,98,ari,0.43827927051689536
+Powered Alternating Diffusion,99,chs,5.150194829379445
+Powered Alternating Diffusion,99,ami,0.5813874289124588
+Powered Alternating Diffusion,99,ari,0.43205795216774606
+Random Convex MDT,0,chs,5.21096350855066
+Random Convex MDT,0,ami,0.5398706683618814
+Random Convex MDT,0,ari,0.384206512926262
+Random Convex MDT,1,chs,5.244869496922492
+Random Convex MDT,1,ami,0.5785894992568724
+Random Convex MDT,1,ari,0.43326197080076045
+Random Convex MDT,2,chs,5.280541406065019
+Random Convex MDT,2,ami,0.5584172682400296
+Random Convex MDT,2,ari,0.39592141735809877
+Random Convex MDT,3,chs,5.1897967066927855
+Random Convex MDT,3,ami,0.5381269280959576
+Random Convex MDT,3,ari,0.3839942912687887
+Random Convex MDT,4,chs,5.112715924841962
+Random Convex MDT,4,ami,0.5380650413518839
+Random Convex MDT,4,ari,0.4003679048787259
+Random Convex MDT,5,chs,5.295820236425209
+Random Convex MDT,5,ami,0.6020306565039307
+Random Convex MDT,5,ari,0.45855669892053963
+Random Convex MDT,6,chs,5.105388508645081
+Random Convex MDT,6,ami,0.5693305366377925
+Random Convex MDT,6,ari,0.426734335471899
+Random Convex MDT,7,chs,5.280509268250398
+Random Convex MDT,7,ami,0.5958328165135792
+Random Convex MDT,7,ari,0.45320835124198594
+Random Convex MDT,8,chs,5.241378703682705
+Random Convex MDT,8,ami,0.5494463758341135
+Random Convex MDT,8,ari,0.39239490617117545
+Random Convex MDT,9,chs,5.161426360628273
+Random Convex MDT,9,ami,0.5306718777454182
+Random Convex MDT,9,ari,0.37943760310855396
+Random Convex MDT,10,chs,5.1531306787253435
+Random Convex MDT,10,ami,0.5244568187746621
+Random Convex MDT,10,ari,0.37045246466354087
+Random Convex MDT,11,chs,5.2631731092036125
+Random Convex MDT,11,ami,0.5880226458305138
+Random Convex MDT,11,ari,0.44598544571450294
+Random Convex MDT,12,chs,5.234809051503991
+Random Convex MDT,12,ami,0.5712913284740913
+Random Convex MDT,12,ari,0.42530948703741595
+Random Convex MDT,13,chs,5.0489991560307725
+Random Convex MDT,13,ami,0.5017965416952633
+Random Convex MDT,13,ari,0.35673517256033577
+Random Convex MDT,14,chs,5.328067102861769
+Random Convex MDT,14,ami,0.587012968484291
+Random Convex MDT,14,ari,0.4082527936072458
+Random Convex MDT,15,chs,5.077001391492601
+Random Convex MDT,15,ami,0.5265469464495874
+Random Convex MDT,15,ari,0.38530641359889817
+Random Convex MDT,16,chs,5.376196423336527
+Random Convex MDT,16,ami,0.6102037937135416
+Random Convex MDT,16,ari,0.42908838447994524
+Random Convex MDT,17,chs,5.227367741551204
+Random Convex MDT,17,ami,0.5432941698710535
+Random Convex MDT,17,ari,0.38443410447995613
+Random Convex MDT,18,chs,5.328287796067254
+Random Convex MDT,18,ami,0.5737875019892078
+Random Convex MDT,18,ari,0.41020016798286524
+Random Convex MDT,19,chs,5.3328078620719594
+Random Convex MDT,19,ami,0.606581776810901
+Random Convex MDT,19,ari,0.454555738669774
+Random Convex MDT,20,chs,4.928247980800208
+Random Convex MDT,20,ami,0.5031632868428454
+Random Convex MDT,20,ari,0.3875648328377887
+Random Convex MDT,21,chs,4.999016870819823
+Random Convex MDT,21,ami,0.4936498881079908
+Random Convex MDT,21,ari,0.35780060803744634
+Random Convex MDT,22,chs,5.294128148760045
+Random Convex MDT,22,ami,0.5630304379240879
+Random Convex MDT,22,ari,0.40150146985514634
+Random Convex MDT,23,chs,4.958433356945724
+Random Convex MDT,23,ami,0.4822671557238486
+Random Convex MDT,23,ari,0.3430551487309212
+Random Convex MDT,24,chs,5.1609217695969996
+Random Convex MDT,24,ami,0.5537997854117238
+Random Convex MDT,24,ari,0.4158997315915542
+Random Convex MDT,25,chs,5.296267327904518
+Random Convex MDT,25,ami,0.5652195550421371
+Random Convex MDT,25,ari,0.40383970144374476
+Random Convex MDT,26,chs,5.021429516974107
+Random Convex MDT,26,ami,0.495305340887423
+Random Convex MDT,26,ari,0.35536831818870185
+Random Convex MDT,27,chs,5.3710938314270615
+Random Convex MDT,27,ami,0.6008558439773997
+Random Convex MDT,27,ari,0.4320950853043119
+Random Convex MDT,28,chs,5.345058765483402
+Random Convex MDT,28,ami,0.5810373074304943
+Random Convex MDT,28,ari,0.4134655339712894
+Random Convex MDT,29,chs,5.325163378578655
+Random Convex MDT,29,ami,0.6016588784996224
+Random Convex MDT,29,ari,0.44524195029737346
+Random Convex MDT,30,chs,5.244333105543866
+Random Convex MDT,30,ami,0.5655553322770228
+Random Convex MDT,30,ari,0.4186064408716991
+Random Convex MDT,31,chs,5.18753153839174
+Random Convex MDT,31,ami,0.5393710320262799
+Random Convex MDT,31,ari,0.3888182808083343
+Random Convex MDT,32,chs,5.308733105032766
+Random Convex MDT,32,ami,0.5883523686152465
+Random Convex MDT,32,ari,0.4362850083137164
+Random Convex MDT,33,chs,5.365713968574577
+Random Convex MDT,33,ami,0.5962799714740243
+Random Convex MDT,33,ari,0.42767831940455586
+Random Convex MDT,34,chs,5.270682728838358
+Random Convex MDT,34,ami,0.5585172700680219
+Random Convex MDT,34,ari,0.39885347354264944
+Random Convex MDT,35,chs,5.295542306246085
+Random Convex MDT,35,ami,0.5633078807621499
+Random Convex MDT,35,ari,0.4013041646030757
+Random Convex MDT,36,chs,5.363358547032467
+Random Convex MDT,36,ami,0.5988194062772411
+Random Convex MDT,36,ari,0.4295401814435268
+Random Convex MDT,37,chs,5.17377749772467
+Random Convex MDT,37,ami,0.5467193047186079
+Random Convex MDT,37,ari,0.40855385376110803
+Random Convex MDT,38,chs,5.322921540784071
+Random Convex MDT,38,ami,0.5898002047079772
+Random Convex MDT,38,ari,0.43975610420064026
+Random Convex MDT,39,chs,5.130799489254301
+Random Convex MDT,39,ami,0.5432501797064021
+Random Convex MDT,39,ari,0.40716509946416063
+Random Convex MDT,40,chs,5.223879437183395
+Random Convex MDT,40,ami,0.5677682736538809
+Random Convex MDT,40,ari,0.42206632415779033
+Random Convex MDT,41,chs,5.2586573589333865
+Random Convex MDT,41,ami,0.5743995947962017
+Random Convex MDT,41,ari,0.42758605028384156
+Random Convex MDT,42,chs,5.264780740913837
+Random Convex MDT,42,ami,0.5536454578401651
+Random Convex MDT,42,ari,0.3921544796798599
+Random Convex MDT,43,chs,5.213088127505871
+Random Convex MDT,43,ami,0.547573128464855
+Random Convex MDT,43,ari,0.39455865181860933
+Random Convex MDT,44,chs,5.353401586495243
+Random Convex MDT,44,ami,0.6032786732703858
+Random Convex MDT,44,ari,0.4214776128356548
+Random Convex MDT,45,chs,5.339727980340286
+Random Convex MDT,45,ami,0.5816125577316005
+Random Convex MDT,45,ari,0.41634762908353007
+Random Convex MDT,46,chs,5.334006202609446
+Random Convex MDT,46,ami,0.5996566308856203
+Random Convex MDT,46,ari,0.44644151904167473
+Random Convex MDT,47,chs,5.351023761734417
+Random Convex MDT,47,ami,0.5832123015696371
+Random Convex MDT,47,ari,0.4150664621486818
+Random Convex MDT,48,chs,5.237379025080649
+Random Convex MDT,48,ami,0.591555721399082
+Random Convex MDT,48,ari,0.45793397258651364
+Random Convex MDT,49,chs,5.334376131207284
+Random Convex MDT,49,ami,0.5775494754890379
+Random Convex MDT,49,ari,0.41253210596933987
+Random Convex MDT,50,chs,5.318971884234114
+Random Convex MDT,50,ami,0.5717293877352753
+Random Convex MDT,50,ari,0.40741440240942955
+Random Convex MDT,51,chs,5.270291318727878
+Random Convex MDT,51,ami,0.6016907952886851
+Random Convex MDT,51,ari,0.45856688377158167
+Random Convex MDT,52,chs,5.264743456738067
+Random Convex MDT,52,ami,0.554191814930328
+Random Convex MDT,52,ari,0.3942747252670592
+Random Convex MDT,53,chs,5.0827476332245265
+Random Convex MDT,53,ami,0.5280987801098982
+Random Convex MDT,53,ari,0.38655232486740376
+Random Convex MDT,54,chs,5.235249866547477
+Random Convex MDT,54,ami,0.566176181913688
+Random Convex MDT,54,ari,0.4208213961265383
+Random Convex MDT,55,chs,4.76434308545411
+Random Convex MDT,55,ami,0.4972703858653213
+Random Convex MDT,55,ari,0.3771690686002908
+Random Convex MDT,56,chs,5.2573216645048415
+Random Convex MDT,56,ami,0.5524265123062956
+Random Convex MDT,56,ari,0.3912597355911152
+Random Convex MDT,57,chs,4.946262458024737
+Random Convex MDT,57,ami,0.498399658061893
+Random Convex MDT,57,ari,0.3639004669015647
+Random Convex MDT,58,chs,5.244973792262259
+Random Convex MDT,58,ami,0.5467922892334246
+Random Convex MDT,58,ari,0.3863443995308677
+Random Convex MDT,59,chs,5.284822205694765
+Random Convex MDT,59,ami,0.5609412004455665
+Random Convex MDT,59,ari,0.399782957056675
+Random Convex MDT,60,chs,5.123497812813996
+Random Convex MDT,60,ami,0.5344799299479565
+Random Convex MDT,60,ari,0.39718518926707697
+Random Convex MDT,61,chs,5.255759022096548
+Random Convex MDT,61,ami,0.577808680062898
+Random Convex MDT,61,ari,0.4323196835597386
+Random Convex MDT,62,chs,5.263693088266367
+Random Convex MDT,62,ami,0.556136615812283
+Random Convex MDT,62,ari,0.3992665679958949
+Random Convex MDT,63,chs,5.354327092636581
+Random Convex MDT,63,ami,0.597704347238575
+Random Convex MDT,63,ari,0.41772850414869106
+Random Convex MDT,64,chs,5.288717631182432
+Random Convex MDT,64,ami,0.5881632185189509
+Random Convex MDT,64,ari,0.44160836830793443
+Random Convex MDT,65,chs,5.224403518919088
+Random Convex MDT,65,ami,0.5639677609439319
+Random Convex MDT,65,ari,0.41979669023046384
+Random Convex MDT,66,chs,5.366458406915026
+Random Convex MDT,66,ami,0.5912958524971831
+Random Convex MDT,66,ari,0.4249221358369642
+Random Convex MDT,67,chs,5.319880511819258
+Random Convex MDT,67,ami,0.6190612600969165
+Random Convex MDT,67,ari,0.4799454271169333
+Random Convex MDT,68,chs,5.327515798497764
+Random Convex MDT,68,ami,0.5778450191573213
+Random Convex MDT,68,ari,0.4127103258570118
+Random Convex MDT,69,chs,5.055966220415601
+Random Convex MDT,69,ami,0.502420806569266
+Random Convex MDT,69,ari,0.35488511882257007
+Random Convex MDT,70,chs,5.039356085746089
+Random Convex MDT,70,ami,0.520952110565334
+Random Convex MDT,70,ari,0.3806096738312868
+Random Convex MDT,71,chs,5.199871233958306
+Random Convex MDT,71,ami,0.5648271109242573
+Random Convex MDT,71,ari,0.4321241217442701
+Random Convex MDT,72,chs,5.373424646014416
+Random Convex MDT,72,ami,0.5997454773478049
+Random Convex MDT,72,ari,0.43112070777990363
+Random Convex MDT,73,chs,4.995609205842133
+Random Convex MDT,73,ami,0.4932175104138007
+Random Convex MDT,73,ari,0.35323655240812407
+Random Convex MDT,74,chs,5.335236706946153
+Random Convex MDT,74,ami,0.589288176982656
+Random Convex MDT,74,ari,0.4097448208373438
+Random Convex MDT,75,chs,5.313565358104535
+Random Convex MDT,75,ami,0.56963727156007
+Random Convex MDT,75,ari,0.40440228416952195
+Random Convex MDT,76,chs,5.341480945198701
+Random Convex MDT,76,ami,0.5795294013766707
+Random Convex MDT,76,ari,0.4127734240609451
+Random Convex MDT,77,chs,5.339345555824087
+Random Convex MDT,77,ami,0.6031720978560244
+Random Convex MDT,77,ari,0.4520009176524001
+Random Convex MDT,78,chs,5.065221565529178
+Random Convex MDT,78,ami,0.5045667300885321
+Random Convex MDT,78,ari,0.35656362348425913
+Random Convex MDT,79,chs,5.326927182666974
+Random Convex MDT,79,ami,0.573469974746371
+Random Convex MDT,79,ari,0.40924510757657345
+Random Convex MDT,80,chs,5.293475063966884
+Random Convex MDT,80,ami,0.5638407990084194
+Random Convex MDT,80,ari,0.4021892874685585
+Random Convex MDT,81,chs,5.356698261997611
+Random Convex MDT,81,ami,0.5850254845924832
+Random Convex MDT,81,ari,0.416025517567975
+Random Convex MDT,82,chs,5.2174337255401255
+Random Convex MDT,82,ami,0.5431402403680926
+Random Convex MDT,82,ari,0.38636324995188054
+Random Convex MDT,83,chs,5.329271648573985
+Random Convex MDT,83,ami,0.6024325936851371
+Random Convex MDT,83,ari,0.45140608469115195
+Random Convex MDT,84,chs,5.271036677970914
+Random Convex MDT,84,ami,0.5553467197459407
+Random Convex MDT,84,ari,0.3933018300663155
+Random Convex MDT,85,chs,5.276018963693177
+Random Convex MDT,85,ami,0.5568210338578397
+Random Convex MDT,85,ari,0.3954787139182774
+Random Convex MDT,86,chs,5.166152013325704
+Random Convex MDT,86,ami,0.5290840665531534
+Random Convex MDT,86,ari,0.37622933379784795
+Random Convex MDT,87,chs,5.1037445432545185
+Random Convex MDT,87,ami,0.5173388189395174
+Random Convex MDT,87,ari,0.3661553546241597
+Random Convex MDT,88,chs,5.320929639767842
+Random Convex MDT,88,ami,0.5741744162132579
+Random Convex MDT,88,ari,0.4100338094860332
+Random Convex MDT,89,chs,5.353952688032822
+Random Convex MDT,89,ami,0.5896173520240564
+Random Convex MDT,89,ari,0.4197029131205455
+Random Convex MDT,90,chs,5.082981783426081
+Random Convex MDT,90,ami,0.5084153650890278
+Random Convex MDT,90,ari,0.3599820424884202
+Random Convex MDT,91,chs,5.142650034772046
+Random Convex MDT,91,ami,0.528160458017488
+Random Convex MDT,91,ari,0.37744350823278044
+Random Convex MDT,92,chs,5.329545259187586
+Random Convex MDT,92,ami,0.6386398174986977
+Random Convex MDT,92,ari,0.5013360039771615
+Random Convex MDT,93,chs,5.086158417849562
+Random Convex MDT,93,ami,0.5173008761214895
+Random Convex MDT,93,ari,0.37255502565907367
+Random Convex MDT,94,chs,5.3324284948152565
+Random Convex MDT,94,ami,0.5812827805174597
+Random Convex MDT,94,ari,0.41882657451687566
+Random Convex MDT,95,chs,5.174034165736101
+Random Convex MDT,95,ami,0.5320524069101623
+Random Convex MDT,95,ari,0.37947166887678024
+Random Convex MDT,96,chs,5.368979118189237
+Random Convex MDT,96,ami,0.5961232128557915
+Random Convex MDT,96,ari,0.4273778528275995
+Random Convex MDT,97,chs,5.3345508399902455
+Random Convex MDT,97,ami,0.5774900932391398
+Random Convex MDT,97,ari,0.4124732914727107
+Random Convex MDT,98,chs,4.98360154322987
+Random Convex MDT,98,ami,0.514069990945239
+Random Convex MDT,98,ari,0.3890038396783318
+Random Convex MDT,99,chs,5.348027123150354
+Random Convex MDT,99,ami,0.6292155567768594
+Random Convex MDT,99,ari,0.4914364204823147
+Random MDT,0,chs,5.341018958781464
+Random MDT,0,ami,0.6156193052038325
+Random MDT,0,ari,0.46312465749479353
+Random MDT,1,chs,5.192894077770965
+Random MDT,1,ami,0.5958791901299044
+Random MDT,1,ari,0.47961797284307994
+Random MDT,2,chs,4.886960705219051
+Random MDT,2,ami,0.48299685461116654
+Random MDT,2,ari,0.3545878997018017
+Random MDT,3,chs,4.706136332226447
+Random MDT,3,ami,0.43355521822388876
+Random MDT,3,ari,0.30627555235241033
+Random MDT,4,chs,5.3298293227545575
+Random MDT,4,ami,0.6172392097117321
+Random MDT,4,ari,0.46794279202469824
+Random MDT,5,chs,4.757503058372257
+Random MDT,5,ami,0.44381011092911626
+Random MDT,5,ari,0.3205074857414065
+Random MDT,6,chs,4.725273971626104
+Random MDT,6,ami,0.4370455400525356
+Random MDT,6,ari,0.3099416327432193
+Random MDT,7,chs,4.898226759454684
+Random MDT,7,ami,0.48800436826692795
+Random MDT,7,ari,0.3591355446938422
+Random MDT,8,chs,4.614008690139601
+Random MDT,8,ami,0.4304753753784358
+Random MDT,8,ari,0.31606079836084494
+Random MDT,9,chs,5.023309772569247
+Random MDT,9,ami,0.525571009051508
+Random MDT,9,ari,0.3952304641092684
+Random MDT,10,chs,5.317184156527528
+Random MDT,10,ami,0.5746773861462857
+Random MDT,10,ari,0.4062723696063787
+Random MDT,11,chs,5.345858389626471
+Random MDT,11,ami,0.6128928652903533
+Random MDT,11,ari,0.458595218659171
+Random MDT,12,chs,5.298644988481677
+Random MDT,12,ami,0.5687040648455354
+Random MDT,12,ari,0.40348812441239434
+Random MDT,13,chs,5.07560625959023
+Random MDT,13,ami,0.5351028126289953
+Random MDT,13,ari,0.4050875624648041
+Random MDT,14,chs,5.212631530564107
+Random MDT,14,ami,0.6191915561094207
+Random MDT,14,ari,0.4973477723603178
+Random MDT,15,chs,4.881413300167038
+Random MDT,15,ami,0.4898238524951792
+Random MDT,15,ari,0.3605797020231297
+Random MDT,16,chs,5.195832875237241
+Random MDT,16,ami,0.5525315353111692
+Random MDT,16,ari,0.41274684179719806
+Random MDT,17,chs,5.28755758988933
+Random MDT,17,ami,0.5658387307839884
+Random MDT,17,ari,0.4005910749943555
+Random MDT,18,chs,5.1984363252620795
+Random MDT,18,ami,0.5470608008444615
+Random MDT,18,ari,0.3835141060954839
+Random MDT,19,chs,5.408176149009912
+Random MDT,19,ami,0.6097306227441377
+Random MDT,19,ari,0.4228721281073411
+Random MDT,20,chs,5.355594497664496
+Random MDT,20,ami,0.6178208349336345
+Random MDT,20,ari,0.46396273484288636
+Random MDT,21,chs,5.341463339444733
+Random MDT,21,ami,0.5876952843976111
+Random MDT,21,ari,0.4216724282820399
+Random MDT,22,chs,5.374537133109556
+Random MDT,22,ami,0.6051497015070514
+Random MDT,22,ari,0.4372601449904872
+Random MDT,23,chs,5.308788736511778
+Random MDT,23,ami,0.5941584162608393
+Random MDT,23,ari,0.45118124105497553
+Random MDT,24,chs,5.341483383336211
+Random MDT,24,ami,0.6164866448672678
+Random MDT,24,ari,0.4610119230212781
+Random MDT,25,chs,4.957354440415249
+Random MDT,25,ami,0.4849015761147048
+Random MDT,25,ari,0.3404913385161354
+Random MDT,26,chs,5.033424145832548
+Random MDT,26,ami,0.5207331147664573
+Random MDT,26,ari,0.3627896253153671
+Random MDT,27,chs,4.597457749897506
+Random MDT,27,ami,0.4288960985740789
+Random MDT,27,ari,0.32500016015925043
+Random MDT,28,chs,4.839162042946764
+Random MDT,28,ami,0.4613380314260069
+Random MDT,28,ari,0.32460980119797705
+Random MDT,29,chs,5.314053456639654
+Random MDT,29,ami,0.5760029792126029
+Random MDT,29,ari,0.40928788201072075
+Random MDT,30,chs,4.898453330408799
+Random MDT,30,ami,0.4752038372731536
+Random MDT,30,ari,0.3433388365058367
+Random MDT,31,chs,4.833662300794995
+Random MDT,31,ami,0.4579060432464026
+Random MDT,31,ari,0.32325378018108597
+Random MDT,32,chs,5.2769761539992075
+Random MDT,32,ami,0.5944629282387641
+Random MDT,32,ari,0.44358706910194634
+Random MDT,33,chs,5.346515410582382
+Random MDT,33,ami,0.5895147317417265
+Random MDT,33,ari,0.4180478750689621
+Random MDT,34,chs,5.2853740506832665
+Random MDT,34,ami,0.5635119598348781
+Random MDT,34,ari,0.39593950770930986
+Random MDT,35,chs,5.356401085135648
+Random MDT,35,ami,0.6363042093853633
+Random MDT,35,ari,0.49505554624351944
+Random MDT,36,chs,4.998129136496597
+Random MDT,36,ami,0.5127213248589738
+Random MDT,36,ari,0.375490016945081
+Random MDT,37,chs,4.840629883486402
+Random MDT,37,ami,0.4623821698225606
+Random MDT,37,ari,0.3301166048866732
+Random MDT,38,chs,5.357090692006236
+Random MDT,38,ami,0.603937144492639
+Random MDT,38,ari,0.4215578172226286
+Random MDT,39,chs,4.863222029803789
+Random MDT,39,ami,0.4835042856930596
+Random MDT,39,ari,0.35467694221793283
+Random MDT,40,chs,5.096971342725121
+Random MDT,40,ami,0.5211559049801614
+Random MDT,40,ari,0.3714279907894309
+Random MDT,41,chs,4.502381937954009
+Random MDT,41,ami,0.4134110881529367
+Random MDT,41,ari,0.30279314201718804
+Random MDT,42,chs,4.7027813150375355
+Random MDT,42,ami,0.44879134176018837
+Random MDT,42,ari,0.3304125880575336
+Random MDT,43,chs,5.317647712762884
+Random MDT,43,ami,0.5761889588698658
+Random MDT,43,ari,0.4073672203257325
+Random MDT,44,chs,5.010548946474953
+Random MDT,44,ami,0.4947524281819744
+Random MDT,44,ari,0.3522724509603105
+Random MDT,45,chs,4.785597850020689
+Random MDT,45,ami,0.450444890185743
+Random MDT,45,ari,0.32925637736624525
+Random MDT,46,chs,5.3390015050745845
+Random MDT,46,ami,0.6532641335450768
+Random MDT,46,ari,0.517901101130526
+Random MDT,47,chs,4.714224046239376
+Random MDT,47,ami,0.45340024200283
+Random MDT,47,ari,0.3422015489996969
+Random MDT,48,chs,5.107789508515673
+Random MDT,48,ami,0.5435245551880773
+Random MDT,48,ari,0.4121254420888843
+Random MDT,49,chs,4.939966312210779
+Random MDT,49,ami,0.4975486354772113
+Random MDT,49,ari,0.3642766091557361
+Random MDT,50,chs,5.412720048755112
+Random MDT,50,ami,0.6338141272942043
+Random MDT,50,ari,0.4627539049814287
+Random MDT,51,chs,4.972992981546554
+Random MDT,51,ami,0.5030594832964359
+Random MDT,51,ari,0.36661333474063473
+Random MDT,52,chs,4.817561650455316
+Random MDT,52,ami,0.4741329938471782
+Random MDT,52,ari,0.3489819912039116
+Random MDT,53,chs,5.300262971731322
+Random MDT,53,ami,0.5944074851533168
+Random MDT,53,ari,0.44719749491071836
+Random MDT,54,chs,4.475640605740129
+Random MDT,54,ami,0.40530964393576346
+Random MDT,54,ari,0.30713655362087505
+Random MDT,55,chs,4.967935364917661
+Random MDT,55,ami,0.48578463867017685
+Random MDT,55,ari,0.34393749838151544
+Random MDT,56,chs,5.135712670406981
+Random MDT,56,ami,0.5331503043992065
+Random MDT,56,ari,0.38580318921238027
+Random MDT,57,chs,4.993339255532992
+Random MDT,57,ami,0.509110566671229
+Random MDT,57,ari,0.373520124750446
+Random MDT,58,chs,5.143028635430756
+Random MDT,58,ami,0.5940243058295132
+Random MDT,58,ari,0.4523368694508995
+Random MDT,59,chs,5.333835005834754
+Random MDT,59,ami,0.5817892217778522
+Random MDT,59,ari,0.411093143412263
+Random MDT,60,chs,4.899383162911042
+Random MDT,60,ami,0.4737836289693541
+Random MDT,60,ari,0.33785745756581714
+Random MDT,61,chs,5.304112509113424
+Random MDT,61,ami,0.5943102348783365
+Random MDT,61,ari,0.44912326370182615
+Random MDT,62,chs,5.063142419038375
+Random MDT,62,ami,0.5297010538083168
+Random MDT,62,ari,0.38833647372468555
+Random MDT,63,chs,5.042718650331485
+Random MDT,63,ami,0.5030728305738695
+Random MDT,63,ari,0.3553824202265879
+Random MDT,64,chs,5.277656513972749
+Random MDT,64,ami,0.6320734269568731
+Random MDT,64,ari,0.4997187955515638
+Random MDT,65,chs,5.0076460835336105
+Random MDT,65,ami,0.49372618341156593
+Random MDT,65,ari,0.34685903154254205
+Random MDT,66,chs,5.324789265560736
+Random MDT,66,ami,0.6083873627293979
+Random MDT,66,ari,0.4549066602287685
+Random MDT,67,chs,5.225668317049444
+Random MDT,67,ami,0.5619551704705251
+Random MDT,67,ari,0.4194600412173953
+Random MDT,68,chs,5.037427578610597
+Random MDT,68,ami,0.5027226943260878
+Random MDT,68,ari,0.3538878299302534
+Random MDT,69,chs,5.029284312091358
+Random MDT,69,ami,0.5199430776031818
+Random MDT,69,ari,0.38113388609362275
+Random MDT,70,chs,5.117608304805747
+Random MDT,70,ami,0.5256094507869701
+Random MDT,70,ari,0.3787425173470397
+Random MDT,71,chs,5.211926454867335
+Random MDT,71,ami,0.5918470164779199
+Random MDT,71,ari,0.43710153313169664
+Random MDT,72,chs,5.336812439377804
+Random MDT,72,ami,0.5828344742529901
+Random MDT,72,ari,0.41203392182137594
+Random MDT,73,chs,5.3331673777603275
+Random MDT,73,ami,0.5843427234796568
+Random MDT,73,ari,0.41700562933062907
+Random MDT,74,chs,5.329791505241775
+Random MDT,74,ami,0.6168964096304226
+Random MDT,74,ari,0.46965857429255
+Random MDT,75,chs,5.376055850247315
+Random MDT,75,ami,0.6057062976153611
+Random MDT,75,ari,0.4360013761021871
+Random MDT,76,chs,4.834283459485917
+Random MDT,76,ami,0.4637757335246377
+Random MDT,76,ari,0.3393648947481447
+Random MDT,77,chs,5.03008647324368
+Random MDT,77,ami,0.5001844809981154
+Random MDT,77,ari,0.35321622202886394
+Random MDT,78,chs,5.3641123935303305
+Random MDT,78,ami,0.5971427932771478
+Random MDT,78,ari,0.4263108311381942
+Random MDT,79,chs,4.9687678433163125
+Random MDT,79,ami,0.5031138558645393
+Random MDT,79,ari,0.36628415421422494
+Random MDT,80,chs,5.345290085111694
+Random MDT,80,ami,0.5873062282480467
+Random MDT,80,ari,0.41556554715607563
+Random MDT,81,chs,5.130748426216671
+Random MDT,81,ami,0.5307232849646134
+Random MDT,81,ari,0.38294742541789245
+Random MDT,82,chs,5.317580139572186
+Random MDT,82,ami,0.5768083178432276
+Random MDT,82,ari,0.40785212266465504
+Random MDT,83,chs,5.185657096737323
+Random MDT,83,ami,0.5509240855803208
+Random MDT,83,ari,0.41278756654090754
+Random MDT,84,chs,4.855755997228346
+Random MDT,84,ami,0.46465729095690717
+Random MDT,84,ari,0.32882698727737053
+Random MDT,85,chs,5.3451758520083015
+Random MDT,85,ami,0.5875743995605436
+Random MDT,85,ari,0.4160301419909522
+Random MDT,86,chs,4.995663757164441
+Random MDT,86,ami,0.4958385258344682
+Random MDT,86,ari,0.35586938046663485
+Random MDT,87,chs,4.796939448694381
+Random MDT,87,ami,0.45283238723430197
+Random MDT,87,ari,0.3164111724647994
+Random MDT,88,chs,5.2714994652341
+Random MDT,88,ami,0.6053232646198168
+Random MDT,88,ari,0.46303615480944077
+Random MDT,89,chs,5.0000344582003855
+Random MDT,89,ami,0.5118694419843353
+Random MDT,89,ari,0.3760011301910233
+Random MDT,90,chs,5.324165572409822
+Random MDT,90,ami,0.5803716633432932
+Random MDT,90,ari,0.4127895357369492
+Random MDT,91,chs,5.230199071075842
+Random MDT,91,ami,0.5767237898147869
+Random MDT,91,ari,0.4423836529828755
+Random MDT,92,chs,5.235797103898908
+Random MDT,92,ami,0.6101007034900945
+Random MDT,92,ari,0.47320681070480813
+Random MDT,93,chs,5.297214566033812
+Random MDT,93,ami,0.5690057375828619
+Random MDT,93,ari,0.40534983945456315
+Random MDT,94,chs,4.995280216927101
+Random MDT,94,ami,0.4921066469640085
+Random MDT,94,ari,0.35149875493155874
+Random MDT,95,chs,5.32651743718385
+Random MDT,95,ami,0.5809085658390489
+Random MDT,95,ari,0.41225442695281694
+Random MDT,96,chs,4.978946409537301
+Random MDT,96,ami,0.4885712797894576
+Random MDT,96,ari,0.3479086520131796
+Random MDT,97,chs,5.322810553398194
+Random MDT,97,ami,0.5786957928396069
+Random MDT,97,ari,0.4087998085712449
+Random MDT,98,chs,5.317651719077101
+Random MDT,98,ami,0.5765122658370447
+Random MDT,98,ari,0.40785221120407145
+Random MDT,99,chs,5.229996928168253
+Random MDT,99,ami,0.5654469960023726
+Random MDT,99,ari,0.4225950743176316
