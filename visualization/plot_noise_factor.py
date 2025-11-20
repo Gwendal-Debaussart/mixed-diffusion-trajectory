@@ -1,11 +1,14 @@
-from .style import get_color_method, get_marker_list, reduced_name
+from .style import get_color_method, get_marker_list
+from .reduced_name import reduced_name
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import os
 
-def plot_noise_factor():
-    noise_values = np.arange(0.05, 0.75, 0.05)
+def plot_noise_factor(noise_values = None):
+    """Plot the effect of noise factor on AMI for different methods and variants."""
+    if noise_values is None:
+        noise_values = np.arange(0.05, 1, 0.05)
     variants = ["lindenbaum", "kuchroo"]
 
     os.makedirs("figures", exist_ok=True)
