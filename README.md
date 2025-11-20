@@ -14,3 +14,6 @@ To install the required dependencies, you can use the following command:
 ```bash
 pip install -r requirements.txt
 ```
+
+## License
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
