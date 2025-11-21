@@ -21,9 +21,8 @@ The scripts ``clustering_benchmark.py`` and ``sensitivity_analysis.py`` can be e
 
 ### Credit
 
-This project was developed by Gwendal Debaussart-Joniec, under the supervision of Prof. Argyris Kalogeratos at the Centre Borelli, ENS Paris-Saclay.
-Datasets used in the experiments partially originate from [this github repository](https://github.com/ChuanbinZhang/Multi-view-datasets/).
-Synthetic datasets were generated using information from Lindenbaum et al. (2020) and Kuchroo et al. (2022).
+This project was developed by Gwendal Debaussart-Joniec, under the supervision of Argyris Kalogeratos at the Centre Borelli, ENS Paris-Saclay.
+Datasets used in the experiments partially originate from [this github repository](https://github.com/ChuanbinZhang/Multi-view-datasets/). Synthetic datasets were generated using information from Lindenbaum et al. (2020) and Kuchroo et al. (2022).
 
 ## ⚖️ License
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
