@@ -2,7 +2,7 @@ import numpy as np
 
 def multiview_diffusion(X):
     """
-    Implementation of the Multi-View Diffusion algorithm.
+    Implementation of the Multi-View Diffusion algorithm. (Lindenbaum et al., 2020)
 
     Parameters:
     ---------

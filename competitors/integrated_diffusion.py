@@ -5,7 +5,7 @@ from utilities import spectral_entropy
 
 def integrated_diffusion(X):
     """
-    Implementation of the Integrated Diffusion algorithm.
+    Implementation of the Integrated Diffusion algorithm. (Kuchroo et al., 2022)
 
     Parameters:
     ---------
