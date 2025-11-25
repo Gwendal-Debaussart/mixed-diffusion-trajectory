@@ -6,8 +6,6 @@ This file contains the instructions and information about the Mixed-Diffusion Tr
 
 ``mixed_diffusion.ipynb`` is a Jupyter notebook that contains the code for generating mixed-diffusion trajectories and visualizing the results. To run the notebook, ensure you have the required dependencies installed and follow the steps outlined in the notebook. This notebook serves as a guide for understanding the implementation and results.
 
-Results obtained in the paper are obtained by running the code in ``clustering_benchmark.py``, and ``sensitivity_analysis.py``. These scripts can be run from the command line. Please refer to the comments in the scripts for more details on how to use them.
-
 ### 📩 Installation
 To install the required dependencies, you can use the following command:
 
@@ -17,7 +15,12 @@ pip install -r requirements.txt
 
 ### 📄 Paper Results
 
-The scripts ``clustering_benchmark.py`` and ``sensitivity_analysis.py`` can be executed to reproduce the results presented in the paper. Each script contains comments that explain how to run them and what parameters can be adjusted. Obtained results are available in the ``tables/`` directory. ``clustering_benchmark_raw/`` contains the raw data obtained from running ``clustering_benchmark.py``. ``benchmark_results/`` contains the processed results used to generate the tables in the paper. ``sensitivity_analysis/`` contains the results from running ``sensitivity_analysis.py``, showing how time parameter in MDTs affects clustering performance, both in AMI and ARI.
+The scripts ``clustering_benchmark.py`` and ``sensitivity_analysis.py`` can be executed to reproduce the results presented in the paper. Each script contains comments that explain how to run them and what parameters can be adjusted, please refer to those.
+
+Results showcased in the paper are available in the ``tables/`` directory.
+- ``clustering_benchmark_raw/`` contains the raw data obtained from running ``clustering_benchmark.py`` (i.e each run for each method, and each clustering score).
+- ``benchmark_results/`` contains the processed results used to generate the tables in the paper.
+- ``sensitivity_analysis/`` contains the results from running ``sensitivity_analysis.py``, showing how time parameter in MDTs affects clustering performance, both in AMI and ARI. Additional measures of time-wise correlation between CH and AMI are also provided.
 
 ### Credit
 
