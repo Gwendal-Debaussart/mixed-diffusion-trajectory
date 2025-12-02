@@ -27,5 +27,23 @@ Results showcased in the paper are available in the ``tables/`` directory.
 This project was developed by Gwendal Debaussart-Joniec, under the supervision of Argyris Kalogeratos at the Centre Borelli, ENS Paris-Saclay.
 Datasets used in the experiments partially originate from [this github repository](https://github.com/ChuanbinZhang/Multi-view-datasets/). Synthetic datasets were generated using information from Lindenbaum et al. (2020) and Kuchroo et al. (2022).
 
+### 📄 Citation
+
+Please cite the following paper if you use this code in your research:
+
+```bibtex
+@misc{debaussartjoniec2025multiviewdiffusiongeometryusing,
+      title={Multi-view diffusion geometry using intertwined diffusion trajectories},
+      author={Gwendal Debaussart-Joniec and Argyris Kalogeratos},
+      year={2025},
+      eprint={2512.01484},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2512.01484},
+}
+```
+
+You can also find the paper on [arXiv](https://arxiv.org/abs/2512.01484).
+
 ## ⚖️ License
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
