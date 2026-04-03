@@ -21,7 +21,7 @@ def mdt_operator_from_params(params, X):
     trajectory = bayes_param_to_trajectory(params, X)
     return mdt_operator(trajectory, X)
 
-def mdt_direct(X, t, k, dim_embedding= None):
+def mdt_direct(X, t, k, dim_embedding= None, metric = "chs"):
     """
     Perform Mixed Diffusion Trajectories (MDT) optimization. Uses the DIRECT algorithm to find the optimal trajectory parameters that maximize the clustering quality as measured by CH.
 
@@ -43,7 +43,7 @@ def mdt_direct(X, t, k, dim_embedding= None):
         operator=mdt_operator_from_params(params, X),
         Xv=X,
         true_labels=None,
-        metric="chs",
+        metric=metric,
         n_clusters=k,
         embedded=False,
         method="svd",
