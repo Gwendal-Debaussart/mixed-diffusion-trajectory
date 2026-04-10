@@ -34,8 +34,8 @@ def get_embedding(P: np.array, n_components: int, method: str = "svd"):
     if method == "svd":
 
         U, s, _ = svds(P, k=n_components + 1)
-        U, s = U[:, ::-1], s[::-1]          # ascending -> descending
-        return U[:, 1:] * s[1:]             # skip first component
+        U, s = U[:, ::-1], s[::-1]
+        return U[:, 1:] * s[1:]
 
     elif method == "eigen":
         eigvals, eigvecs = eigsh(P, k=n_components + 1, which='LM')

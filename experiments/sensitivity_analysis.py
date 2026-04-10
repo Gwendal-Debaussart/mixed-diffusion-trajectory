@@ -83,7 +83,6 @@ def run_t_sensitivity(
                     for _ in range(repeats_needed)
                 )
             else:
-                # Deterministic method – only one computation
                 operator = get_operator_from_method(
                     method_t, dataset_name, X_preprocessed, X_views
                 )
@@ -94,7 +93,7 @@ def run_t_sensitivity(
                 repeats = [
                     evaluate_labels(
                         true_labels=Y,
-                        Xv=X_preprocessed,
+                        X_views=X_preprocessed,
                         pred_labels=get_clustering(embedding, num_clusters),
                         metric=["chs", "ami", "ari"],
                     )
