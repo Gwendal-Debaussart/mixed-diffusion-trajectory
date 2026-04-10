@@ -1,5 +1,15 @@
-from competitors import *
-from mdt import *
+from competitors.alternating_diffusion import alternating_diffusion
+from competitors.composite_diffusion import composite_diffusion_operator
+from competitors.cross_diffusion import cross_diffusion_operator
+from competitors.gcca import gcca_embedding
+from competitors.integrated_diffusion import integrated_diffusion
+from competitors.multiview_diffusion import multiview_diffusion
+from competitors.alternating_diffusion import powered_alternating_diffusion
+from mdt.random_mdt import random_mdt_operator
+from mdt.mdt_direct import mdt_direct
+from mdt.mdt_contrastive import mdt_contrastive
+from mdt.mdt_tree import mdt_beam
+
 from .get_diffusion_time import get_diffusion_time
 from benchmarks.load_dataset import get_num_clusters
 
@@ -48,6 +58,13 @@ def method_list():
             "func": powered_alternating_diffusion,
             "input_type": "preprocessed",
             "decomp_method": "svd",
+        },
+        {
+            "name": "GCCA",
+            "func": gcca_embedding,
+            "params": lambda dn: {"n_components": get_num_clusters(dn)},
+            "input_type": "preprocessed",
+            "decomp_method": "precomputed",
         },
         {
             "name": "Random Convex MDT",
