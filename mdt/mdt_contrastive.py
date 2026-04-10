@@ -56,8 +56,18 @@ def mdt_operator_torch(trajectory, X):
     W: np.ndarray of shape (n, n)
         The resulting operator after applying the mixed diffusion process.
     """
-    # Pre-stack X into a 3D array: shape (num_matrices, n, n)
-    X_stack = torch.stack(X, axis=0)  # (k, n, n)
+    # Pre-stack X into a 3D tensor: shape (num_matrices, n, n).
+    if torch.is_tensor(X):
+        X_stack = X.to(dtype=torch.float64)
+        if X_stack.ndim != 3:
+            raise ValueError("X tensor must have shape (num_views, n, n).")
+    else:
+        X_stack = torch.stack([torch.as_tensor(x, dtype=torch.float64) for x in X], dim=0)
+
+    if not torch.is_tensor(trajectory):
+        trajectory = torch.as_tensor(trajectory, dtype=torch.float64)
+    else:
+        trajectory = trajectory.to(dtype=torch.float64)
 
     # trajectory: (t, k) — weighted sum at each step: (k,) · (k, n, n) -> (n, n)
     # Compute all weighted sums at once: shape (t, n, n)

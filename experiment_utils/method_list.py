@@ -103,4 +103,29 @@ def method_list():
             },
             "task" : "clustering"
         },
+        # ----- Direct MDT using other optimization criteria
+        {
+            "name": "Direct MDT (DBS)",
+            "func": mdt_direct,
+            "input_type": "preprocessed",
+            "decomp_method": "svd",
+            "params": lambda dn: {
+                "t": get_diffusion_time(dn),
+                "k": get_num_clusters(dn),
+                "metric": "dbs"
+            },
+            "task" : "clustering"
+        },
+        {
+            "name": "Direct MDT (SIL)",
+            "func": mdt_direct,
+            "input_type": "preprocessed",
+            "decomp_method": "svd",
+            "params": lambda dn: {
+                "t": get_diffusion_time(dn),
+                "k": get_num_clusters(dn),
+                "metric": "sil"
+            },
+            "task" : "clustering"
+        },
     )

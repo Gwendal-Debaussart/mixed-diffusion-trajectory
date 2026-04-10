@@ -26,14 +26,22 @@ def mdt_direct(X, t, k, dim_embedding= None, metric = "chs"):
     Perform Mixed Diffusion Trajectories (MDT) optimization. Uses the DIRECT algorithm to find the optimal trajectory parameters that maximize the clustering quality as measured by CH.
 
     Parameters:
+    ----------
     X : list of np.ndarray
         List of transition matrices representing different views of the data.
     t : int
         Length of the trajectory.
+     k : int
+        Number of clusters for clustering evaluation.
     dim_embedding : int
         Dimension of the embedding space.
-    k : int
-        Number of clusters for clustering evaluation.
+    metric : str
+        Clustering evaluation metric to optimize (e.g., "chs" for Calinski-Harabasz Score).
+
+    Returns:
+    -------
+    np.ndarray
+        The optimized MDT operator of shape (n_samples, n_samples).
     """
     if dim_embedding is None:
         dim_embedding = k
@@ -41,7 +49,7 @@ def mdt_direct(X, t, k, dim_embedding= None, metric = "chs"):
     opt = Direct(bounds, n_eval=100)
     f_ = lambda params: evaluate_operator(
         operator=mdt_operator_from_params(params, X),
-        Xv=X,
+        X_views=X,
         true_labels=None,
         metric=metric,
         n_clusters=k,
