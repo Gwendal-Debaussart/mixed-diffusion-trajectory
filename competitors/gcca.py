@@ -1,7 +1,26 @@
 import numpy as np
 from mvlearn.embed import GCCA
 
-def gcca(views, n_components):
+
+def _to_2d_embedding(embedding):
+    """
+    Convert GCCA output to a 2D (n_samples, n_components) embedding.
+    """
+    if isinstance(embedding, (list, tuple)):
+        if len(embedding) == 1:
+            return np.asarray(embedding[0])
+        return np.mean(np.stack([np.asarray(e) for e in embedding], axis=0), axis=0)
+
+    arr = np.asarray(embedding)
+    if arr.ndim == 2:
+        return arr
+    if arr.ndim == 3:
+        # mvlearn may return one embedding per view as (n_views, n_samples, n_components)
+        return np.mean(arr, axis=0)
+
+    raise ValueError(f"Unexpected GCCA embedding shape: {arr.shape}")
+
+def gcca_embedding(views, n_components):
     """
     Compute GCCA embedding from multiple views, using mvlearn's implementation.
 
@@ -24,10 +43,4 @@ def gcca(views, n_components):
     gcca = GCCA(n_components=effective_components)
 
     embedding = gcca.fit_transform(views)
-
-    if isinstance(embedding, (list, tuple)):
-        if len(embedding) == 1:
-            return embedding[0]
-        return np.mean(np.stack(embedding, axis=0), axis=0)
-
-    return embedding
+    return _to_2d_embedding(embedding)
