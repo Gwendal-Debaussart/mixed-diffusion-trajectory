@@ -55,7 +55,7 @@ def mdt_direct(X, t, k, dim_embedding= None, metric = "chs"):
         n_clusters=k,
         embedded=False,
         method="svd",
-        dim_embedd=dim_embedding,
+        n_components=dim_embedding,
     )
     a, _ = opt.maximize(f_)
     return mdt_operator_from_params(np.array(a), X)
