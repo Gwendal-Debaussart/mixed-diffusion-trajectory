@@ -3,113 +3,125 @@ import torch
 from mdt.mdt_utils import *
 
 
-def contrastive_mdt_loss(X, W, view_weights=None) -> torch.Tensor:
+def contrastive_mdt_loss(idx, W, view_weights=None) -> torch.Tensor:
     """
-    Compute the contrastive MDT loss.
+    Compute the contrastive MDT loss — fully vectorized.
     Parameters:
     -----------
-    X : list of np.arrays
-        List of views, each of shape (n_samples, n_features).
-    W : np.array
+    idx : list of BoolTensors of shape (n_samples, n_samples)
+        Precomputed boolean masks for positive pairs per view.
+    W : torch.Tensor
         Weight matrix of shape (n_samples, n_samples).
     view_weights : list of floats, optional
         Weights for each view. If None, equal weights are used.
-    Returns:
-    --------
-    loss : float
-        The computed contrastive MDT loss.
     """
     eps = 1e-12
-    W = torch.nan_to_num(W, nan=0.0, posinf=20.0, neginf=-20.0)
-    W = torch.clamp(W, min=-20.0, max=20.0)
+    W = torch.nan_to_num(W, nan=0.0, posinf=20.0, neginf=-20.0).clamp(-20.0, 20.0)
     exW = torch.exp(W)
-    M = exW.clone().fill_diagonal_(0)
-    D = M.sum(axis=1).clamp_min(eps)
-    idx = [[torch.argwhere(torch.tensor(x)[i, :] > 0).flatten() for i in range(x.shape[0])] for x in X]
-    loss = 0
+    M = exW * (1 - torch.eye(exW.shape[0], device=exW.device, dtype=exW.dtype))
+    D = M.sum(dim=1).clamp_min(eps)  # (n,)
+    log_probs = torch.log((exW / D.unsqueeze(1)).clamp_min(eps))  # (n, n)
+
     if view_weights is None:
-        view_weights = [1/len(X)] * len(X)
-    for v in range(len(X)):
-        loss_v = 0
-        for i in range(X[0].shape[0]):
-            if idx[v][i].numel() == 0:
-                continue
-            probs = torch.clamp(exW[i, idx[v][i]] / D[i], min=eps)
-            loss_v -= torch.sum(torch.log(probs))
-        loss += view_weights[v] * loss_v
-    return loss / len(X[0])
+        view_weights = [1 / len(idx)] * len(idx)
+
+    loss = 0.0
+    for v, mask in enumerate(idx):
+        loss -= view_weights[v] * log_probs[mask].sum()
+
+    return loss / W.shape[0]
 
 
 def mdt_operator_torch(trajectory, X):
     """
     Constructs the mixed-view diffusion trajectory operator from a given trajectory.
-
     Parameters:
     -----------
-    trajectory: np.ndarray of shape (T, k)
-        The trajectory of weights for each view at each time step.
-    X: list of np.ndarray of shape (n, n)
-        List of kernel matrices for each view.
-
+    trajectory: torch.Tensor of shape (T, k)
+    X: torch.Tensor of shape (k, n, n) or list of np.ndarray of shape (n, n)
     Returns:
     --------
-    W: np.ndarray of shape (n, n)
-        The resulting operator after applying the mixed diffusion process.
+    W: torch.Tensor of shape (n, n)
     """
-    # Pre-stack X into a 3D tensor: shape (num_matrices, n, n).
     if torch.is_tensor(X):
         X_stack = X.to(dtype=torch.float64)
         if X_stack.ndim != 3:
             raise ValueError("X tensor must have shape (num_views, n, n).")
     else:
-        X_stack = torch.stack([torch.as_tensor(x, dtype=torch.float64) for x in X], dim=0)
+        X_stack = torch.stack(
+            [torch.as_tensor(x, dtype=torch.float64) for x in X], dim=0
+        )
 
     if not torch.is_tensor(trajectory):
         trajectory = torch.as_tensor(trajectory, dtype=torch.float64)
     else:
         trajectory = trajectory.to(dtype=torch.float64)
 
-    # trajectory: (t, k) — weighted sum at each step: (k,) · (k, n, n) -> (n, n)
-    # Compute all weighted sums at once: shape (t, n, n)
-    weighted = torch.einsum('tk,knm->tnm', trajectory, X_stack)
+    weighted = torch.einsum("tk,knm->tnm", trajectory, X_stack)
+    return matrix_chain_product_torch(weighted)
 
-    W = weighted[0]
-    for i in range(1, len(weighted)):
-        W = weighted[i] @ W
-    return W
+
+def matrix_chain_product_torch(matrices):
+    while len(matrices) > 1:
+        if len(matrices) % 2 == 1:
+            leftover = matrices[-1:]
+            matrices = matrices[:-1]
+        else:
+            leftover = None
+        pairs = torch.matmul(matrices[1::2], matrices[::2])
+        if leftover is not None:
+            matrices = torch.cat([pairs, leftover])
+        else:
+            matrices = pairs
+    return matrices[0]
+
+
+def precompute_idx(X, device="cpu"):
+    """
+    Precompute boolean masks for positive pairs per view.
+    Call once before the optimization loop.
+    """
+    return [torch.as_tensor(x > 0, dtype=torch.bool, device=device) for x in X]
+
 
 def mdt_contrastive(X, t, view_weights=None) -> np.ndarray:
     """
     Optimize the MDT operator using contrastive loss.
     Parameters:
     -----------
-    X : list of np.arrays
-        List of views, each of shape (n_samples, n_features).
-    t : int
-        Number of time steps.
+    X : list of np.arrays of shape (n_samples, n_features)
+    t : int — number of time steps
     view_weights : list of floats, optional
-        Weights for each view. If None, equal weights are used.
     Returns:
     --------
-    W : np.array
-        The optimized MDT operator of shape (n_samples, n_samples).
+    W : np.array of shape (n_samples, n_samples)
     """
-    A = torch.rand(t, len(X), dtype=torch.float32, requires_grad=True)
-    X_torch = torch.as_tensor(np.asarray(X), dtype=torch.float32)
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+
+    A = torch.rand(t, len(X), dtype=torch.float32, requires_grad=True, device=device)
+    X_torch = torch.as_tensor(np.asarray(X), dtype=torch.float32, device=device)
+    idx = precompute_idx(X, device=device)
+
     optimizer = torch.optim.Adam([A], lr=0.05)
     best_loss = float("inf")
     best_A = None
 
-    for _ in range(80):
+    for step in range(80):
         optimizer.zero_grad()
         A2 = torch.softmax(A, dim=1)
         P = mdt_operator_torch(A2, X_torch)
+
         if not torch.isfinite(P).all():
             continue
-        l: torch.Tensor = contrastive_mdt_loss(X, P, view_weights=view_weights)
+
+        l = contrastive_mdt_loss(idx, P, view_weights=view_weights)
+
         if not torch.isfinite(l):
             continue
+
         l.backward()
+        if step % 10 == 0:
+            print(f"Step {step:3d} | loss: {l.item():.4f}")
         torch.nn.utils.clip_grad_norm_([A], max_norm=1.0)
         optimizer.step()
 
