@@ -6,7 +6,8 @@ from .internal_criterions import (
     unsupervised_metric_list,
     metric_functions,
 )
-
+from scipy.sparse.linalg import svds, eigsh
+from sklearn.utils.extmath import randomized_svd
 
 def get_embedding(P: np.array, n_components: int, method: str = "svd"):
     """
@@ -31,21 +32,25 @@ def get_embedding(P: np.array, n_components: int, method: str = "svd"):
         Embedded representation of the input matrix.
     """
     if method == "svd":
-        P_decomp, S, _ = np.linalg.svd(P)
-        P_decomp =  P_decomp[:, 1:n_components+1] @ np.diag(S[1:n_components+1])
+
+        U, s, _ = svds(P, k=n_components + 1)
+        U, s = U[:, ::-1], s[::-1]          # ascending -> descending
+        return U[:, 1:] * s[1:]             # skip first component
+
     elif method == "eigen":
-        eigvals, eigvecs = np.linalg.eig(P)
-        idx = np.argsort(eigvals)[::-1][1:n_components+1]
-        P_decomp = (eigvecs[:, idx] @ np.diag(eigvals[idx])).real
+        eigvals, eigvecs = eigsh(P, k=n_components + 1, which='LM')
+        idx = np.argsort(eigvals)[::-1]
+        eigvals, eigvecs = eigvals[idx], eigvecs[:, idx]
+        return (eigvecs[:, 1:] * eigvals[1:]).real
+
     elif method == "truncated_svd":
-        svd = TruncatedSVD(n_components=n_components)
-        P_decomp = svd.fit_transform(P)
+        U, s, _ = randomized_svd(P, n_components=n_components, random_state=0)
+        return U * s
     elif method == "precomputed":
-        P_decomp = P
+        return P
     else:
         raise ValueError(f"Decomposition method '{method}' not recognized.")
 
-    return P_decomp
 
 
 def get_clustering(P, num_clusters: int):
