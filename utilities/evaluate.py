@@ -8,7 +8,7 @@ from .internal_criterions import (
 )
 
 
-def get_embedding(P: np.array, dim_embedd: int, method: str = "svd"):
+def get_embedding(P: np.array, n_components: int, method: str = "svd"):
     """
     Obtain the embedding of the given matrix using the specified method.
 
@@ -16,8 +16,8 @@ def get_embedding(P: np.array, dim_embedd: int, method: str = "svd"):
     -----------
     P : np.ndarray
         Matrix to embed (e.g., operator or affinity matrix).
-    dim_embedd : int
-        Dimension of the embedding.
+    n_components : int
+        Number of components for the embedding.
     method : str, optional
         Embedding method to use (default: "svd").
           - "svd": Use Singular Value Decomposition (SVD) to obtain the embedding.
@@ -32,13 +32,13 @@ def get_embedding(P: np.array, dim_embedd: int, method: str = "svd"):
     """
     if method == "svd":
         P_decomp, S, _ = np.linalg.svd(P)
-        P_decomp =  P_decomp[:, 1:dim_embedd+1] @ np.diag(S[1:dim_embedd+1])
+        P_decomp =  P_decomp[:, 1:n_components+1] @ np.diag(S[1:n_components+1])
     elif method == "eigen":
         eigvals, eigvecs = np.linalg.eig(P)
-        idx = np.argsort(eigvals)[::-1][1:dim_embedd+1]
+        idx = np.argsort(eigvals)[::-1][1:n_components+1]
         P_decomp = (eigvecs[:, idx] @ np.diag(eigvals[idx])).real
     elif method == "truncated_svd":
-        svd = TruncatedSVD(n_components=dim_embedd)
+        svd = TruncatedSVD(n_components=n_components)
         P_decomp = svd.fit_transform(P)
     elif method == "precomputed":
         P_decomp = P
@@ -76,7 +76,7 @@ def evaluate_operator(
     n_clusters,
     embedded=False,
     method="svd",
-    dim_embedd=10,
+    n_components=10,
 ):
     """
     Evaluates the given operator on the dataset using the specified metric function.
@@ -97,8 +97,8 @@ def evaluate_operator(
         If True, the operator is already in embedded form. Default is False.
     method : str, optional
         The embedding method to use if not embedded. Default is "svd".
-    dim_embedd : int, optional
-        The dimension of the embedding if decomposition is needed. Default is 10.
+    n_components : int, optional
+        The number of components for the embedding if decomposition is needed. Default is 10.
 
     Returns:
     --------
@@ -112,7 +112,7 @@ def evaluate_operator(
     if embedded:
         embedding = operator
     else:
-        embedding = get_embedding(operator, dim_embedd, method)
+        embedding = get_embedding(operator, n_components=n_components, method=method)
     k = n_clusters
 
     # Ensure embedding has the same number of samples as true_labels and X_views (For MVDM)
