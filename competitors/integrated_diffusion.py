@@ -1,7 +1,7 @@
 from kneed import KneeLocator
 import numpy as np
 from functools import reduce
-from utilities import spectral_entropy
+from utilities.entropy import spectral_entropy
 
 def integrated_diffusion(X):
     """
@@ -11,6 +11,7 @@ def integrated_diffusion(X):
     ---------
     X: list of np.ndarray
         List of kernel matrices representing different views of the data.
+
     Returns:
     -------
     K_id: np.ndarray

@@ -1,3 +1,11 @@
+import os
+import sys
+
+if __package__ in (None, ""):
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if project_root not in sys.path:
+        sys.path.insert(0, project_root)
+
 import numpy as np
 import pandas as pd
 from utilities import *
@@ -80,7 +88,6 @@ if __name__ == "__main__":
         {"name": "yale"},
         {"name": "msrc"},
     ]
-    datasets = []
 
     if COMPUTE_MNIST_DATASETS:
         noise_values = np.arange(0.05, 1.0, 0.05)
@@ -90,6 +97,7 @@ if __name__ == "__main__":
             for name in ["lindenbaum", "kuchroo"]
         ]
         datasets.extend(mnist_noise_datasets)
+
     n_cores = multiprocessing.cpu_count()
 
     n_jobs = max(8, n_cores // 4)

@@ -4,7 +4,7 @@ from utilities.evaluate import get_clustering, evaluate_labels
 from .save_results import save_raw_results
 import numpy as np
 import pandas as pd
-from benchmarks import load_preprocessed_dataset
+from benchmarks.load_dataset import load_preprocessed_dataset
 import os
 from joblib import Parallel, delayed
 
@@ -32,7 +32,14 @@ def get_existing_repeats(
     """
     Get the number of repeats already computed for a method (and view if single-view).
 
+    Parameters:
+    -----------
+        dataset: dict containing at least 'name' and optionally 'noise_factor'.
+        method_name: str, name of the method (including view info if single-view).
+        save_dir: str, directory where raw results are saved.
+
     Returns:
+    --------
         int: number of repeats already computed.
     """
     fname = dataset["name"]
@@ -55,6 +62,17 @@ def run_benchmark_for_dataset(
 ):
     """
     Run benchmark for one dataset.
+
+    Parameters:
+    -----------
+        dataset: dict containing at least 'name' and optionally 'noise_factor'.
+        methods: list of method dicts to evaluate.
+        num_repeats: int, number of repeats to run for each method.
+        save_dir: str, directory where raw results are saved.
+
+    Returns:
+    --------
+        list of dicts: each dict contains 'dataset', 'method', 'repeat', and metric scores.
     """
     # ------------------- Load dataset
     dataset_name = dataset["name"]

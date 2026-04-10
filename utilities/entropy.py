@@ -19,5 +19,5 @@ def spectral_entropy(P):
     eigvals = np.linalg.eigvals(P)
     eigvals = np.abs(eigvals)
     eigvals = eigvals[eigvals != 0]
-    eigvals = eigvals / np.linalg.norm(eigvals)
+    eigvals /= np.linalg.norm(eigvals)
     return -np.sum(eigvals * np.log(eigvals))

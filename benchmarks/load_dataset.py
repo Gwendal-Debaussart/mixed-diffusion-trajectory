@@ -62,6 +62,8 @@ def load_preprocessed_dataset(name, return_views=False, **args):
     -----------
     name : str
         Name of the dataset to load.
+    return_views : bool, optional
+        If True, also return the original views (X) along with the preprocessed data. Default is False.
     **args : dict
         Additional arguments to pass to the dataset loading function.
 

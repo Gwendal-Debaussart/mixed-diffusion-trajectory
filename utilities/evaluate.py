@@ -20,6 +20,10 @@ def get_embedding(P: np.array, dim_embedd: int, method: str = "svd"):
         Dimension of the embedding.
     method : str, optional
         Embedding method to use (default: "svd").
+          - "svd": Use Singular Value Decomposition (SVD) to obtain the embedding.
+          - "eigen": Use eigenvalue decomposition to obtain the embedding.
+          - "truncated_svd": Use Truncated SVD for dimensionality reduction.
+          - "precomputed": Return the input matrix P as the embedding without modification. (Used for methods that produce embeddings for consistency in the evaluation pipeline.)
 
     Returns:
     --------
@@ -29,18 +33,19 @@ def get_embedding(P: np.array, dim_embedd: int, method: str = "svd"):
     if method == "svd":
         P_decomp, S, _ = np.linalg.svd(P)
         P_decomp =  P_decomp[:, 1:dim_embedd+1] @ np.diag(S[1:dim_embedd+1])
-        return P_decomp
-    if method == "eigen":
+    elif method == "eigen":
         eigvals, eigvecs = np.linalg.eig(P)
         idx = np.argsort(eigvals)[::-1][1:dim_embedd+1]
-        P_decomp = eigvecs[:, idx] @ np.diag(eigvals[idx])
-        return P_decomp.real
-    if method == "truncated_svd":
+        P_decomp = (eigvecs[:, idx] @ np.diag(eigvals[idx])).real
+    elif method == "truncated_svd":
         svd = TruncatedSVD(n_components=dim_embedd)
         P_decomp = svd.fit_transform(P)
-        return P_decomp
+    elif method == "precomputed":
+        P_decomp = P
     else:
         raise ValueError(f"Decomposition method '{method}' not recognized.")
+
+    return P_decomp
 
 
 def get_clustering(P, num_clusters: int):
@@ -110,6 +115,7 @@ def evaluate_operator(
         embedding = get_embedding(operator, dim_embedd, method)
     k = n_clusters
 
+    # Ensure embedding has the same number of samples as true_labels and X_views (For MVDM)
     n_samples = len(X_views[0])
     if isinstance(embedding, np.ndarray) and embedding.shape[0] > n_samples:
         embedding = embedding[:n_samples, :]

@@ -44,7 +44,7 @@ def compute_entropy(dataset_name: str, t_max = 50, **kwargs):
                 last_t = int(df["t"].max())
         except Exception as e:
             print(
-                f"[{dataset_name}] Warning: could not read existing file ({e}), starting fresh."
+                f"[{dataset_name}] Warning: could not read existing file ({e})."
             )
 
     X, _ = load_preprocessed_dataset(dataset_name, **kwargs)
@@ -59,10 +59,9 @@ def compute_entropy(dataset_name: str, t_max = 50, **kwargs):
             writer.writerow(["t", "singular_entropy"])
 
         for t in range(last_t + 1, t_max + 1):
-            print(f"[{dataset_name}] Resuming from t={last_t} ({filepath})")
             val = singular_entropy(running_operator)
             writer.writerow([t, val])
             running_operator = running_operator @ operator
-            print(f"[{dataset_name}] t={t} done, saved to {os.path.basename(filepath)}")
     entropies = pd.read_csv(filepath)
+    print(f"[{dataset_name}] Singular entropy computed up to t={t_max}.")
     return entropies
