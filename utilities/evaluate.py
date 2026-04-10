@@ -53,6 +53,7 @@ def get_clustering(P, num_clusters: int):
         Matrix to cluster (e.g., operator or embedding).
     k : int
         Number of clusters.
+
     Returns:
     --------
     np.ndarray
@@ -98,6 +99,10 @@ def evaluate_operator(
     --------
     float
         The evaluation score from the metric function.
+
+    Note:
+    -----
+    This function is *not* used in the main benchmark loop. It is provided for easy evaluation of operators during development and debugging.
     """
     if embedded:
         embedding = operator
@@ -116,6 +121,22 @@ def evaluate_operator(
 def evaluate_labels(true_labels, X_views, pred_labels, metric):
     """
     Evaluate the given labels using the specified metric.
+
+    Parameters:
+    -----------
+    true_labels: np.ndarray
+        The ground truth labels for the data points.
+    X_views: list of np.ndarray
+        The multi-view dataset, used for unsupervised metrics.
+    pred_labels: np.ndarray
+        The predicted labels to evaluate.
+    metric: str or list of str
+        The metric(s) to use for evaluation. Can be a single metric or a list of metrics. Supported metrics are defined in supervised_metric_list() and unsupervised_metric_list().
+
+    Returns:
+    --------
+    dict or float
+        If metric is a list, returns a dictionary with metric names as keys and their corresponding scores as values. If metric is a single string, returns the score for that metric.
     """
     if type(metric) == list:
         scores = {}
@@ -126,6 +147,7 @@ def evaluate_labels(true_labels, X_views, pred_labels, metric):
                 eval = [metric_functions(m)(x, pred_labels) for x in X_views]
                 scores[m] = np.mean(eval)
         return scores
+    # If metric is a single string, return the score directly.
     if metric in supervised_metric_list():
         return metric_functions(metric)(true_labels, pred_labels)
     elif metric in unsupervised_metric_list():

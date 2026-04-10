@@ -26,11 +26,7 @@ def cross_diffusion_operator(X, t=25):
     for _ in range(t):
         total_sum = np.sum(X_temp, axis=0)
         others_avg = (total_sum[None, :, :] - X_temp) / (n_views - 1)
-        # Batch matmul: X_i @ others_avg_i @ X_i.T
-        X_temp = np.matmul(
-            np.matmul(X, others_avg), np.transpose(X, (0, 2, 1))
-        )
-        # Clipping to avoid numerical issues (not included in original paper)
+        X_temp = np.matmul(np.matmul(X, others_avg), np.transpose(X, (0, 2, 1)))
         X_temp = np.clip(X_temp, -1e6, 1e6)
 
     return np.mean(X_temp, axis=0)

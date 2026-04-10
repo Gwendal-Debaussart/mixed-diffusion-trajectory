@@ -16,7 +16,7 @@ def integrated_diffusion(X):
     K_id: np.ndarray
         The combined kernel matrix after applying Integrated Diffusion.
     """
-    time_range = range(1, 25)
+    time_range = range(1, 50)
     spectral_entropies = {}
     elbow = {}
     for i in range(len(X)):
