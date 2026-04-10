@@ -4,12 +4,12 @@ from benchmarks import load_preprocessed_dataset
 import pandas as pd
 import os
 from joblib import Parallel, delayed
-from experiments.run_benchmark import run_one_repeat, get_existing_repeats
-from experiments.method_to_embedding import method_to_embedding
-from experiments.get_operator_from_method import get_operator_from_method
+from experiment_utils.run_benchmark import run_one_repeat, get_existing_repeats
+from experiment_utils.method_to_embedding import method_to_embedding
+from experiment_utils.get_operator_from_method import get_operator_from_method
 from utilities.evaluate import evaluate_labels, get_clustering
 from benchmarks.load_dataset import get_num_clusters
-from experiments.save_results import save_raw_results
+from experiment_utils.save_results import save_raw_results
 import multiprocessing
 
 

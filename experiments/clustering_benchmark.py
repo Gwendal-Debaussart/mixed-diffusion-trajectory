@@ -3,12 +3,13 @@ import pandas as pd
 from utilities import *
 from mdt import *
 from competitors import *
-from experiments.run_benchmark import run_benchmark_for_dataset
-from experiments.method_list import method_list
-from experiments import *
+from experiment_utils.run_benchmark import run_benchmark_for_dataset
+from experiment_utils.method_list import method_list
+from experiment_utils import *
 from joblib import Parallel, delayed
 import multiprocessing
 
+COMPUTE_MNIST_DATASETS = False
 
 """
 Method are represented as dictionaries with keys:
@@ -80,13 +81,15 @@ if __name__ == "__main__":
         {"name": "msrc"},
     ]
     datasets = []
-    noise_values = np.arange(0.05, 1.0, 0.05)
-    mnist_noise_datasets = [
-        {"name": f"mnist_{name}", "noise_factor": float(s)}
-        for s in noise_values
-        for name in ["lindenbaum", "kuchroo"]
-    ]
-    datasets.extend(mnist_noise_datasets)
+
+    if COMPUTE_MNIST_DATASETS:
+        noise_values = np.arange(0.05, 1.0, 0.05)
+        mnist_noise_datasets = [
+            {"name": f"mnist_{name}", "noise_factor": float(s)}
+            for s in noise_values
+            for name in ["lindenbaum", "kuchroo"]
+        ]
+        datasets.extend(mnist_noise_datasets)
     n_cores = multiprocessing.cpu_count()
 
     n_jobs = max(8, n_cores // 4)

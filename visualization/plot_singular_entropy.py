@@ -1,8 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
-from experiments.compute_entropy import compute_entropy
-from experiments.get_diffusion_time import get_diffusion_time
+from experiment_utils.compute_entropy import compute_entropy
+from experiment_utils.get_diffusion_time import get_diffusion_time
 from .style import *
 
 
