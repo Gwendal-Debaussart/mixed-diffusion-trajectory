@@ -2,8 +2,8 @@ import os
 import csv
 import numpy as np
 import pandas as pd
-from utilities.entropy import singular_entropy
 from benchmarks.load_dataset import load_preprocessed_dataset
+from utilities.entropy import powered_singular_entropy
 
 
 def compute_entropy(dataset_name: str, t_max = 50, **kwargs):
@@ -47,11 +47,11 @@ def compute_entropy(dataset_name: str, t_max = 50, **kwargs):
                 f"[{dataset_name}] Warning: could not read existing file ({e})."
             )
 
-    X, _ = load_preprocessed_dataset(dataset_name, **kwargs)
+    loaded = load_preprocessed_dataset(dataset_name, **kwargs)
+    X = loaded[0]
     operator = np.mean(X, axis=0)
-    running_operator = operator.copy()
-    if last_t > 0:
-        running_operator = np.linalg.matrix_power(operator, last_t+1)
+    singular_vals = np.linalg.svd(operator, compute_uv=False)
+    singular_vals = np.abs(singular_vals)
 
     with open(filepath, "a", newline="") as f:
         writer = csv.writer(f)
@@ -59,9 +59,8 @@ def compute_entropy(dataset_name: str, t_max = 50, **kwargs):
             writer.writerow(["t", "singular_entropy"])
 
         for t in range(last_t + 1, t_max + 1):
-            val = singular_entropy(running_operator)
+            val = powered_singular_entropy(singular_vals, t)
             writer.writerow([t, val])
-            running_operator = running_operator @ operator
     entropies = pd.read_csv(filepath)
     print(f"[{dataset_name}] Singular entropy computed up to t={t_max}.")
     return entropies

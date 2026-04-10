@@ -39,32 +39,33 @@ def contrastive_mdt_loss(X, W, view_weights=None) -> torch.Tensor:
         loss += view_weights[v] * loss_v
     return loss / len(X[0])
 
-def mdt_operator_torch(trajectory, X) -> torch.Tensor:
+
+def mdt_operator_torch(trajectory, X):
     """
-    Constructs the mixed-view diffusion trajectory operator from a given trajectory using PyTorch.
+    Constructs the mixed-view diffusion trajectory operator from a given trajectory.
+
+    Parameters:
+    -----------
+    trajectory: np.ndarray of shape (T, k)
+        The trajectory of weights for each view at each time step.
+    X: list of np.ndarray of shape (n, n)
+        List of kernel matrices for each view.
+
+    Returns:
+    --------
+    W: np.ndarray of shape (n, n)
+        The resulting operator after applying the mixed diffusion process.
     """
-    if not isinstance(trajectory, torch.Tensor):
-        trajectory = torch.as_tensor(trajectory, dtype=torch.float32)
+    # Pre-stack X into a 3D array: shape (num_matrices, n, n)
+    X_stack = torch.stack(X, axis=0)  # (k, n, n)
 
-    if isinstance(X, torch.Tensor):
-        X_tensor = X.to(dtype=trajectory.dtype, device=trajectory.device)
-    else:
-        X_tensor = torch.as_tensor(np.asarray(X), dtype=trajectory.dtype, device=trajectory.device)
+    # trajectory: (t, k) — weighted sum at each step: (k,) · (k, n, n) -> (n, n)
+    # Compute all weighted sums at once: shape (t, n, n)
+    weighted = torch.einsum('tk,knm->tnm', trajectory, X_stack)
 
-    if X_tensor.ndim != 3:
-        raise ValueError("X must be a tensor/list of shape (n_views, n_samples, n_samples).")
-    if trajectory.ndim != 2 or trajectory.shape[1] != X_tensor.shape[0]:
-        raise ValueError("trajectory must have shape (t, n_views).")
-
-    n_samples = X_tensor.shape[1]
-    if X_tensor.shape[2] != n_samples:
-        raise ValueError("Each view operator must be square (n_samples x n_samples).")
-
-    W = torch.eye(n_samples, dtype=trajectory.dtype, device=trajectory.device)
-
-    mixed_ops = torch.einsum("tv,vij->tij", trajectory, X_tensor)
-    for M in mixed_ops:
-        W = M @ W
+    W = weighted[0]
+    for i in range(1, len(weighted)):
+        W = weighted[i] @ W
     return W
 
 def mdt_contrastive(X, t, view_weights=None) -> np.ndarray:
