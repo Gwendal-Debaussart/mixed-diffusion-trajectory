@@ -108,7 +108,7 @@ def run_benchmark_for_dataset(
                     dataset, method_name=method_copy["name"]
                 )
                 repeats_needed = num_repeats - existing_repeats
-                if repeats_needed == 0:
+                if repeats_needed <= 0:
                     print(
                         f"[{dataset_name}] (nf = {noise_factor}) already computed [{method_copy['name']}]"
                     )
@@ -154,12 +154,12 @@ def run_benchmark_for_dataset(
             continue
         existing_repeats = get_existing_repeats(dataset, method_name=method["name"])
         repeats_needed = num_repeats - existing_repeats
-        if repeats_needed == 0:
-            print(f"[{dataset_name}] {method['name']}: already has {num_repeats} runs")
+        if repeats_needed <= 0:
+            print(f"[{dataset_name}] (nf = {noise_factor}) {method['name']}: already has {num_repeats} runs")
             continue
 
         print(
-            f"[{dataset_name}] Running {method['name']} ({repeats_needed} missing repeats)"
+            f"[{dataset_name}] (n.f = {noise_factor}) Running {method['name']} ({repeats_needed} missing repeats)"
         )
         if method.get("stochastic", False):
             repeats = Parallel(n_jobs=-1)(
