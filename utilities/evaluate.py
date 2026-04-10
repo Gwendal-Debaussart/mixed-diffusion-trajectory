@@ -64,7 +64,7 @@ def get_clustering(P, num_clusters: int):
 
 def evaluate_operator(
     operator,
-    Xv,
+    X_views,
     true_labels,
     metric: str,
     n_clusters,
@@ -100,19 +100,20 @@ def evaluate_operator(
         The evaluation score from the metric function.
     """
     if embedded:
-        P_decomp = operator
+        embedding = operator
     else:
-        P_decomp = get_embedding(operator, dim_embedd, method)
-    if true_labels is None:
-        k = n_clusters
-    else:
-        k = len(np.unique(true_labels))
+        embedding = get_embedding(operator, dim_embedd, method)
+    k = n_clusters
 
-    y_pred = get_clustering(P_decomp, k)
-    return evaluate_labels(true_labels, Xv, y_pred, metric)
+    n_samples = len(X_views[0])
+    if isinstance(embedding, np.ndarray) and embedding.shape[0] > n_samples:
+        embedding = embedding[:n_samples, :]
+
+    y_pred = get_clustering(embedding, k)
+    return evaluate_labels(true_labels, X_views, y_pred, metric)
 
 
-def evaluate_labels(true_labels, Xv, pred_labels, metric):
+def evaluate_labels(true_labels, X_views, pred_labels, metric):
     """
     Evaluate the given labels using the specified metric.
     """
@@ -122,11 +123,11 @@ def evaluate_labels(true_labels, Xv, pred_labels, metric):
             if m in supervised_metric_list():
                 scores[m] = metric_functions(m)(true_labels, pred_labels)
             elif m in unsupervised_metric_list():
-                eval = [metric_functions(m)(x, pred_labels) for x in Xv]
+                eval = [metric_functions(m)(x, pred_labels) for x in X_views]
                 scores[m] = np.mean(eval)
         return scores
     if metric in supervised_metric_list():
         return metric_functions(metric)(true_labels, pred_labels)
     elif metric in unsupervised_metric_list():
-        eval = [metric_functions(metric)(x, pred_labels) for x in Xv]
+        eval = [metric_functions(metric)(x, pred_labels) for x in X_views]
         return np.mean(eval)

@@ -122,7 +122,7 @@ def run_benchmark_for_dataset(
                     repeats = [
                         evaluate_labels(
                             true_labels=Y,
-                            Xv=X_preprocessed,
+                            X_views=X_preprocessed,
                             pred_labels=get_clustering(embedding, num_clusters),
                             metric=["chs", "ami", "ari"],
                         )
@@ -168,7 +168,7 @@ def run_benchmark_for_dataset(
             repeats = [
                 evaluate_labels(
                     true_labels=Y,
-                    Xv=X_preprocessed,
+                    X_views=X_preprocessed,
                     pred_labels=get_clustering(embedding, num_clusters),
                     metric=["chs", "ami", "ari"],
                 )
