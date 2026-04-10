@@ -179,19 +179,15 @@ def run_benchmark_for_dataset(
                 method, dataset_name, X_preprocessed, X_views
             )
             embedding = method_to_embedding(operator, X_views, method, dim_embedd)
-            n_samples = len(X_views[0]) if X_views else X_preprocessed.shape[0]
-            if embedding.shape[0] > n_samples:
-                embedding = embedding[:n_samples, :n_samples]
 
-            repeats = [
-                evaluate_labels(
+            repeats = Parallel(n_jobs=-1)(
+                delayed(evaluate_labels)(
                     true_labels=Y,
                     X_views=X_preprocessed,
                     pred_labels=get_clustering(embedding, num_clusters),
                     metric=["chs", "ami", "ari"],
-                )
-                for _ in range(repeats_needed)
-            ]
+                )                for _ in range(repeats_needed)
+            )
         print(
             f"[{dataset_name}] Completed [{repeats_needed}] repeats for {method['name']}"
         )

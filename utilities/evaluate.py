@@ -79,7 +79,6 @@ def evaluate_operator(
     true_labels,
     metric: str,
     n_clusters,
-    embedded=False,
     method="svd",
     n_components=10,
 ):
@@ -98,8 +97,6 @@ def evaluate_operator(
         The metric function to use for evaluation.
     n_clusters : int
         The number of clusters to form.
-    embedded : bool, optional
-        If True, the operator is already in embedded form. Default is False.
     method : str, optional
         The embedding method to use if not embedded. Default is "svd".
     n_components : int, optional
@@ -114,10 +111,8 @@ def evaluate_operator(
     -----
     This function is *not* used in the main benchmark loop. It is provided for easy evaluation of operators during development and debugging.
     """
-    if embedded:
-        embedding = operator
-    else:
-        embedding = get_embedding(operator, n_components=n_components, method=method)
+
+    embedding = get_embedding(operator, n_components=n_components, method=method)
     k = n_clusters
 
     # Ensure embedding has the same number of samples as true_labels and X_views (For MVDM)
