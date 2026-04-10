@@ -20,6 +20,15 @@ Cross Diffusion Maps,chs,6.911,0.1652,100
 Direct MDT,ami,0.7791,0.0063,100
 Direct MDT,ari,0.5478,0.0183,100
 Direct MDT,chs,7.7488,0.0944,100
+Direct MDT (DBS),ami,0.7738,0.0052,100
+Direct MDT (DBS),ari,0.5487,0.0155,100
+Direct MDT (DBS),chs,7.7247,0.09,100
+Direct MDT (SIL),ami,0.7802,0.0065,100
+Direct MDT (SIL),ari,0.5504,0.0171,100
+Direct MDT (SIL),chs,7.7448,0.077,100
+GCCA,ami,0.7078,0.0141,100
+GCCA,ari,0.4259,0.0318,100
+GCCA,chs,7.6053,0.0725,100
 Integrated Diffusion Maps,ami,0.7977,0.0058,100
 Integrated Diffusion Maps,ari,0.562,0.0171,100
 Integrated Diffusion Maps,chs,7.425,0.113,100

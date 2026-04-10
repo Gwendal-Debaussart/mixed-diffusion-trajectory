@@ -11,12 +11,24 @@ Alternating Diffusion,chs,2.9613,0.0651,100
 Beam-Search MDT,ami,0.7367,0.0348,100
 Beam-Search MDT,ari,0.6647,0.0682,100
 Beam-Search MDT,chs,3.5867,0.083,100
+Contrastive MDT,ami,0.7576,0.0216,100
+Contrastive MDT,ari,0.6805,0.0431,100
+Contrastive MDT,chs,3.7356,0.0604,100
 Cross Diffusion Maps,ami,0.4832,0.011,100
 Cross Diffusion Maps,ari,0.3474,0.0172,100
 Cross Diffusion Maps,chs,2.6923,0.0888,100
 Direct MDT,ami,0.7618,0.0264,100
 Direct MDT,ari,0.6899,0.0536,100
 Direct MDT,chs,3.7582,0.0687,100
+Direct MDT (DBS),ami,0.7634,0.0246,100
+Direct MDT (DBS),ari,0.6889,0.0493,100
+Direct MDT (DBS),chs,3.7488,0.0847,100
+Direct MDT (SIL),ami,0.741,0.0332,100
+Direct MDT (SIL),ari,0.6648,0.0591,100
+Direct MDT (SIL),chs,3.7096,0.0857,100
+GCCA,ami,0.6465,0.0364,100
+GCCA,ari,0.5162,0.055,100
+GCCA,chs,3.5484,0.0731,100
 Integrated Diffusion Maps,ami,0.3516,0.0183,100
 Integrated Diffusion Maps,ari,0.2305,0.0155,100
 Integrated Diffusion Maps,chs,2.5373,0.0656,100
