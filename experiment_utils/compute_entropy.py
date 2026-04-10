@@ -6,7 +6,25 @@ from benchmarks.load_dataset import load_preprocessed_dataset
 from utilities.entropy import powered_singular_entropy
 
 
-def compute_entropy(dataset_name: str, t_max = 50, **kwargs):
+def _sanitize_cache_key(key: str) -> str:
+    return str(key).replace(os.sep, "_").replace(" ", "_")
+
+
+def _default_cache_key(dataset_name=None, noise_factor=None, cache_key=None):
+    if cache_key is not None:
+        return _sanitize_cache_key(cache_key)
+    if dataset_name is None:
+        return None
+
+    suffix = ""
+    if noise_factor is not None:
+        suffix = f"_noise{noise_factor:.2f}"
+    elif dataset_name in ["mnist_kuchroo", "mnist_lindenbaum"]:
+        suffix = "_noise0.50"
+    return f"{dataset_name}{suffix}"
+
+
+def compute_entropy(dataset_name=None, t_max=50, operator=None, cache_key=None, **kwargs):
     """
     Run singular entropy experiments for a dataset, resuming from existing results.
 
@@ -16,51 +34,67 @@ def compute_entropy(dataset_name: str, t_max = 50, **kwargs):
     - Saves after every step (safe for interruption).
 
     Args:
-        dataset_name (str): Name of the dataset.
+        dataset_name (str | None): Name of the dataset.
+        t_max (int): Maximum diffusion time to evaluate.
+        operator (np.ndarray | None): Optional precomputed operator. If provided,
+            dataset loading is skipped.
+        cache_key (str | None): Optional key for csv caching. If None and
+            dataset_name is None, no file is written/read.
         **kwargs: Extra args for `load_preprocessed_dataset`.
                   May include 'noise_factor' (float) to distinguish runs.
     """
+    if dataset_name is None and operator is None:
+        raise ValueError("Must provide either dataset_name or operator.")
+
     save_dir = "tables/singular_entropy"
     os.makedirs(save_dir, exist_ok=True)
 
-    noise_suffix = ""
-    if "noise_factor" in kwargs:
-        nf = kwargs["noise_factor"]
+    nf = kwargs.get("noise_factor")
+    if nf is not None:
         if not isinstance(nf, (int, float)):
             raise ValueError("noise_factor must be numeric if provided.")
-        noise_suffix = f"_noise{nf:.2f}"
-    elif dataset_name in ["mnist_kuchroo", "mnist_lindenbaum"]:
-        nf = 0.5
-        noise_suffix = f"_noise{nf:.2f}"
 
-    filepath = os.path.join(save_dir, f"{dataset_name}{noise_suffix}.csv")
+    key = _default_cache_key(dataset_name=dataset_name, noise_factor=nf, cache_key=cache_key)
+    filepath = os.path.join(save_dir, f"{key}.csv") if key is not None else None
+
+    if operator is None:
+        loaded = load_preprocessed_dataset(dataset_name, **kwargs)
+        X = loaded[0]
+        operator = np.mean(X, axis=0)
+    else:
+        operator = np.asarray(operator)
+        if operator.ndim != 2:
+            raise ValueError("operator must be a 2D square matrix.")
+
+    singular_vals = np.linalg.svd(operator, compute_uv=False)
+    singular_vals = np.abs(singular_vals)
 
     last_t = 0
-    file_exists = os.path.isfile(filepath)
-    if file_exists:
+    file_exists = filepath is not None and os.path.isfile(filepath)
+    if file_exists and filepath is not None:
         try:
             df = pd.read_csv(filepath)
             if not df.empty:
                 last_t = int(df["t"].max())
         except Exception as e:
-            print(
-                f"[{dataset_name}] Warning: could not read existing file ({e})."
-            )
+            label = key if key is not None else (dataset_name or "operator")
+            print(f"[{label}] Warning: could not read existing file ({e}).")
 
-    loaded = load_preprocessed_dataset(dataset_name, **kwargs)
-    X = loaded[0]
-    operator = np.mean(X, axis=0)
-    singular_vals = np.linalg.svd(operator, compute_uv=False)
-    singular_vals = np.abs(singular_vals)
+    new_rows = [
+        [t, powered_singular_entropy(singular_vals, t)]
+        for t in range(last_t + 1, t_max + 1)
+    ]
 
-    with open(filepath, "a", newline="") as f:
-        writer = csv.writer(f)
-        if not file_exists:
-            writer.writerow(["t", "singular_entropy"])
+    if filepath is None:
+        entropies = pd.DataFrame(new_rows, columns=["t", "singular_entropy"])
+    else:
+        with open(filepath, "a", newline="") as f:
+            writer = csv.writer(f)
+            if not file_exists:
+                writer.writerow(["t", "singular_entropy"])
+            writer.writerows(new_rows)
+        entropies = pd.read_csv(filepath)
 
-        for t in range(last_t + 1, t_max + 1):
-            val = powered_singular_entropy(singular_vals, t)
-            writer.writerow([t, val])
-    entropies = pd.read_csv(filepath)
-    print(f"[{dataset_name}] Singular entropy computed up to t={t_max}.")
+    label = key if key is not None else (dataset_name or "operator")
+    print(f"[{label}] Singular entropy computed up to t={t_max}.")
     return entropies
