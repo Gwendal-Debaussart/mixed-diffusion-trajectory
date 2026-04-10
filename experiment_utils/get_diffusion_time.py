@@ -26,10 +26,9 @@ def get_diffusion_time(dataset_name, max_t = 50, **kwargs):
         df = pd.DataFrame(columns=["dataset", "diffusion_time"])
         df.to_csv("tables/singular_entropy/diffusion_times.csv")
 
-    # Default diffusion time if not specified
     entropies_df = compute_entropy(dataset_name, **kwargs)
     y = entropies_df["singular_entropy"].values
-    y = y[:max_t] #ensures that the knee is not considered too far, 20/25 seems good enough, but is highly dependant on datasets !!
+    y = y[:max_t]
     knee_locator = KneeLocator(range(1, len(y)+1), y, curve="convex", direction="decreasing")
     if knee_locator.knee is None:
         t = 1
