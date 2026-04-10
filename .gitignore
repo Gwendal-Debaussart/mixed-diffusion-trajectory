@@ -2,3 +2,4 @@
 __pycache__/
 figures/
 */__pycache__
+_mixed_diffusion.ipynb
