@@ -17,7 +17,12 @@ from experiment_utils import *
 from joblib import Parallel, delayed
 import multiprocessing
 
-COMPUTE_MNIST_DATASETS = False
+# Options to control which datasets to run, avoid having both to True.
+
+COMPUTE_MNIST_DATASETS = False  # Set to True to run the benchmark on the mnist-based datasets with noise (takes much longer)
+
+COMPUTE_PARTIAL_MNIST_DATASETS = True  # Set to True to run the benchmark on the mnist-based datasets with noise_factor=0.5 only (faster, for testing)
+
 
 """
 Method are represented as dictionaries with keys:
@@ -89,8 +94,14 @@ if __name__ == "__main__":
         {"name": "msrc"},
     ]
 
+    if COMPUTE_PARTIAL_MNIST_DATASETS:
+        mnist_noise_datasets = [
+                {"name": f"mnist_{name}", "noise_factor": float(0.5)}
+                for name in ["lindenbaum", "kuchroo"]
+            ]
+        datasets.extend(mnist_noise_datasets)
     if COMPUTE_MNIST_DATASETS:
-        noise_values = np.arange(0.05, 1.0, 0.05)
+        noise_values = np.arange(0.05, 1, 0.05)
         mnist_noise_datasets = [
             {"name": f"mnist_{name}", "noise_factor": float(s)}
             for s in noise_values
