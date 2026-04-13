@@ -53,7 +53,6 @@ def mdt_direct(X, t, k, dim_embedding= None, metric = "chs"):
         true_labels=None,
         metric=metric,
         n_clusters=k,
-        embedded=False,
         method="svd",
         n_components=dim_embedding,
     )
