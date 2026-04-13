@@ -9,7 +9,7 @@ from .internal_criterions import (
 from scipy.sparse.linalg import svds, eigsh
 from sklearn.utils.extmath import randomized_svd
 
-def get_embedding(P: np.array, n_components: int, method: str = "svd"):
+def get_embedding(P: np.ndarray, n_components: int, method: str = "svd"):
     """
     Obtain the embedding of the given matrix using the specified method.
 
