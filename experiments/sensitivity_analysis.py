@@ -1,8 +1,15 @@
+import os
+import sys
+
+if __package__ in (None, ""):
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if project_root not in sys.path:
+        sys.path.insert(0, project_root)
+
 from mdt.random_mdt import random_mdt_operator
 from mdt.mdt_direct import mdt_direct
 from benchmarks import load_preprocessed_dataset
 import pandas as pd
-import os
 from joblib import Parallel, delayed
 from experiment_utils.run_benchmark import run_one_repeat, get_existing_repeats
 from experiment_utils.method_to_embedding import method_to_embedding
