@@ -20,6 +20,16 @@ from experiment_utils.get_operator_from_method import get_operator_from_method
 from experiment_utils.method_list import method_list
 from experiment_utils.method_to_embedding import method_to_embedding
 
+from competitors.alternating_diffusion import alternating_diffusion
+from competitors.composite_diffusion import composite_diffusion_operator
+from competitors.cross_diffusion import cross_diffusion_operator
+from competitors.gcca import gcca_embedding
+from competitors.integrated_diffusion import integrated_diffusion
+from competitors.multiview_diffusion import multiview_diffusion
+from mdt.random_mdt import random_mdt_operator
+from mdt.mdt_direct import mdt_direct
+from mdt.mdt_contrastive import mdt_contrastive
+from mdt.mdt_tree import mdt_beam
 
 DEFAULT_DATASETS = [
     {"name": "isolet_lindenbaum"},
