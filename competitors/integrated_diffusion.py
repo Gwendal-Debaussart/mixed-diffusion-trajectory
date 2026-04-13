@@ -1,7 +1,8 @@
 from kneed import KneeLocator
 import numpy as np
 from functools import reduce
-from utilities.entropy import powered_spectral_entropy
+from utilities.entropy import entropy_from_values
+
 
 def integrated_diffusion(X):
     """
@@ -22,8 +23,12 @@ def integrated_diffusion(X):
     elbow = {}
     for i in range(len(X)):
         eigvals = np.linalg.eigvals(X[i])
-        spectral_entropies[i] = [powered_spectral_entropy(eigvals, t) for t in time_range]
-        knee_locator = KneeLocator(time_range, spectral_entropies[i], curve="convex", direction="decreasing")
+        spectral_entropies[i] = [
+            entropy_from_values(np.power(eigvals, t)) for t in time_range
+        ]
+        knee_locator = KneeLocator(
+            time_range, spectral_entropies[i], curve="convex", direction="decreasing"
+        )
         optimal_time = knee_locator.elbow
         if optimal_time is None:
             print(f"No elbow found for view {i}, setting time to 1")

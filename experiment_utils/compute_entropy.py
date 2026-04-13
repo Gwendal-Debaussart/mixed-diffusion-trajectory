@@ -3,7 +3,7 @@ import csv
 import numpy as np
 import pandas as pd
 from benchmarks.load_dataset import load_preprocessed_dataset
-from utilities.entropy import powered_singular_entropy
+from utilities.entropy import entropy_from_values
 
 
 def _sanitize_cache_key(key: str) -> str:
@@ -41,7 +41,7 @@ def compute_entropy(dataset_name=None, t_max=50, operator=None, cache_key=None, 
         cache_key (str | None): Optional key for csv caching. If None and
             dataset_name is None, no file is written/read.
         **kwargs: Extra args for `load_preprocessed_dataset`.
-                  May include 'noise_factor' (float) to distinguish runs.
+                  May include 'noise_factor' (float).
     """
     if dataset_name is None and operator is None:
         raise ValueError("Must provide either dataset_name or operator.")
@@ -81,7 +81,7 @@ def compute_entropy(dataset_name=None, t_max=50, operator=None, cache_key=None, 
             print(f"[{label}] Warning: could not read existing file ({e}).")
 
     new_rows = [
-        [t, powered_singular_entropy(singular_vals, t)]
+        [t, entropy_from_values(singular_vals)]
         for t in range(last_t + 1, t_max + 1)
     ]
 
