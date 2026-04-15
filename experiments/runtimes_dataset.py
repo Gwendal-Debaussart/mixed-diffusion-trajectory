@@ -20,7 +20,7 @@ from experiment_utils.get_operator_from_method import get_operator_from_method
 from experiment_utils.method_list import method_list
 from experiment_utils.method_to_embedding import method_to_embedding
 
-from competitors.alternating_diffusion import alternating_diffusion
+from competitors.alternating_diffusion import alternating_diffusion, powered_alternating_diffusion
 from competitors.composite_diffusion import composite_diffusion_operator
 from competitors.cross_diffusion import cross_diffusion_operator
 from competitors.gcca import gcca_embedding
@@ -98,6 +98,12 @@ def _method_list():
             "params": lambda dn: {"n_components": get_num_clusters(dn)},
             "input_type": "preprocessed",
             "decomp_method": "precomputed",
+        },
+        {
+            "name": "Powered Alternating Diffusion",
+            "func": powered_alternating_diffusion,
+            "input_type": "preprocessed",
+            "decomp_method": "svd",
         },
         {
             "name": "Random Convex MDT",
@@ -217,6 +223,65 @@ def _summarize_runs(run_records):
     return summary
 
 
+def _summarize_raw_file(filepath):
+    df = pd.read_csv(filepath)
+    required_cols = {"dataset", "method", "repeat", *TIMING_KEYS}
+    missing = required_cols.difference(df.columns)
+    if missing:
+        raise ValueError(f"Missing columns in raw runtime file {filepath}: {sorted(missing)}")
+
+    # Keep only rows with valid method names and numeric timing values.
+    df = df.dropna(subset=["dataset", "method", "repeat"])
+    for col in TIMING_KEYS:
+        df[col] = pd.to_numeric(df[col], errors="coerce")
+    df = df.dropna(subset=TIMING_KEYS)
+
+    if df.empty:
+        return pd.DataFrame()
+
+    summary_rows = []
+    grouped = df.groupby(["dataset", "method"], dropna=False)
+    for (dataset_name, method_name), grp in grouped:
+        run_records = [
+            {
+                "operator_seconds": float(row["operator_seconds"]),
+                "embedding_seconds": float(row["embedding_seconds"]),
+                "kmeans_seconds": float(row["kmeans_seconds"]),
+                "pipeline_seconds": float(row["pipeline_seconds"]),
+                "total_seconds": float(row["total_seconds"]),
+            }
+            for _, row in grp.iterrows()
+        ]
+        summary = {
+            "dataset": dataset_name,
+            "noise_factor": grp["noise_factor"].iloc[0] if "noise_factor" in grp.columns else np.nan,
+            "method": method_name,
+            "n_runs": int(pd.to_numeric(grp["repeat"], errors="coerce").nunique()),
+        }
+        summary.update(_summarize_runs(run_records))
+        summary_rows.append(summary)
+
+    return pd.DataFrame(summary_rows)
+
+
+def _build_summary_from_raw(datasets, save_dir=DEFAULT_RAW_DIR):
+    summary_parts = []
+    for dataset in datasets:
+        raw_path = os.path.join(save_dir, f"{_dataset_key(dataset)}.csv")
+        if not os.path.exists(raw_path):
+            continue
+        summary_df = _summarize_raw_file(raw_path)
+        if not summary_df.empty:
+            summary_parts.append(summary_df)
+
+    if not summary_parts:
+        return pd.DataFrame()
+
+    result = pd.concat(summary_parts, ignore_index=True)
+    result = result.sort_values(["dataset", "method"]).reset_index(drop=True)
+    return result
+
+
 def _get_existing_repeats(dataset, method_name, save_dir=DEFAULT_RAW_DIR):
     filepath = os.path.join(save_dir, f"{_dataset_key(dataset)}.csv")
     if not os.path.exists(filepath):
@@ -291,27 +356,49 @@ def _precompute_metadata(datasets, n_jobs=-1):
 
 
 def _run_one_repeat(method, dataset_name, num_clusters, dim_embedd, X_preprocessed, X_views, run_seed):
-    np.random.seed(run_seed)
-    operator, operator_seconds = _timed(
-        lambda: get_operator_from_method(method, dataset_name, X_preprocessed, X_views)
-    )
-    embedding, embedding_seconds = _timed(
-        lambda: method_to_embedding(operator, X_views, method, dim_embedd)
-    )
+    try:
+        np.random.seed(run_seed)
+        operator, operator_seconds = _timed(
+            lambda: get_operator_from_method(method, dataset_name, X_preprocessed, X_views)
+        )
+        embedding, embedding_seconds = _timed(
+            lambda: method_to_embedding(operator, X_views, method, dim_embedd)
+        )
 
-    n_samples = len(X_views[0]) if X_views else len(X_preprocessed[0])
-    if isinstance(embedding, np.ndarray) and embedding.shape[0] > n_samples:
-        embedding = embedding[:n_samples, :]
+        n_samples = len(X_views[0]) if X_views else len(X_preprocessed[0])
+        if isinstance(embedding, np.ndarray) and embedding.shape[0] > n_samples:
+            embedding = embedding[:n_samples, :]
 
-    _, kmeans_seconds = _timed(
-        lambda: KMeans(n_clusters=num_clusters, random_state=run_seed, n_init=10).fit(embedding)
-    )
+        _, kmeans_seconds = _timed(
+            lambda: KMeans(n_clusters=num_clusters, random_state=run_seed, n_init=10).fit(embedding)
+        )
 
-    return _make_record(
-        operator=operator_seconds,
-        embedding=embedding_seconds,
-        kmeans=kmeans_seconds,
-    )
+        return {
+            "ok": True,
+            "record": _make_record(
+                operator=operator_seconds,
+                embedding=embedding_seconds,
+                kmeans=kmeans_seconds,
+            ),
+        }
+    except Exception as exc:
+        return {
+            "ok": False,
+            "error": f"{type(exc).__name__}: {exc}",
+        }
+
+
+def _split_run_outcomes(run_outcomes):
+    run_records = []
+    failed_errors = []
+    for outcome in run_outcomes:
+        if outcome.get("ok"):
+            record = outcome.get("record")
+            if isinstance(record, dict):
+                run_records.append(record)
+        else:
+            failed_errors.append(str(outcome.get("error", "Unknown error")))
+    return run_records, failed_errors
 
 
 def benchmark_runtimes_for_dataset(
@@ -351,7 +438,7 @@ def benchmark_runtimes_for_dataset(
 
                 Xp_view = [X_preprocessed[view_idx]]
                 Xv_view = [X_views[view_idx]]
-                run_records = Parallel(n_jobs=n_jobs)(
+                run_outcomes = Parallel(n_jobs=n_jobs, prefer="threads")(
                     delayed(_run_one_repeat)(
                         method_copy,
                         dataset_name,
@@ -363,6 +450,14 @@ def benchmark_runtimes_for_dataset(
                     )
                     for i in range(existing_repeats, existing_repeats + repeats_needed)
                 )
+                run_records, failed_errors = _split_run_outcomes(run_outcomes)
+                if failed_errors:
+                    print(
+                        f"[{dataset_name}] {method_copy['name']}: {len(failed_errors)} run(s) failed; first error: {failed_errors[0]}"
+                    )
+                if not run_records:
+                    print(f"[{dataset_name}] {method_copy['name']}: no successful runs, skipping save")
+                    continue
                 _save_raw_results(dataset, method_copy["name"], run_records, save_dir)
                 for idx, record in enumerate(run_records):
                     all_results.append(
@@ -387,7 +482,7 @@ def benchmark_runtimes_for_dataset(
         print(
             f"[{dataset_name}] (n.f = {noise_factor}) Running {method['name']} ({repeats_needed} missing repeats)"
         )
-        run_records = Parallel(n_jobs=n_jobs)(
+        run_outcomes = Parallel(n_jobs=n_jobs, prefer="threads")(
             delayed(_run_one_repeat)(
                 method,
                 dataset_name,
@@ -399,6 +494,14 @@ def benchmark_runtimes_for_dataset(
             )
             for i in range(existing_repeats, existing_repeats + repeats_needed)
         )
+        run_records, failed_errors = _split_run_outcomes(run_outcomes)
+        if failed_errors:
+            print(
+                f"[{dataset_name}] {method['name']}: {len(failed_errors)} run(s) failed; first error: {failed_errors[0]}"
+            )
+        if not run_records:
+            print(f"[{dataset_name}] {method['name']}: no successful runs, skipping save")
+            continue
         _save_raw_results(dataset, method["name"], run_records, save_dir)
         for idx, record in enumerate(run_records):
             all_results.append(
@@ -455,7 +558,8 @@ def benchmark_runtimes(
         if not summary_df.empty:
             all_summary.append(summary_df)
 
-    result = pd.concat(all_summary, ignore_index=True) if all_summary else pd.DataFrame()
+    # Always rebuild summary from raw files so reruns include previously computed methods.
+    result = _build_summary_from_raw(datasets=datasets, save_dir=save_dir)
     summary_path = os.path.join(summary_dir, "runtime_dataset.csv")
     result.to_csv(summary_path, index=False)
     print(f"\nSaved summary to {summary_path}")

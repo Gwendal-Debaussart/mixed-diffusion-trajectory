@@ -6,7 +6,7 @@ from .internal_criterions import (
     unsupervised_metric_list,
     metric_functions,
 )
-from scipy.sparse.linalg import svds, eigsh
+from scipy.sparse.linalg import svds, eigsh, ArpackNoConvergence
 from sklearn.utils.extmath import randomized_svd
 
 def get_embedding(P: np.ndarray, n_components: int, method: str = "svd"):
@@ -32,16 +32,40 @@ def get_embedding(P: np.ndarray, n_components: int, method: str = "svd"):
         Embedded representation of the input matrix.
     """
     if method == "svd":
-
-        U, s, _ = svds(P, k=n_components + 1)
-        U, s = U[:, ::-1], s[::-1]
-        return U[:, 1:] * s[1:]
+        max_rank = min(P.shape)
+        k = min(n_components + 1, max_rank)
+        try:
+            U, s, _ = svds(P, k=k)
+            if U is None or s is None:
+                raise RuntimeError("svds returned incomplete factors")
+            U, s = U[:, ::-1], s[::-1]
+        except (ArpackNoConvergence, RuntimeError):
+            # Fallback to dense SVD when ARPACK does not converge.
+            U, s, _ = np.linalg.svd(P, full_matrices=False)
+        embedding = U[:, 1 : n_components + 1] * s[1 : n_components + 1]
+        if embedding.shape[1] == 0:
+            return np.zeros((P.shape[0], 1), dtype=float)
+        return embedding
 
     elif method == "eigen":
-        eigvals, eigvecs = eigsh(P, k=n_components + 1, which='LM')
-        idx = np.argsort(eigvals)[::-1]
-        eigvals, eigvecs = eigvals[idx], eigvecs[:, idx]
-        return (eigvecs[:, 1:] * eigvals[1:]).real
+        max_rank = min(P.shape)
+        k = min(n_components + 1, max_rank)
+        try:
+            eigvals, eigvecs = eigsh(P, k=k, which='LM')
+            if eigvals is None or eigvecs is None:
+                raise RuntimeError("eigsh returned incomplete factors")
+            idx = np.argsort(eigvals)[::-1]
+            eigvals, eigvecs = eigvals[idx], eigvecs[:, idx]
+        except (ArpackNoConvergence, RuntimeError):
+            # Fallback to dense eigendecomposition when ARPACK does not converge.
+            P_sym = 0.5 * (P + P.T)
+            eigvals, eigvecs = np.linalg.eigh(P_sym)
+            idx = np.argsort(eigvals)[::-1]
+            eigvals, eigvecs = eigvals[idx], eigvecs[:, idx]
+        embedding = np.real(eigvecs[:, 1 : n_components + 1] * eigvals[1 : n_components + 1])
+        if embedding.shape[1] == 0:
+            return np.zeros((P.shape[0], 1), dtype=float)
+        return embedding
 
     elif method == "truncated_svd":
         U, s, _ = randomized_svd(P, n_components=n_components, random_state=0)
