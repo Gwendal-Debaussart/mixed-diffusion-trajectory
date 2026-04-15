@@ -21,7 +21,7 @@ def mdt_operator_from_params(params, X):
     trajectory = bayes_param_to_trajectory(params, X)
     return mdt_operator(trajectory, X)
 
-def mdt_direct(X, t, k, dim_embedding= None, metric = "chs"):
+def mdt_direct(X, t, k, dim_embedding= None, metric = "chs", true_labels = None):
     """
     Perform Mixed Diffusion Trajectories (MDT) optimization. Uses the DIRECT algorithm to find the optimal trajectory parameters that maximize the clustering quality as measured by CH.
 
@@ -37,6 +37,8 @@ def mdt_direct(X, t, k, dim_embedding= None, metric = "chs"):
         Dimension of the embedding space.
     metric : str
         Clustering evaluation metric to optimize (e.g., "chs" for Calinski-Harabasz Score).
+    true_labels : np.ndarray
+        Ground truth labels for the data points, used for metrics that require them (e.g., "ami" for Adjusted Mutual Information).
 
     Returns:
     -------
@@ -50,7 +52,7 @@ def mdt_direct(X, t, k, dim_embedding= None, metric = "chs"):
     f_ = lambda params: evaluate_operator(
         operator=mdt_operator_from_params(params, X),
         X_views=X,
-        true_labels=None,
+        true_labels=true_labels,
         metric=metric,
         n_clusters=k,
         method="svd",

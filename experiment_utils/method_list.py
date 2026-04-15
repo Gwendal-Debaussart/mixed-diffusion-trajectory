@@ -11,7 +11,7 @@ from mdt.mdt_contrastive import mdt_contrastive
 from mdt.mdt_tree import mdt_beam
 
 from .get_diffusion_time import get_diffusion_time
-from benchmarks.load_dataset import get_num_clusters
+from benchmarks.load_dataset import get_num_clusters, get_true_labels
 
 def method_list():
     return (
@@ -121,28 +121,41 @@ def method_list():
             "task" : "clustering"
         },
         # ----- Direct MDT using other optimization criteria
-        {
-            "name": "Direct MDT (DBS)",
-            "func": mdt_direct,
-            "input_type": "preprocessed",
-            "decomp_method": "svd",
-            "params": lambda dn: {
-                "t": get_diffusion_time(dn),
-                "k": get_num_clusters(dn),
-                "metric": "dbs"
-            },
-            "task" : "clustering"
-        },
-        {
-            "name": "Direct MDT (SIL)",
-            "func": mdt_direct,
-            "input_type": "preprocessed",
-            "decomp_method": "svd",
-            "params": lambda dn: {
-                "t": get_diffusion_time(dn),
-                "k": get_num_clusters(dn),
-                "metric": "sil"
-            },
-            "task" : "clustering"
-        },
+        # {
+        #     "name": "Direct MDT (DBS)",
+        #     "func": mdt_direct,
+        #     "input_type": "preprocessed",
+        #     "decomp_method": "svd",
+        #     "params": lambda dn: {
+        #         "t": get_diffusion_time(dn),
+        #         "k": get_num_clusters(dn),
+        #         "metric": "dbs"
+        #     },
+        #     "task" : "clustering"
+        # },
+        # {
+        #     "name": "Direct MDT (SIL)",
+        #     "func": mdt_direct,
+        #     "input_type": "preprocessed",
+        #     "decomp_method": "svd",
+        #     "params": lambda dn: {
+        #         "t": get_diffusion_time(dn),
+        #         "k": get_num_clusters(dn),
+        #         "metric": "sil"
+        #     },
+        #     "task" : "clustering"
+        # },
+        # {
+        #     "name": "Direct MDT (AMI)",
+        #     "func": mdt_direct,
+        #     "input_type": "preprocessed",
+        #     "decomp_method": "svd",
+        #     "params": lambda dn: {
+        #         "t": get_diffusion_time(dn),
+        #         "k": get_num_clusters(dn),
+        #         "metric": "ami",
+        #         "true_labels": get_true_labels(dn)
+        #     },
+        #     "task" : "clustering"
+        # },
     )
