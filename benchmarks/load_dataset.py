@@ -132,3 +132,48 @@ def get_num_clusters(dataset_name):
         json.dump(dataset_clusters, f, indent=4)
 
     return num_clusters
+
+def get_true_labels(dataset_name):
+    """
+    Get the true labels for a given dataset.
+
+    Reads from ../tables/dataset_infos/dataset_true_labels.json relative to this file.
+    If missing, computes from loading the dataset and updates the JSON.
+
+    Parameters:
+    -----------
+        dataset_name (str): Name of the dataset.
+
+    Returns:
+        np.ndarray: The true labels for the dataset.
+    """
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    save_dir = os.path.join(base_dir, "tables", "dataset_infos")
+    os.makedirs(save_dir, exist_ok=True)
+    json_path = os.path.join(save_dir, "dataset_true_labels.json")
+
+    if os.path.exists(json_path):
+        with open(json_path, "r") as f:
+            try:
+                dataset_true_labels = json.load(f)
+            except json.JSONDecodeError:
+                print(f"[Warning] Corrupted JSON file, reinitializing {json_path}")
+                dataset_true_labels = {}
+    else:
+        dataset_true_labels = {}
+
+    if dataset_name in dataset_true_labels:
+        return np.array(dataset_true_labels[dataset_name])
+
+    try:
+        _, Y = load_preprocessed_dataset(dataset_name)
+    except Exception as e:
+        raise RuntimeError(f"Failed to load dataset '{dataset_name}': {e}")
+
+    dataset_true_labels[dataset_name] = Y.tolist()
+
+    with open(json_path, "w") as f:
+        json.dump(dataset_true_labels, f, indent=4)
+
+    return Y
+
