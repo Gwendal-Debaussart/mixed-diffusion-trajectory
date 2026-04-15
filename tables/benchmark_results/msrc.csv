@@ -20,6 +20,9 @@ Cross Diffusion Maps,chs,2.6923,0.0888,100
 Direct MDT,ami,0.7618,0.0264,100
 Direct MDT,ari,0.6899,0.0536,100
 Direct MDT,chs,3.7582,0.0687,100
+Direct MDT (AMI),ami,0.748,0.0292,100
+Direct MDT (AMI),ari,0.6734,0.0532,100
+Direct MDT (AMI),chs,3.6995,0.0844,100
 Direct MDT (DBS),ami,0.7634,0.0246,100
 Direct MDT (DBS),ari,0.6889,0.0493,100
 Direct MDT (DBS),chs,3.7488,0.0847,100
