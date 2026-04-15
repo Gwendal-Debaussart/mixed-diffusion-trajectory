@@ -1,0 +1,29 @@
+
+\begin{table*}
+  \centering
+  \begin{adjustbox}{width=\linewidth,center}
+\begin{tabular}{l|ccccccccc|r}
+\Xhline{1pt}
+\multirow{2}{*}{\textbf{Methods}} & \multicolumn{9}{c|}{\textbf{Datasets}} & \multirow{2}{*}{Random Index} \\
+\cline{2-10}
+&
+\textbf{\textsc{K-MvMNIST}}* & \textbf{\textsc{L-MvMNIST}}* & \textbf{\textsc{Olivetti}} & \textbf{\textsc{Yale}} & \textbf{\textsc{100Leaves}} & \textbf{\textsc{L-Isolet}} & \textbf{\textsc{MSRC}} & \textbf{\textsc{Multi-Feat}}* & \textbf{\textsc{Caltech101-7}}* \\
+\Xhline{0.75pt}
+GCCA & — & — & 69.67 \mystd{1.45} & 46.83 \mystd{2.39} & \mysecond{87.83 \mystd{0.84}} & 70.78 \mystd{1.41} & 64.65 \mystd{3.64} & 63.59 \mystd{2.07} & 26.36 \mystd{12.21} & 0.88 \\
+\textcolor{crdcol}{\rule{1em}{0.75em}} \CrD \ \ \ \ \ \citep{wang_unsupervised_2012} \smallg{(2012)} & 66.58 \mystd{1.32} & 59.51 \mystd{1.04} & 71.83 \mystd{1.19} & 56.16 \mystd{1.65} & 44.37 \mystd{0.68} & \mybest{79.79 \mystd{0.92}} & 48.32 \mystd{1.10} & 76.93 \mystd{1.44} & \mybest{65.92 \mystd{2.68}} & 0.93 \\
+\textcolor{comdcol}{\rule{1em}{0.75em}}  \ComD\ \ \citep{shnitzer_recovering_2018} \smallg{(2018)} & 65.40 \mystd{2.06} & \mysecond{61.82 \mystd{1.72}} & 75.63 \mystd{1.02} & — & — & — & — & — & — & 0.99 \\
+\textcolor{adcol}{\rule{1em}{0.75em}}  \ADM  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \citep{katz_alternating_2019} \smallg{(2019)} & 66.25 \mystd{1.65} & 60.98 \mystd{1.99} & 75.08 \mystd{0.97} & 57.99 \mystd{1.22} & 80.01 \mystd{0.69} & 77.24 \mystd{0.56} & 50.03 \mystd{1.43} & 82.98 \mystd{1.39} & 56.71 \mystd{4.08} & 0.99 \\
+\textcolor{mvdmcol}{\rule{1em}{0.75em}}  \MVDM \ \ \ \ \ \ \ \ \ \ \citep{lindenbaum_multi-view_2020} \smallg{(2020)} & \mybest{68.79 \mystd{2.28}} & 61.57 \mystd{1.55} & 75.82 \mystd{1.24} & 56.59 \mystd{0.62} & 82.43 \mystd{0.42} & 8.03 \mystd{0.64} & 48.84 \mystd{2.76} & 82.51 \mystd{1.95} & 56.05 \mystd{3.62} & 0.90 \\
+\textcolor{idmcol}{\rule{1em}{0.75em}}  \IDM \ \ \ \ \ \ \ \ \ \ \ \, \,  \ \citep{kuchroo_multimodal_2022} \smallg{(2022)} & \mysecond{68.76 \mystd{1.89}} & 61.51 \mystd{0.97} & 74.98 \mystd{1.05} & 52.44 \mystd{1.03} & 73.82 \mystd{0.52} & \mysecond{79.77 \mystd{0.58}} & 35.16 \mystd{1.83} & 83.43 \mystd{1.07} & 45.77 \mystd{3.07} & 0.93 \\
+\textcolor{padcol}{\rule{1em}{0.75em}}  \textsc{p-AD} \, \, \, \, \,   \,\citep{kuchroo_multimodal_2022} \smallg{(2022)} & — & — & 75.52 \mystd{0.96} & 57.74 \mystd{1.18} & 69.94 \mystd{0.68} & 78.77 \mystd{0.59} & 40.97 \mystd{2.07} & 81.88 \mystd{1.32} & 58.18 \mystd{3.18} & 0.96 \\
+\Xhline{0.75pt}
+\textcolor{mdtchsdcol}{\rule{1em}{0.75em}}  \MDTchs & 68.53 \mystd{1.83} & \mybest{62.24 \mystd{1.08}} & \mybest{76.91 \mystd{1.07}} & \mybest{59.40 \mystd{0.93}} & \mybest{91.35 \mystd{0.83}} & 77.91 \mystd{0.63} & \mybest{76.18 \mystd{2.64}} & \mysecond{85.37 \mystd{1.01}} & 63.56 \mystd{3.42} & \mybest{1.08} \\
+\textcolor{mdtbscdcol}{\rule{1em}{0.75em}}  \MDTbsc & 68.39 \mystd{1.21} & 61.77 \mystd{0.92} & 75.05 \mystd{1.33} & 58.57 \mystd{1.31} & 61.73 \mystd{0.40} & 79.61 \mystd{0.65} & 73.67 \mystd{3.48} & \mybest{87.32 \mystd{0.67}} & \mysecond{64.05 \mystd{3.09}} & 1.03 \\
+\textcolor{mdtrandcol}{\rule{1em}{0.75em}}  \MDTrand & 68.20 \mystd{1.98} & 61.33 \mystd{1.47} & 75.95 \mystd{1.52} & 57.14 \mystd{1.74} & 70.51 \mystd{6.01} & 77.78 \mystd{0.70} & 61.27 \mystd{10.84} & 80.28 \mystd{4.25} & 58.57 \mystd{7.18} & 1.00 \\
+\textcolor{mdtconvcol}{\rule{1em}{0.75em}} \MDTcvx & 68.51 \mystd{1.53} & 61.69 \mystd{1.12} & \mysecond{76.49 \mystd{1.24}} & \mysecond{58.68 \mystd{1.11}} & 86.19 \mystd{4.66} & 78.00 \mystd{0.62} & \mysecond{74.62 \mystd{3.40}} & 84.84 \mystd{1.87} & 63.46 \mystd{3.64} & \mysecond{1.07} \\
+\Xhline{1pt}
+\end{tabular}
+  \end{adjustbox}
+  \caption{\textbf{AMI results across multiple datasets.} The best mean per dataset is in bold (\mybest{}), the second-best is underlined (\mysecond{}). Standard deviations appear in parentheses via \mystd{}.}
+  \label{tab:results_combined}
+\end{table*}
