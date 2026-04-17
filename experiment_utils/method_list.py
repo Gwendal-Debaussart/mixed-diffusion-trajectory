@@ -2,6 +2,7 @@ from competitors.alternating_diffusion import alternating_diffusion
 from competitors.composite_diffusion import composite_diffusion_operator
 from competitors.cross_diffusion import cross_diffusion_operator
 from competitors.gcca import gcca_embedding
+from competitors.mvsc import mvsc_embedding
 from competitors.integrated_diffusion import integrated_diffusion
 from competitors.multiview_diffusion import multiview_diffusion
 from competitors.alternating_diffusion import powered_alternating_diffusion
@@ -67,6 +68,13 @@ def method_list():
             "decomp_method": "precomputed",
         },
         {
+            "name": "MVSC",
+            "func": mvsc_embedding,
+            "params": lambda dn: {"n_clusters": get_num_clusters(dn)},
+            "input_type": "preprocessed",
+            "decomp_method": "precomputed",
+        },
+        {
             "name": "Random Convex MDT",
             "func": random_mdt_operator,
             "input_type": "preprocessed",
@@ -99,16 +107,16 @@ def method_list():
             },
             "task" : "clustering"
         },
-        {
-            "name": "Contrastive MDT",
-            "func": mdt_contrastive,
-            "input_type": "preprocessed",
-            "task": "manifold_learning",
-            "decomp_method": "svd",
-            "params": lambda dn: {
-                "t": get_diffusion_time(dn),
-            },
-        },
+        # {
+        #     "name": "Contrastive MDT",
+        #     "func": mdt_contrastive,
+        #     "input_type": "preprocessed",
+        #     "task": "manifold_learning",
+        #     "decomp_method": "svd",
+        #     "params": lambda dn: {
+        #         "t": get_diffusion_time(dn),
+        #     },
+        # },
         {
             "name": "Beam-Search MDT",
             "func": mdt_beam,
