@@ -26,6 +26,9 @@ GCCA,chs,5.7264,0.0948,100
 Integrated Diffusion Maps,ami,0.6151,0.0097,100
 Integrated Diffusion Maps,ari,0.4586,0.0253,100
 Integrated Diffusion Maps,chs,6.1983,0.0663,100
+MVSC,ami,0.3212,0.0129,100
+MVSC,ari,0.1658,0.0096,100
+MVSC,chs,4.6996,0.1673,100
 Multi-view Diffusion Maps,ami,0.6157,0.0155,100
 Multi-view Diffusion Maps,ari,0.456,0.0342,100
 Multi-view Diffusion Maps,chs,6.2387,0.0543,100
