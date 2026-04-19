@@ -20,7 +20,7 @@ def _to_2d_embedding(embedding):
 
     raise ValueError(f"Unexpected GCCA embedding shape: {arr.shape}")
 
-def gcca_embedding(views, n_components):
+def gcca_embedding(views, n_components, **kwargs):
     """
     Compute GCCA embedding from multiple views, using mvlearn's implementation.
 

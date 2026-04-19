@@ -1,4 +1,5 @@
 from benchmarks.utilities import get_kernel_matrix
+from mdt.random_mdt import random_mdt_operator
 
 def get_operator_from_method(method, dataset_name, X_preprocessed, X_views):
     """
@@ -24,5 +25,9 @@ def get_operator_from_method(method, dataset_name, X_preprocessed, X_views):
         return method["func"](X_kernels, **params)
     if method["input_type"] == "views":
         return method["func"](X_views, **params)
+    if method["input_type"] == "trajectories":
+        n_trajectories = method.get("n_trajectories", 10)
+        trajectory = [random_mdt_operator(X_preprocessed, params.get("diffusion_time", 1), convex=True) for _ in range(n_trajectories)]
+        return method["func"](trajectory, **params)
     else:
         return method["func"](X_preprocessed, **params)

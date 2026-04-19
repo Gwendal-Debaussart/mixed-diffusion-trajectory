@@ -13,17 +13,29 @@ def run_one_repeat(
     method, dataset_name, num_clusters, dim_embedd, X_preprocessed, X_views, Y
 ):
     """ """
-    operator = get_operator_from_method(method, dataset_name, X_preprocessed, X_views)
-    embedding = method_to_embedding(operator, X_views, method, dim_embedd)
+    try:
+        operator = get_operator_from_method(method, dataset_name, X_preprocessed, X_views)
+        embedding = method_to_embedding(operator, X_views, method, dim_embedd)
 
-    # Truncate the embedding if MVDM, keep the first n_samples rows
-    n_samples = len(X_views[0])
-    if isinstance(embedding, np.ndarray) and embedding.shape[0] > n_samples:
-        embedding = embedding[:n_samples, :]
+        # Truncate the embedding if MVDM, keep the first n_samples rows
+        n_samples = len(X_views[0])
+        if isinstance(embedding, np.ndarray) and embedding.shape[0] > n_samples:
+            embedding = embedding[:n_samples, :]
 
-    labels = get_clustering(embedding, num_clusters)
-    score = evaluate_labels(Y, X_preprocessed, labels, metric=["chs", "ami", "ari"])
-    return score
+        labels = get_clustering(embedding, num_clusters)
+        score = evaluate_labels(Y, X_preprocessed, labels, metric=["chs", "ami", "ari"])
+        return score
+    except Exception as e:
+        # Return error information as a dictionary instead of raising
+        # This ensures exceptions are picklable across multiprocessing boundaries
+        return {
+            "error": True,
+            "error_type": type(e).__name__,
+            "error_message": str(e),
+            "chs": np.nan,
+            "ami": np.nan,
+            "ari": np.nan,
+        }
 
 
 def get_existing_repeats(

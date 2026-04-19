@@ -29,9 +29,6 @@ Direct MDT (DBS),chs,3.7488,0.0847,100
 Direct MDT (SIL),ami,0.741,0.0332,100
 Direct MDT (SIL),ari,0.6648,0.0591,100
 Direct MDT (SIL),chs,3.7096,0.0857,100
-GCCA,ami,0.6465,0.0364,100
-GCCA,ari,0.5162,0.055,100
-GCCA,chs,3.5484,0.0731,100
 Integrated Diffusion Maps,ami,0.3516,0.0183,100
 Integrated Diffusion Maps,ari,0.2305,0.0155,100
 Integrated Diffusion Maps,chs,2.5373,0.0656,100

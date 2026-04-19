@@ -111,7 +111,7 @@ if __name__ == "__main__":
 
     n_cores = multiprocessing.cpu_count()
 
-    n_jobs = max(8, n_cores // 4)
+    n_jobs = max(4, n_cores // 4)
 
     run_benchmark(
         datasets,

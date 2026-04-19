@@ -1,7 +1,7 @@
 import numpy as np
 from mvlearn.cluster import MultiviewSpectralClustering
 
-def mvsc_embedding(views, n_clusters):
+def mvsc_embedding(views, n_clusters, **kwargs):
     """
     Parameters
     ----------
@@ -16,8 +16,7 @@ def mvsc_embedding(views, n_clusters):
     """
     mvsc = MultiviewSpectralClustering(
         n_clusters=n_clusters,
-        affinity='nearest_neighbors',
-        n_init=10
+        affinity='nearest_neighbors', # We use nearest_neighbors affinity, because MVSC uses ARPACK, which does not support dense matrices. This causes issues in the context of higher chosen $t$ for the MVSC + MDT method, where the operator becomes dense.
     )
     mvsc.fit(views)
     embedding = mvsc.embedding_
