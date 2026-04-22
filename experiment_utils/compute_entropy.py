@@ -83,7 +83,7 @@ def compute_entropy(dataset_name=None, t_max=50, operator=None, cache_key=None, 
         entropies = df[df["t"] <= t_max].copy()
         return entropies
 
-    operator = np.linalg.matrix_power(operator, last_t + 1)
+    operator = np.linalg.matrix_power(operator, last_t) if last_t > 0 else operator
     running_operator = np.identity(operator.shape[0])
     new_rows = []
     for t in range(last_t, t_max + 1):
