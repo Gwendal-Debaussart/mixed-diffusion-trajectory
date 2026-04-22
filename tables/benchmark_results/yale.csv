@@ -32,9 +32,18 @@ Direct MDT (SIL),chs,5.1831,0.0549,100
 GCCA,ami,0.4683,0.0239,100
 GCCA,ari,0.2545,0.0284,100
 GCCA,chs,4.9923,0.0524,100
+GCCA + MDT,ami,0.592,0.0067,100
+GCCA + MDT,ari,0.4359,0.0116,100
+GCCA + MDT,chs,5.1288,0.0476,100
 Integrated Diffusion Maps,ami,0.5244,0.0103,100
 Integrated Diffusion Maps,ari,0.3861,0.0141,100
 Integrated Diffusion Maps,chs,4.961,0.0876,100
+MVSC,ami,0.5942,0.0081,100
+MVSC,ari,0.4447,0.0099,100
+MVSC,chs,5.1209,0.0764,100
+MVSC + MDT,ami,0.5877,0.0098,100
+MVSC + MDT,ari,0.4405,0.0126,100
+MVSC + MDT,chs,5.1299,0.0865,100
 Multi-view Diffusion Maps,ami,0.5659,0.0062,100
 Multi-view Diffusion Maps,ari,0.4147,0.013,100
 Multi-view Diffusion Maps,chs,5.1247,0.0488,100

@@ -126,7 +126,7 @@ def run_benchmark_for_dataset(
                     )
                     continue
                 if method.get("stochastic", False):
-                    repeats = Parallel(n_jobs=-1)(
+                    repeats = Parallel(n_jobs=2)(
                         delayed(run_one_repeat)(
                             method=method_copy,
                             dataset_name=dataset_name,
