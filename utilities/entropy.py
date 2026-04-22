@@ -8,18 +8,9 @@ def entropy_from_values(values: np.ndarray) -> float:
     Values are converted to non-negative weights, optionally raised to a power,
     normalized by their sum, and evaluated as -sum(p log p).
     """
-    weights = np.abs(np.asarray(values, dtype=float))
-    weights = weights[weights > 0]
-    if weights.size == 0:
-        return 0.0
-
-    total = np.sum(weights)
-    if total == 0:
-        return 0.0
-
-    probs = weights / total
-    probs = probs[probs > 0]
-    return float(-np.sum(probs * np.log(probs)))
+    values = values[values != 0]
+    values /= np.linalg.norm(values)
+    return -np.sum(values * np.log(values))
 
 
 def singular_entropy(P):
