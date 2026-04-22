@@ -66,8 +66,7 @@ def compute_entropy(dataset_name=None, t_max=50, operator=None, cache_key=None, 
         if operator.ndim != 2:
             raise ValueError("operator must be a 2D square matrix.")
 
-    singular_vals = np.linalg.svd(operator, compute_uv=False)
-    singular_vals = np.abs(singular_vals)
+
 
     last_t = 0
     file_exists = filepath is not None and os.path.isfile(filepath)
@@ -80,10 +79,18 @@ def compute_entropy(dataset_name=None, t_max=50, operator=None, cache_key=None, 
             label = key if key is not None else (dataset_name or "operator")
             print(f"[{label}] Warning: could not read existing file ({e}).")
 
-    new_rows = [
-        [t, entropy_from_values(singular_vals)]
-        for t in range(last_t + 1, t_max + 1)
-    ]
+    if last_t >= t_max:
+        entropies = df[df["t"] <= t_max].copy()
+        return entropies
+
+    operator = np.linalg.matrix_power(operator, last_t + 1)
+    running_operator = np.identity(operator.shape[0])
+    new_rows = []
+    for t in range(last_t, t_max + 1):
+        running_operator = running_operator @ operator
+        singular_vals = np.linalg.svd(running_operator, compute_uv=False)
+        singular_vals = np.abs(singular_vals)
+        new_rows.append([t, entropy_from_values(singular_vals)])
 
     if filepath is None:
         entropies = pd.DataFrame(new_rows, columns=["t", "singular_entropy"])
