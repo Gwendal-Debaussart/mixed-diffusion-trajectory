@@ -1,0 +1,47 @@
+method,metric,mean,std,n_repeats
+Affinity Addition,ami,0.4053,0.0078,100
+Affinity Addition,ari,0.2865,0.0162,100
+Affinity Addition,chs,3.1938,0.0271,100
+Affinity Multiplication,ami,0.3967,0.0125,100
+Affinity Multiplication,ari,0.2558,0.0075,100
+Affinity Multiplication,chs,3.1454,0.0249,100
+Alternating Diffusion,ami,0.4169,0.0078,100
+Alternating Diffusion,ari,0.2829,0.0104,100
+Alternating Diffusion,chs,3.1888,0.0196,100
+Beam-Search MDT,ami,0.3819,0.0063,100
+Beam-Search MDT,ari,0.2455,0.0076,100
+Beam-Search MDT,chs,2.7827,0.0364,100
+Composite Diffusion Maps,ami,0.4056,0.0059,100
+Composite Diffusion Maps,ari,0.2685,0.0126,100
+Composite Diffusion Maps,chs,3.1911,0.0199,100
+Cross Diffusion Maps,ami,0.2373,0.0014,100
+Cross Diffusion Maps,ari,0.1133,0.0027,100
+Cross Diffusion Maps,chs,2.1489,0.0065,100
+Direct MDT,ami,0.4181,0.0063,100
+Direct MDT,ari,0.2732,0.0071,100
+Direct MDT,chs,3.0664,0.0312,100
+GCCA,ami,0.3207,0.0187,50
+GCCA,ari,0.0933,0.0156,50
+GCCA,chs,2.7804,0.0555,50
+Integrated Diffusion Maps,ami,0.3732,0.0016,100
+Integrated Diffusion Maps,ari,0.2471,0.0019,100
+Integrated Diffusion Maps,chs,2.7606,0.0115,100
+MVSC,ami,0.1651,0.0045,50
+MVSC,ari,0.1039,0.0044,50
+MVSC,chs,1.983,0.0553,50
+Multi-view Diffusion Maps,ami,0.4087,0.0117,100
+Multi-view Diffusion Maps,ari,0.268,0.0125,100
+Multi-view Diffusion Maps,chs,3.1778,0.0219,100
+Powered Alternating Diffusion,ami,0.3913,0.007,100
+Powered Alternating Diffusion,ari,0.2516,0.0083,100
+Powered Alternating Diffusion,chs,2.9495,0.0439,100
+Random Convex MDT,ami,0.3861,0.0277,100
+Random Convex MDT,ari,0.2501,0.0213,100
+Random MDT,ami,0.3622,0.0498,100
+Random MDT,ari,0.2325,0.0368,100
+Single-view Diffusion Maps (view 1),ami,0.4155,0.0129,100
+Single-view Diffusion Maps (view 1),ari,0.3033,0.0265,100
+Single-view Diffusion Maps (view 1),chs,3.0697,0.0232,100
+Single-view Diffusion Maps (view 2),ami,0.1626,0.0029,100
+Single-view Diffusion Maps (view 2),ari,0.1143,0.0032,100
+Single-view Diffusion Maps (view 2),chs,2.5511,0.0106,100

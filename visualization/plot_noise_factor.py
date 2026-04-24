@@ -1,5 +1,5 @@
-from .style import get_color_method, get_marker_list
-from .reduced_name import reduced_name
+from style import get_color_method, get_marker_list
+from reduced_name import reduced_name
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -11,7 +11,7 @@ def plot_noise_factor(noise_values = None):
         noise_values = np.arange(0.05, 1, 0.05)
     variants = ["lindenbaum", "kuchroo"]
 
-    os.makedirs("figures", exist_ok=True)
+    os.makedirs("figures/noise_factors", exist_ok=True)
 
     all_dfs = []
     for variant in variants:
@@ -54,7 +54,7 @@ def plot_noise_factor(noise_values = None):
 
     methods = combined["method"].unique().tolist()
     methods = [
-        m for m in methods if m not in ["Affinity Addition", "Affinity Multiplication"]
+        m for m in methods if m not in ["Affinity Addition", "Affinity Multiplication", "GCCA + MDT", "MVSC + MDT"]
     ]
     methods.sort()
     markers = get_marker_list()
@@ -100,7 +100,7 @@ def plot_noise_factor(noise_values = None):
         else:
             pass
 
-        outpath = f"figures/noise_factor_{variant}.pdf"
+        outpath = f"figures/noise_factors/noise_factor_{variant}.pdf"
         try:
             fig.savefig(outpath)
             print(f"[OK] PDF created: {outpath}")
@@ -108,3 +108,6 @@ def plot_noise_factor(noise_values = None):
             print(f"[ERROR] unable to save {outpath} : {e}")
         finally:
             plt.close(fig)
+
+if __name__ == "__main__":
+    plot_noise_factor()

@@ -20,12 +20,21 @@ Cross Diffusion Maps,chs,6.3796,0.1249,100
 Direct MDT,ami,0.6721,0.016,100
 Direct MDT,ari,0.5229,0.0299,100
 Direct MDT,chs,6.6366,0.0496,100
+GCCA,ami,0.4706,0.0205,50
+GCCA,ari,0.1149,0.0124,50
+GCCA,chs,6.0135,0.1016,50
 Integrated Diffusion Maps,ami,0.6592,0.0103,100
 Integrated Diffusion Maps,ari,0.4923,0.0199,100
 Integrated Diffusion Maps,chs,6.6156,0.0459,100
+MVSC,ami,0.3947,0.0161,50
+MVSC,ari,0.2402,0.015,50
+MVSC,chs,5.1087,0.1443,50
 Multi-view Diffusion Maps,ami,0.6657,0.0227,100
 Multi-view Diffusion Maps,ari,0.5224,0.0421,100
 Multi-view Diffusion Maps,chs,6.6079,0.0622,100
+Powered Alternating Diffusion,ami,0.6504,0.0122,100
+Powered Alternating Diffusion,ari,0.4808,0.0254,100
+Powered Alternating Diffusion,chs,6.6061,0.0582,100
 Random Convex MDT,ami,0.6407,0.0193,100
 Random Convex MDT,ari,0.4778,0.0292,100
 Random MDT,ami,0.6415,0.0271,100

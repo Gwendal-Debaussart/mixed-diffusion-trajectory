@@ -1,0 +1,47 @@
+method,metric,mean,std,n_repeats
+Affinity Addition,ami,0.4834,0.0137,100
+Affinity Addition,ari,0.3383,0.0261,100
+Affinity Addition,chs,4.0596,0.0348,100
+Affinity Multiplication,ami,0.4688,0.0116,100
+Affinity Multiplication,ari,0.2875,0.0172,100
+Affinity Multiplication,chs,4.0503,0.0293,100
+Alternating Diffusion,ami,0.4797,0.0113,100
+Alternating Diffusion,ari,0.3074,0.0173,100
+Alternating Diffusion,chs,4.0715,0.032,100
+Beam-Search MDT,ami,0.4448,0.0061,100
+Beam-Search MDT,ari,0.3023,0.006,100
+Beam-Search MDT,chs,3.644,0.0561,100
+Composite Diffusion Maps,ami,0.4768,0.0099,100
+Composite Diffusion Maps,ari,0.2983,0.0166,100
+Composite Diffusion Maps,chs,4.0917,0.0391,100
+Cross Diffusion Maps,ami,0.3473,0.0145,100
+Cross Diffusion Maps,ari,0.229,0.014,100
+Cross Diffusion Maps,chs,2.892,0.0617,100
+Direct MDT,ami,0.4879,0.0061,100
+Direct MDT,ari,0.3317,0.0145,100
+Direct MDT,chs,4.0657,0.0488,100
+GCCA,ami,0.4106,0.0168,50
+GCCA,ari,0.1207,0.013,50
+GCCA,chs,3.8301,0.0872,50
+Integrated Diffusion Maps,ami,0.4623,0.0052,100
+Integrated Diffusion Maps,ari,0.3246,0.0083,100
+Integrated Diffusion Maps,chs,3.7605,0.0397,100
+MVSC,ami,0.2529,0.0136,50
+MVSC,ari,0.1512,0.0062,50
+MVSC,chs,2.8406,0.1072,50
+Multi-view Diffusion Maps,ami,0.4711,0.0131,100
+Multi-view Diffusion Maps,ari,0.3129,0.0227,100
+Multi-view Diffusion Maps,chs,4.0418,0.0445,100
+Powered Alternating Diffusion,ami,0.478,0.0072,100
+Powered Alternating Diffusion,ari,0.3217,0.0122,100
+Powered Alternating Diffusion,chs,3.9911,0.0704,100
+Random Convex MDT,ami,0.4739,0.0136,100
+Random Convex MDT,ari,0.3162,0.0136,100
+Random MDT,ami,0.4589,0.0241,100
+Random MDT,ari,0.3101,0.023,100
+Single-view Diffusion Maps (view 1),ami,0.4657,0.0122,100
+Single-view Diffusion Maps (view 1),ari,0.3229,0.0279,100
+Single-view Diffusion Maps (view 1),chs,3.91,0.03,100
+Single-view Diffusion Maps (view 2),ami,0.3555,0.0082,100
+Single-view Diffusion Maps (view 2),ari,0.2472,0.0159,100
+Single-view Diffusion Maps (view 2),chs,3.6433,0.0323,100

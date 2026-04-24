@@ -41,6 +41,9 @@ Integrated Diffusion Maps,chs,5.2155,0.0804,100
 MVSC,ami,0.8065,0.0126,100
 MVSC,ari,0.7213,0.0238,100
 MVSC,chs,5.327,0.0604,100
+MVSC + MDT,ami,0.9021,0.0161,10
+MVSC + MDT,ari,0.8231,0.035,10
+MVSC + MDT,chs,5.4285,0.061,10
 Multi-view Diffusion Maps,ami,0.8251,0.0195,100
 Multi-view Diffusion Maps,ari,0.7258,0.035,100
 Multi-view Diffusion Maps,chs,5.3986,0.0541,100

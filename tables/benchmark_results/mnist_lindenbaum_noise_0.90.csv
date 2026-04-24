@@ -1,0 +1,48 @@
+method,metric,mean,std,n_repeats
+Affinity Addition,ami,0.32,0.0057,100
+Affinity Addition,ari,0.2277,0.0097,100
+Affinity Addition,chs,2.78,0.0131,100
+Affinity Multiplication,ami,0.2881,0.0092,100
+Affinity Multiplication,ari,0.2044,0.0099,100
+Affinity Multiplication,chs,2.5881,0.0334,100
+Alternating Diffusion,ami,0.3481,0.0052,100
+Alternating Diffusion,ari,0.2483,0.0122,100
+Alternating Diffusion,chs,2.7525,0.0129,100
+Beam-Search MDT,ami,0.3418,0.0041,100
+Beam-Search MDT,ari,0.2167,0.0046,100
+Beam-Search MDT,chs,2.384,0.0233,100
+Composite Diffusion Maps,ami,0.3256,0.0044,100
+Composite Diffusion Maps,ari,0.2282,0.0092,100
+Composite Diffusion Maps,chs,2.7508,0.014,100
+Cross Diffusion Maps,ami,0.1949,0.0006,100
+Cross Diffusion Maps,ari,0.083,0.0012,100
+Cross Diffusion Maps,chs,1.8878,0.0061,100
+Direct MDT,ami,0.3763,0.0092,100
+Direct MDT,ari,0.2425,0.0079,100
+Direct MDT,chs,2.6961,0.0275,100
+GCCA,ami,0.2145,0.0241,50
+GCCA,ari,0.0399,0.0085,50
+GCCA,chs,2.4978,0.0414,50
+Integrated Diffusion Maps,ami,0.3557,0.0047,100
+Integrated Diffusion Maps,ari,0.235,0.004,100
+Integrated Diffusion Maps,chs,2.4815,0.0157,100
+MVSC,ami,0.1128,0.0032,50
+MVSC,ari,0.0754,0.0051,50
+MVSC,chs,1.7658,0.0242,50
+Multi-view Diffusion Maps,ami,0.3456,0.007,100
+Multi-view Diffusion Maps,ari,0.2349,0.0092,100
+Multi-view Diffusion Maps,chs,2.7396,0.0156,100
+Powered Alternating Diffusion,ami,0.3333,0.0069,100
+Powered Alternating Diffusion,ari,0.2105,0.0064,100
+Powered Alternating Diffusion,chs,2.5307,0.0205,100
+Random Convex MDT,ami,0.3207,0.0458,100
+Random Convex MDT,ari,0.2066,0.0325,100
+Random MDT,ami,0.2945,0.0703,100
+Random MDT,ari,0.1872,0.049,100
+Random MDT,chs,2.5093,0.1093,100
+Single-view Diffusion Maps (view 1),ami,0.3794,0.0111,100
+Single-view Diffusion Maps (view 1),ari,0.2758,0.0202,100
+Single-view Diffusion Maps (view 1),chs,2.7103,0.016,100
+Single-view Diffusion Maps (view 2),ami,0.0618,0.003,100
+Single-view Diffusion Maps (view 2),ari,0.0308,0.0027,100
+Single-view Diffusion Maps (view 2),chs,2.6714,0.0177,100
