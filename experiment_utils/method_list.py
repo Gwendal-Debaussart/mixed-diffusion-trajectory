@@ -102,6 +102,7 @@ def method_list():
             "params": lambda dn: {
                 "t": get_diffusion_time(dn),
                 "convex": True,
+                "distribution": "pseudo-uniform"
             },
         },
         {
@@ -113,6 +114,19 @@ def method_list():
             "params": lambda dn: {
                 "t": get_diffusion_time(dn),
                 "convex": False,
+                "distribution": "pseudo-uniform"
+            },
+        },
+        {
+            "name": "Random MDT (Dirichlet)",
+            "func": random_mdt_operator,
+            "input_type": "preprocessed",
+            "decomp_method": "svd",
+            "stochastic": True,
+            "params": lambda dn: {
+                "t": get_diffusion_time(dn),
+                "convex": True,
+                "distribution": "dirichlet"
             },
         },
         {

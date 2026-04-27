@@ -57,6 +57,9 @@ Random Convex MDT,ami,0.7649,0.0124,100
 Random Convex MDT,ari,0.5626,0.0365,100
 Random MDT,ami,0.7595,0.0152,100
 Random MDT,ari,0.5608,0.0359,100
+Random MDT (Dirichlet),ami,0.7639,0.0132,50
+Random MDT (Dirichlet),ari,0.562,0.0288,50
+Random MDT (Dirichlet),chs,5.9754,0.0536,50
 Single-view Diffusion Maps (view 1),ami,0.7127,0.0075,100
 Single-view Diffusion Maps (view 1),ari,0.49,0.027,100
 Single-view Diffusion Maps (view 1),chs,5.782,0.0358,100
