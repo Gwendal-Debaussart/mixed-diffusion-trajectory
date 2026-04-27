@@ -1,5 +1,9 @@
-from style import get_color_method, get_marker_list
-from reduced_name import reduced_name
+try:
+    from .style import get_color_method, get_marker_list
+    from .reduced_name import reduced_name
+except ImportError:
+    from style import get_color_method, get_marker_list
+    from reduced_name import reduced_name
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np

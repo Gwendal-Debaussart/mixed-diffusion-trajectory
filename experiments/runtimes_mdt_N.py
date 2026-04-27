@@ -36,16 +36,22 @@ from utilities.evaluate import get_embedding, get_clustering
 from utilities.entropy import entropy_from_values
 from mdt.mdt_utils import mdt_operator
 from experiment_utils.get_diffusion_time import get_diffusion_time
+from visualization.style import get_col_list
 
 
 # Color mapping for pipeline steps
+_STEP_NAMES = [
+    "kernel_computation",
+    "diffusion_entropy_and_elbow",
+    "trajectory_generation",
+    "operator_computation",
+    "embedding_computation",
+    "clustering",
+]
+_PALETTE = get_col_list()
 STEP_COLORS = {
-    "kernel_computation": "#0173B2",
-    "diffusion_entropy_and_elbow": "#DE8F05",
-    "trajectory_generation": "#029E73",
-    "operator_computation": "#D55E00",
-    "embedding_computation": "#F0E442",
-    "clustering": "#CC78BC",
+    step: _PALETTE[i % len(_PALETTE)]
+    for i, step in enumerate(_STEP_NAMES)
 }
 N_SAMPLES_LIST = [100, 200, 500, 1000, 1500, 2000, 3000, 4000]
 
@@ -352,7 +358,7 @@ def plot_results(results, save_path="figures/runtime_scaling/"):
 
     # Plot 1: Elbow/Entropy step alone
     if elbow_steps:
-        fig, ax = plt.subplots(figsize=(8, 5))
+        fig, ax = plt.subplots()
         data_dict = {}
         for step in elbow_steps:
             step_data = results[results["step"] == step].sort_values("n_samples")
@@ -367,7 +373,7 @@ def plot_results(results, save_path="figures/runtime_scaling/"):
             y_data,
             labels=labels,
             colors=colors,
-            alpha=0.7,
+            alpha=1,
             edgecolor="white",
             linewidth=1,
         )
@@ -384,7 +390,7 @@ def plot_results(results, save_path="figures/runtime_scaling/"):
 
     # Plot 2: Other pipeline steps (without elbow)
     if other_steps:
-        fig, ax = plt.subplots(figsize=(8, 5))
+        fig, ax = plt.subplots()
         data_dict = {}
         for step in other_steps:
             step_data = results[results["step"] == step].sort_values("n_samples")
@@ -399,7 +405,7 @@ def plot_results(results, save_path="figures/runtime_scaling/"):
             y_data,
             labels=labels,
             colors=colors,
-            alpha=0.7,
+            alpha=1,
             edgecolor="white",
             linewidth=1,
         )
