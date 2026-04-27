@@ -8,7 +8,7 @@ def entropy_from_values(values: np.ndarray) -> float:
     Values are converted to non-negative weights, optionally raised to a power,
     normalized by their sum, and evaluated as -sum(p log p).
     """
-    values = values[values != 0]
+    values = np.abs(values[values != 0])
     values /= np.linalg.norm(values)
     return -np.sum(values * np.log(values))
 

@@ -11,7 +11,7 @@ def reduced_name(method_name:str) -> str:
         "Alternating Diffusion": "AD",
         "Integrated Diffusion Maps": "ID",
         "Multi-view Diffusion Maps": "MVD",
-        "Direct MDT": "MDT-chs",
+        "Direct MDT": "MDT-Direct",
         "Composite Diffusion Maps": "ComD",
         "Cross Diffusion Maps": "CrD",
         "Powered Alternating Diffusion": "p-AD",

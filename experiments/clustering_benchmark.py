@@ -19,9 +19,9 @@ import multiprocessing
 
 # Options to control which datasets to run, avoid having both to True.
 
-COMPUTE_MNIST_DATASETS = True  # Set to True to run the benchmark on the mnist-based datasets with noise (takes much longer)
+COMPUTE_MNIST_DATASETS = False  # Set to True to run the benchmark on the mnist-based datasets with noise (takes much longer)
 
-COMPUTE_PARTIAL_MNIST_DATASETS = False  # Set to True to run the benchmark on the mnist-based datasets with noise_factor=0.5 only (faster, for testing)
+COMPUTE_PARTIAL_MNIST_DATASETS = True  # Set to True to run the benchmark on the mnist-based datasets with noise_factor=0.5 only (faster, for testing)
 
 
 """
