@@ -5,3 +5,4 @@ figures/
 _mixed_diffusion.ipynb
 *.pyc
 .venv/
+*.tex
