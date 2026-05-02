@@ -24,6 +24,7 @@ from competitors.alternating_diffusion import alternating_diffusion, powered_alt
 from competitors.composite_diffusion import composite_diffusion_operator
 from competitors.cross_diffusion import cross_diffusion_operator
 from competitors.gcca import gcca_embedding
+from competitors.mvsc import mvsc_embedding
 from competitors.integrated_diffusion import integrated_diffusion
 from competitors.multiview_diffusion import multiview_diffusion
 from mdt.random_mdt import random_mdt_operator
@@ -97,6 +98,14 @@ def _method_list():
             "func": gcca_embedding,
             "params": lambda dn: {"n_components": get_num_clusters(dn)},
             "input_type": "preprocessed",
+            "decomp_method": "precomputed",
+        },
+        {
+             "name": "MVSC",
+            "func": mvsc_embedding,
+            "params": lambda dn: {"n_clusters": get_num_clusters(dn)},
+            "input_type": "preprocessed",
+            "stochastic": False,
             "decomp_method": "precomputed",
         },
         {

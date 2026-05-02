@@ -41,9 +41,9 @@ Integrated Diffusion Maps,chs,7.425,0.113,100
 MVSC,ami,0.7577,0.0073,100
 MVSC,ari,0.5515,0.0152,100
 MVSC,chs,7.6623,0.1044,100
-MVSC + MDT,ami,0.7774,0.0051,10
-MVSC + MDT,ari,0.5583,0.0141,10
-MVSC + MDT,chs,7.6733,0.104,10
+MVSC + MDT,ami,0.775,0.0051,100
+MVSC + MDT,ari,0.5525,0.0085,100
+MVSC + MDT,chs,7.7146,0.0937,100
 Multi-view Diffusion Maps,ami,0.0803,0.0064,100
 Multi-view Diffusion Maps,ari,0.0014,0.0002,100
 Multi-view Diffusion Maps,chs,2.838,0.0325,100
@@ -54,9 +54,9 @@ Random Convex MDT,ami,0.78,0.0062,100
 Random Convex MDT,ari,0.551,0.0164,100
 Random MDT,ami,0.7778,0.007,100
 Random MDT,ari,0.5503,0.0142,100
-Random MDT (Dirichlet),ami,0.7773,0.0057,50
-Random MDT (Dirichlet),ari,0.548,0.0151,50
-Random MDT (Dirichlet),chs,7.7959,0.0562,50
+Random MDT (Dirichlet),ami,0.7785,0.0063,100
+Random MDT (Dirichlet),ari,0.549,0.0155,100
+Random MDT (Dirichlet),chs,7.7692,0.0724,100
 Single-view Diffusion Maps (view 1),ami,0.7667,0.0055,100
 Single-view Diffusion Maps (view 1),ari,0.5382,0.0128,100
 Single-view Diffusion Maps (view 1),chs,7.818,0.052,100
