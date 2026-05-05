@@ -21,7 +21,7 @@ import multiprocessing
 
 COMPUTE_MNIST_DATASETS = False  # Set to True to run the benchmark on the mnist-based datasets with noise (takes much longer)
 
-COMPUTE_PARTIAL_MNIST_DATASETS = False  # Set to True to run the benchmark on the mnist-based datasets with noise_factor=0.5 only (faster, for testing)
+COMPUTE_PARTIAL_MNIST_DATASETS = True  # Set to True to run the benchmark on the mnist-based datasets with noise_factor=0.5 only (faster, for testing)
 
 
 """
@@ -112,12 +112,12 @@ if __name__ == "__main__":
     n_cores = multiprocessing.cpu_count()
 
     # n_jobs = max(4, n_cores // 4)
-    n_jobs = 3
+    n_jobs = 2
 
     run_benchmark(
         datasets,
         methods,
-        num_repeats=100,
+        num_repeats=50,
         n_jobs=n_jobs,
         save_dir="tables/clustering_benchmark_raw/",
     )
