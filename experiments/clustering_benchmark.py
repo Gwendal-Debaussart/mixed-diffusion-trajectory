@@ -117,7 +117,7 @@ if __name__ == "__main__":
     run_benchmark(
         datasets,
         methods,
-        num_repeats=50,
+        num_repeats=100,
         n_jobs=n_jobs,
         save_dir="tables/clustering_benchmark_raw/",
     )
