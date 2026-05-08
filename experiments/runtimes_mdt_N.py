@@ -39,14 +39,14 @@ from experiment_utils.get_diffusion_time import get_diffusion_time
 from visualization.style import get_col_list
 
 
-# Color mapping for pipeline steps
+# Color mapping for pipeline steps (ordered by user preference)
 _STEP_NAMES = [
-    "kernel_computation",
-    "diffusion_entropy_and_elbow",
-    "trajectory_generation",
     "operator_computation",
     "embedding_computation",
+    "kernel_computation",
     "clustering",
+    "trajectory_generation",
+    "diffusion_entropy_and_elbow",
 ]
 _PALETTE = get_col_list()
 STEP_COLORS = {
@@ -346,6 +346,15 @@ def plot_results(results, save_path="figures/runtime_scaling/"):
     """
     os.makedirs(save_path, exist_ok=True)
 
+    plt.rcParams.update({
+        "font.size": 14,
+        "axes.labelsize": 16,
+        "axes.titlesize": 16,
+        "xtick.labelsize": 14,
+        "ytick.labelsize": 14,
+        "legend.fontsize": 14,
+    })
+
     # Exclude total_pipeline from stacking (it's the sum of all others)
     # Also exclude top-k variants from plotting
     all_steps = [s for s in results["step"].unique() if s != "total_pipeline" and "top_k" not in s]
@@ -356,6 +365,15 @@ def plot_results(results, save_path="figures/runtime_scaling/"):
     elbow_steps = [s for s in all_steps if "elbow" in s or "entropy" in s]
     other_steps = [s for s in all_steps if s not in elbow_steps]
 
+    # Define custom sort order for pipeline steps
+    step_order = [
+        "operator_computation",
+        "embedding_computation",
+        "kernel_computation",
+        "clustering",
+        "trajectory_generation",
+    ]
+
     # Plot 1: Elbow/Entropy step alone
     if elbow_steps:
         fig, ax = plt.subplots()
@@ -364,22 +382,24 @@ def plot_results(results, save_path="figures/runtime_scaling/"):
             step_data = results[results["step"] == step].sort_values("n_samples")
             data_dict[step] = step_data["time_mean"].values
 
-        y_data = [data_dict[step] for step in sorted(elbow_steps)]
-        labels = [step.replace("_", " ").title() for step in sorted(elbow_steps)]
-        colors = [STEP_COLORS.get(step, "#CCCCCC") for step in sorted(elbow_steps)]
+        sorted_elbow = sorted(elbow_steps)
+        y_data = [data_dict[step] for step in sorted_elbow]
+        labels = [step.replace("_", " ").title() for step in sorted_elbow]
+        colors = [STEP_COLORS.get(step, "#CCCCCC") for step in sorted_elbow]
 
         ax.stackplot(
             x,
-            y_data,
-            labels=labels,
-            colors=colors,
+            *reversed(y_data),
+            labels=list(reversed(labels)),
+            colors=list(reversed(colors)),
             alpha=1,
             edgecolor="white",
-            linewidth=1,
+            linewidth=0.2,
         )
         ax.set_xlabel("Number of Samples")
         ax.set_ylabel("Time (seconds)")
-        ax.legend(loc="best", fontsize=9, framealpha=0.95)
+        ax.tick_params(axis="both", labelsize=14)
+        ax.legend(loc="best", fontsize=14, reverse=True)
         ax.grid(alpha=0.25)
         ax.set_xlim(n_samples_list[0], n_samples_list[-1])
 
@@ -396,22 +416,25 @@ def plot_results(results, save_path="figures/runtime_scaling/"):
             step_data = results[results["step"] == step].sort_values("n_samples")
             data_dict[step] = step_data["time_mean"].values
 
-        y_data = [data_dict[step] for step in sorted(other_steps)]
-        labels = [step.replace("_", " ").title() for step in sorted(other_steps)]
-        colors = [STEP_COLORS.get(step, "#CCCCCC") for step in sorted(other_steps)]
+        # Sort using custom order, keeping only steps that exist in data
+        sorted_other = [s for s in step_order if s in other_steps]
+        y_data = [data_dict[step] for step in sorted_other]
+        labels = [step.replace("_", " ").title() for step in sorted_other]
+        colors = [STEP_COLORS.get(step, "#CCCCCC") for step in sorted_other]
 
         ax.stackplot(
             x,
-            y_data,
-            labels=labels,
-            colors=colors,
+            *reversed(y_data),
+            labels=list(reversed(labels)),
+            colors=list(reversed(colors)),
             alpha=1,
             edgecolor="white",
-            linewidth=1,
+            linewidth=0.2,
         )
         ax.set_xlabel("Number of Samples")
         ax.set_ylabel("Time (seconds)")
-        ax.legend(loc="best", fontsize=9, framealpha=0.95)
+        ax.tick_params(axis="both", labelsize=14)
+        ax.legend(loc="best", fontsize=14, reverse=True)
         ax.grid(alpha=0.25)
         ax.set_xlim(n_samples_list[0], n_samples_list[-1])
 
