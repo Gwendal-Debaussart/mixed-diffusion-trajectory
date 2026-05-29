@@ -355,17 +355,13 @@ def plot_results(results, save_path="figures/runtime_scaling/"):
         "legend.fontsize": 14,
     })
 
-    # Exclude total_pipeline from stacking (it's the sum of all others)
-    # Also exclude top-k variants from plotting
     all_steps = [s for s in results["step"].unique() if s != "total_pipeline" and "top_k" not in s]
     n_samples_list = sorted(results["n_samples"].unique())
     x = np.array(n_samples_list)
 
-    # Separate elbow step from others for better legibility
     elbow_steps = [s for s in all_steps if "elbow" in s or "entropy" in s]
     other_steps = [s for s in all_steps if s not in elbow_steps]
 
-    # Define custom sort order for pipeline steps
     step_order = [
         "operator_computation",
         "embedding_computation",
@@ -374,7 +370,6 @@ def plot_results(results, save_path="figures/runtime_scaling/"):
         "trajectory_generation",
     ]
 
-    # Plot 1: Elbow/Entropy step alone
     if elbow_steps:
         fig, ax = plt.subplots()
         data_dict = {}
@@ -408,7 +403,6 @@ def plot_results(results, save_path="figures/runtime_scaling/"):
         print(f"Plot saved to {save_path}mdt_runtime_scaling_time_selection.pdf")
         plt.close()
 
-    # Plot 2: Other pipeline steps (without elbow)
     if other_steps:
         fig, ax = plt.subplots()
         data_dict = {}
@@ -416,7 +410,6 @@ def plot_results(results, save_path="figures/runtime_scaling/"):
             step_data = results[results["step"] == step].sort_values("n_samples")
             data_dict[step] = step_data["time_mean"].values
 
-        # Sort using custom order, keeping only steps that exist in data
         sorted_other = [s for s in step_order if s in other_steps]
         y_data = [data_dict[step] for step in sorted_other]
         labels = [step.replace("_", " ").title() for step in sorted_other]
