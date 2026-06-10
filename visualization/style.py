@@ -89,7 +89,7 @@ def get_marker_list():
 
 def get_cmap(style="default"):
     if style == "two_tone":
-        return LinearSegmentedColormap.from_list("",["#2851CC", "#9A44C5", "#F96C39"])
+        return LinearSegmentedColormap.from_list("",["#072AC8", "#9A44C5", "#ff459c", "#F96C39"])
     colors = get_col_list()
     colors = [to_rgb(c) for c in colors]
     colors_sorted = [

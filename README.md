@@ -32,14 +32,11 @@ Datasets used in the experiments partially originate from [this github repositor
 Please cite the following paper if you use this code in your research:
 
 ```bibtex
-@misc{debaussartjoniec2025multiviewdiffusiongeometryusing,
-      title={Multi-view diffusion geometry using intertwined diffusion trajectories},
-      author={Gwendal Debaussart-Joniec and Argyris Kalogeratos},
-      year={2025},
-      eprint={2512.01484},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2512.01484},
+@article{debaussart2025multi,
+  title={Multi-view diffusion geometry using intertwined diffusion trajectories},
+  author={Debaussart-Joniec, Gwendal and Kalogeratos, Argyris},
+  journal={arXiv preprint arXiv:2512.01484},
+  year={2025}
 }
 ```
 
